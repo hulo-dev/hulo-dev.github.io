@@ -10,6 +10,10 @@
 	 font-size: 20px;
 	 border-width: 5px !important;
 	 cursor: pointer;
+	 -webkit-transition: all .4s ease-out;
+	 -moz-transition: all .4s ease-out;
+	 -o-transition: all .4s ease-out;
+	 transition: all .4s ease-out;
 	 overflow: hidden;
 	 color: #000 !important;
 	 background-color: #feca57 !important;
@@ -28,6 +32,10 @@
 	 opacity: 0;
 	 color: #000;
 	 z-index: -1;
+	 -webkit-transition: all .4s ease-out;
+	 -moz-transition: all .4s ease-out;
+	 -o-transition: all .4s ease-out;
+	 transition: all .4s ease-out;
 }
  .sqs-block-button-element--small.sqs-block-button-element:hover::after {
 	 opacity: 1;
