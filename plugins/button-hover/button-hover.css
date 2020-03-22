@@ -9,6 +9,7 @@
 	 z-index: 1;
 	 font-size: 20px;
 	 border-width: 5px !important;
+	 border-style:solid;
 	 cursor: pointer;
 	 -webkit-transition: all .4s ease-out;
 	 -moz-transition: all .4s ease-out;
