@@ -7,10 +7,11 @@
 
   document.querySelectorAll('a[href*="-anchor"]').forEach(function(anchorLink) {
     anchorLink.addEventListener("click", function(event) {
-      event.preventDefault();
-      event.stopPropagation();
-      var sectionId = anchorLink.getAttribute('href').replace(/^#/, "");
-      sectionId = sectionId.replace(/\//g, "");
+//   event.preventDefault();
+     // event.stopPropagation();
+      var sectionId = anchorLink.getAttribute('href').split('#')[1];
+  //    sectionId = sectionId.replace(/\//g, "");
+     // sectionId
       var scrollOffset = document.querySelectorAll('[data-section-anchor="'+sectionId+'"]')[0].getAttribute('data-offset') || 0;
       EPPZScrollTo.scrollVerticalToElementById(sectionId, scrollOffset);
     })
