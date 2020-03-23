@@ -10,6 +10,7 @@
 //   event.preventDefault();
      // event.stopPropagation();
       var sectionId = anchorLink.getAttribute('href').split('#')[1];
+      console.log(sectionId);
   //    sectionId = sectionId.replace(/\//g, "");
      // sectionId
       var scrollOffset = document.querySelectorAll('[data-section-anchor="'+sectionId+'"]')[0].getAttribute('data-offset') || 0;
