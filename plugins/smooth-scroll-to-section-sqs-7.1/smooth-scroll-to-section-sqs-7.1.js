@@ -10,7 +10,7 @@
       event.preventDefault();
       event.stopPropagation();
       var sectionId = anchorLink.getAttribute('href').replace(/^#/, "");
-      sectionId = sectionId.replace(/^//, "");
+      sectionId = sectionId.replace(/\//g, "");
       var scrollOffset = document.querySelectorAll('[data-section-anchor="'+sectionId+'"]')[0].getAttribute('data-offset') || 0;
       EPPZScrollTo.scrollVerticalToElementById(sectionId, scrollOffset);
     })
