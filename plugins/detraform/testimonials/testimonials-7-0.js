@@ -41,6 +41,6 @@ window.Squarespace.onInitialize(Y, function() {
 
       setTimeout(function(){
         mySwiper.updateAutoHeight();  
-      }, 100);
+      }, 300);
     }
   })

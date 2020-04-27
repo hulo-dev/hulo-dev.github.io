@@ -40,5 +40,5 @@ if (typeof(isGallery) != 'undefined' && isGallery != null){
 
   setTimeout(function(){
     mySwiper.updateAutoHeight();  
-  }, 100);
+  }, 300);
 }
