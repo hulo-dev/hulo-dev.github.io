@@ -28,7 +28,7 @@ if (typeof(isGallery) != 'undefined' && isGallery != null){
     navigation: true,
     autoplay: false,
     slidesPerView: 1,
-    autoHeight: true,
+    autoHeight: false,
     spaceBetween: 30,
     navigation: {
       nextEl: '.swiper-button-next-custom',

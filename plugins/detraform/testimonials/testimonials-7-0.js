@@ -29,7 +29,7 @@ window.Squarespace.onInitialize(Y, function() {
         navigation: true,
         autoplay: false,
         slidesPerView: 1,
-        autoHeight: true,
+        autoHeight: false,
         spaceBetween: 30,
         navigation: {
           nextEl: '.swiper-button-next-custom',
