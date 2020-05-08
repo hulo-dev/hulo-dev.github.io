@@ -45,6 +45,7 @@
 .section-detraform-tesstimonials .sqs-gallery-design-list {
   max-width: 1200px;
   margin: 0 auto;
+height: auto !important;
 }
 .section-detraform-tesstimonials .summary-item-list .summary-item {
   margin-bottom: 0px !important;
