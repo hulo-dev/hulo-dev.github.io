@@ -7,7 +7,7 @@ if (typeof(isGallery) != 'undefined' && isGallery != null){
   var svgArrow = globalParamsDetraformTestimonials.svgIcon;
 
   document.querySelectorAll('.summary-item-list-container.sqs-gallery-container').forEach(function(thisListGalleryContainer){
-    thisListGalleryContainer.closest('section').classList.add('section-detraform-tesstimonials');
+    thisListGalleryContainer.closest('section').classList.add('section-detraform-testimonials');
     thisListGalleryContainer.classList.add('swiper-container');
   });
 
