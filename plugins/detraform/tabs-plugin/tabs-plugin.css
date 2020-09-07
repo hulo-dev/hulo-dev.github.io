@@ -20,9 +20,7 @@
 .page-with-tabs .Index-page.tab-section.animate-tab {
   opacity: 1;
 }
-.page-with-tabs .tabs-wrapper {
-  background: #249bab;
-}
+
 .page-with-tabs .tabs-wrapper .tabs-wrapper-inner {
   max-width: 1200px;
   margin: 0 auto;
@@ -37,16 +35,14 @@
   display: inline-block;
   list-style: none;
   padding: 0px 0px 20px;
-  font-size: 16px;
   line-height: 1.2em;
-  color: #ffffff;
   cursor: pointer;
   margin: 0 34px 0px 0px;
   -webkit-transition: all 0.3s ease-out !important;
   -moz-transition: all 0.3s ease-out !important;
   -o-transition: all 0.3s ease-out !important;
   transition: all 0.3s ease-out !important;
-  border-bottom: 4px solid #249bab;
+
 }
 @media screen and (max-width: 640px) {
   .page-with-tabs .tabs-wrapper .tabs-wrapper-inner span {
@@ -55,10 +51,7 @@
     margin: 0 17px 17px 17px;
   }
 }
-.page-with-tabs .tabs-wrapper .tabs-wrapper-inner span.active-tab {
-  color: #ffffc8;
-  border-bottom: 4px solid #ffffc8;
-}
+
 .page-with-tabs .tabs-wrapper .tabs-wrapper-inner span:hover {
   opacity: .8;
 }
