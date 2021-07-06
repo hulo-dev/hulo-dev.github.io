@@ -20,13 +20,10 @@
 .detraform-press-release-plugin.summary-block-wrapper .summary-item-list {
   margin: 0px !important;
   transform: none !important;
-  border-top: 1px solid #cecfd9;
 }
 .detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item {
   display: block;
   width: 100% !important;
-  padding: 20px 0px !important;
-  border-bottom: 1px solid #cecfd9;
 }
 .detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content {
   display: -webkit-box;
