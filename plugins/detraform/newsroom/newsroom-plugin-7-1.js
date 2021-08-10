@@ -1,4 +1,4 @@
-var isGallery = document.querySelectorAll('.sqs-gallery-design-carousel')[0];
+var isGallery = document.querySelectorAll('.sqs-gallery-design-carousel');
 var pluginName = 'detraform-press-release';
 
   if (typeof(isGallery) != 'undefined' && isGallery != null){
