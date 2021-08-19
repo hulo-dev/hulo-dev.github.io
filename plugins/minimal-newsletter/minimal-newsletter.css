@@ -43,7 +43,7 @@
   color: #272727 !important;
 }
 .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper {
-  width: 24%;
+  width: calc(100% - (75% - 8px));
   height: 100%;
   margin: 0px;
   padding: 0;
