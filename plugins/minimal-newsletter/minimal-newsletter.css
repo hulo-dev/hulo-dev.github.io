@@ -61,10 +61,10 @@
   font-size: 0.85em;
   line-height: 1.5em;
   letter-spacing: 0;
-  text-align: right !important;
+  text-align: center !important;
 }
 .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper button span {
-  text-align: right !important;
+  text-align: center !important;
   text-transform: uppercase;
   color: #272727 !important;
   font-weight: 600;
@@ -92,11 +92,11 @@
 @media screen and (max-width: 1350px) {
   .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper {
     width: 32%;
-	  text-align: right;
+    text-align: center;
     padding: 0 30px;
   }
   .newsletter-block .newsletter-form-button-wrapper .newsletter-form-button {
-	  padding-right: 0;
+    padding-right: 0;
   }
   .newsletter-block .newsletter-form-body .newsletter-form-fields-wrapper {
     width: calc(70% - 8px);
@@ -106,7 +106,7 @@
 @media screen and (max-width: 1200px) {
   .newsletter-block .newsletter-form-wrapper .newsletter-form-body {
     width: 100%; 
-	  text-align: right;
+    text-align: center;
   }
   .newsletter-block .newsletter-form-body .newsletter-form-fields-wrapper {
     width: calc(64%);
@@ -115,17 +115,17 @@
 
 @media screen and (max-width: 1024px) {
   .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper {
-	  text-align: right;
-	  padding-top: 0;
-	  padding-bottom: 0;
-	  padding-left: 0;
-	  padding-right: 15px;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 15px;
   }
-	.newsletter-block .newsletter-form-wrapper .newsletter-form-body .newsletter-form-button-wrapper button {
-		 text-align: right;
-		 padding-left: 0;
-		 padding-right: 10px;
-	}
+  .newsletter-block .newsletter-form-wrapper .newsletter-form-body .newsletter-form-button-wrapper button {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 10px;
+  }
   .newsletter-block .newsletter-form-body .newsletter-form-fields-wrapper {
     width: calc(75%);
   }
@@ -133,13 +133,13 @@
 
 @media screen and (max-width: 640px) {
   .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper {
-	  padding-right: 12px;
+    padding-right: 12px;
   }
-	.newsletter-block .newsletter-form-wrapper .newsletter-form-body .newsletter-form-button-wrapper button {
-		 text-align: right;
-		 padding-left: 0;
-		 padding-right: 0;
-	}
+  .newsletter-block .newsletter-form-wrapper .newsletter-form-body .newsletter-form-button-wrapper button {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
   .newsletter-block .newsletter-form-fields-wrapper input {
     padding: 15px 15px;
   }
