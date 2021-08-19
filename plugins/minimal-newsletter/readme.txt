@@ -18,5 +18,5 @@ Code Injection
 -------------------------------------------------------------------------------------------------------------
 Go into Code Injection > Header section and paste this link here:
 
-<link rel="stylesheet" href="https://hulo.dev/plugins/detraform/minimal-newsletter/minimal-newsletter.css">
+<link rel="stylesheet" href="https://hulo.dev/plugins/minimal-newsletter/minimal-newsletter.css">
 -------------------------------------------------------------------------------------------------------------
