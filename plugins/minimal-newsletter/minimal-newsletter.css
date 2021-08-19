@@ -141,9 +141,6 @@
 }
 
 @media screen and (max-width: 640px) {
-  .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper {
-    padding-right: 12px;
-  }
   .newsletter-block .newsletter-form-wrapper .newsletter-form-body .newsletter-form-button-wrapper button {
     text-align: center;
     padding-left: 0;
@@ -151,6 +148,9 @@
   }
   .newsletter-block .newsletter-form-fields-wrapper input {
     padding: 15px 15px;
+  }
+  .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper {
+    /* padding-right: 12px; */
   }
 }
 
