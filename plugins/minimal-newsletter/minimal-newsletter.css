@@ -90,16 +90,16 @@
 }
 
 @media screen and (max-width: 1350px) {
-  .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper {
-    width: 32%;
-    text-align: center;
-    padding: 0 30px;
-  }
   .newsletter-block .newsletter-form-button-wrapper .newsletter-form-button {
     padding-right: 0;
   }
   .newsletter-block .newsletter-form-body .newsletter-form-fields-wrapper {
     width: calc(70% - 8px);
+  }
+  .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper {
+    width: calc(100% - (70% - 8px));
+    text-align: center;
+    padding: 0 30px;
   }
 }
 
@@ -109,25 +109,29 @@
     text-align: center;
   }
   .newsletter-block .newsletter-form-body .newsletter-form-fields-wrapper {
-    width: calc(64%);
+    width: 65%;
+  }
+  .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper {
+    width: 35%;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper {
-    text-align: center;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 15px;
-  }
   .newsletter-block .newsletter-form-wrapper .newsletter-form-body .newsletter-form-button-wrapper button {
     text-align: center;
     padding-left: 0;
     padding-right: 10px;
   }
   .newsletter-block .newsletter-form-body .newsletter-form-fields-wrapper {
-    width: calc(75%);
+    width: 75%;
+  }
+  .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper {
+    width: 25%;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 15px;
   }
 }
 
