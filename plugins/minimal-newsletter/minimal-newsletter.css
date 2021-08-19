@@ -104,7 +104,7 @@
   .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper {
     width: calc(100% - (70% - 8px));
     text-align: center;
-    padding: 0 30px;
+    /* padding: 0 30px; */
   }
 }
 
@@ -114,10 +114,10 @@
     text-align: center;
   }
   .newsletter-block .newsletter-form-body .newsletter-form-fields-wrapper {
-    width: 65%;
+    width: 70%;
   }
   .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper {
-    width: 35%;
+    width: 30%;
   }
 }
 
@@ -128,15 +128,15 @@
     padding-right: 10px;
   }
   .newsletter-block .newsletter-form-body .newsletter-form-fields-wrapper {
-    width: 75%;
+   /* width: 70%; */
   }
   .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper {
-    width: 25%;
+    /* width: 30%; */
     text-align: center;
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 0;
-    padding-right: 15px;
+    /* padding-right: 15px; */
   }
 }
 
