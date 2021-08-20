@@ -105,7 +105,7 @@
   .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper {
     width: calc(100% - (70% - 8px));
     text-align: right;
-    padding: 0 30px;
+    padding: 0 10px;
   }
 }
 
