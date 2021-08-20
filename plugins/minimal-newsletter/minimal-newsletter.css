@@ -106,7 +106,7 @@
   .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper {
     width: calc(100% - (70% - 8px));
     text-align: center;
-    /* padding: 0 30px; */
+    padding: 0 30px;
   }
 }
 
@@ -138,7 +138,7 @@
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 0;
-    /* padding-right: 15px; */
+    padding-right: 15px;
   }
 }
 
@@ -152,7 +152,7 @@
     padding: 15px 15px;
   }
   .newsletter-block .newsletter-form-body .newsletter-form-button-wrapper {
-    /* padding-right: 12px; */
+    padding-right: 12px;
   }
 }
 
