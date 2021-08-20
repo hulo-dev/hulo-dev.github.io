@@ -75,6 +75,7 @@
   font-weight: 600;
 }
 .newsletter-block .newsletter-form-wrapper .newsletter-form-button-wrapper button span:hover {
+  background-color: transparent;
   opacity: .7;
 }
 .newsletter-block .newsletter-form-wrapper .newsletter-form-footnote {
