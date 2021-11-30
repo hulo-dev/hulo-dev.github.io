@@ -1,6 +1,6 @@
 
 //main-banner-slider
-const swipers = Swiper(".main-banner-slider", {
+const swipers = new Swiper(".main-banner-slider", {
     fadeEffect: { crossFade: true },
     autoplay: {
         delay: 2500,
