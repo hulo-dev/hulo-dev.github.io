@@ -1,7 +1,8 @@
 
 //main-banner-slider
+  import Swiper from 'https://unpkg.com/swiper@7/swiper-bundle.esm.browser.min.js'
 
-var slider = new Swiper(".main-banner-slider", {
+const swipers = new Swiper(".main-banner-slider", {
     fadeEffect: { crossFade: true },
     autoplay: {
         delay: 2500,
