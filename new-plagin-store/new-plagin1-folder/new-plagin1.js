@@ -1,4 +1,4 @@
-
+console.log('text from github ');
 //custom tabs 1
 
 document.addEventListener("DOMContentLoaded", () => {
