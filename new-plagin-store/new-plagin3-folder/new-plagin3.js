@@ -1,7 +1,5 @@
 
 //main-banner-slider
-
-
 const swipers = Swiper(".main-banner-slider", {
     fadeEffect: { crossFade: true },
     autoplay: {
