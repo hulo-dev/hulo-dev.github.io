@@ -54,7 +54,7 @@
     color: rgb(var(--color-foreground));
    margin-top:30px;
 }
-.custom-tabs_info-part2 p{
+.custom-tabs_info-part2-text{
      font-family: var(--font-heading-family);
    font-style: normal;
    font-weight: normal;
