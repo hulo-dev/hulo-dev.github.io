@@ -13,6 +13,16 @@
    line-height: 43px;
     color: rgb(var(--color-foreground));
 }
+.title-main{
+    margin:0px;
+   margin-bottom:80px;
+   font-family: var(--font-heading-family);
+   font-style: normal;
+   font-weight: normal;
+   font-size: 36px;
+   line-height: 43px;
+    color: rgb(var(--color-foreground));
+}
 .custom-tabs_info-part{
     width: 45%; 
 }
