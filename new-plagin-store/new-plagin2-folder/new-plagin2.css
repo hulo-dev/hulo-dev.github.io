@@ -41,7 +41,7 @@
    font-weight: 400;
    font-size: 26px;
    line-height: 20px;
-   color: #455d58;
+    color: rgb(var(--color-foreground));
 }
 .custom-tabs_info-part2 h3{
     margin:0px;
@@ -51,7 +51,7 @@
    font-weight: 400;
    font-size: 46px;
    line-height: 20px;
-   color: #455d58; 
+    color: rgb(var(--color-foreground));
    margin-top:30px;
 }
 .custom-tabs_info-part2 p{
@@ -60,7 +60,7 @@
    font-weight: normal;
    font-size: 16px;
    line-height: 20px;
-   color: #455d58;
+    color: rgb(var(--color-foreground));
       margin:0px;
    margin-bottom:50px;
    margin-top:30px;
@@ -80,7 +80,7 @@
    font-weight: 500;
    font-size: 20px;
    line-height: 20px;
-   color: #455d58;
+    color: rgb(var(--color-foreground));
    pointer-events: none;
 }
 
@@ -95,7 +95,7 @@
    display: flex;
    align-items: center;
    text-transform: uppercase;
-   color: #455d58;
+    color: rgb(var(--color-foreground));
    cursor: pointer;
    position: relative;
    overflow: hidden;
@@ -110,7 +110,7 @@
    font-size: 14px;
    line-height: 17px;
    text-transform: uppercase;
-   color: #455d58;
+    color: rgb(var(--color-foreground));
    text-decoration:none;
 }
 .custom-tabs2 .custom-tabs-item2{
