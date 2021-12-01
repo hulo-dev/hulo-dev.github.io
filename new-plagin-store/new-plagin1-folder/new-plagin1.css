@@ -11,7 +11,7 @@
    font-weight: normal;
    font-size: 36px;
    line-height: 43px;
-   color: #272425;
+    color: rgb(var(--color-foreground));
 }
 .custom-tabs_info-part{
     width: 45%; 
@@ -51,7 +51,7 @@
    line-height: 20px;
    margin: 0px;
    margin-bottom:15px;
-   color: #272425;
+    color: rgb(var(--color-foreground));
 }	
 .item-info h4{
     font-family: var(--font-heading-family);
@@ -60,7 +60,7 @@
    font-size: 18px;
    line-height: 20px;
    margin:0px;
-   color: #272425; 
+    color: rgb(var(--color-foreground)); 
 }
 .custom-tabs_item-content h2{
  font-family: var(--font-heading-family);
@@ -69,7 +69,7 @@
  font-size: 19px;
  line-height: 20px;
  margin:0px 0px 20px 0px;
- color: #272425;
+  color: rgb(var(--color-foreground));
 }
 .rating-star-block{
     display:flex; 
@@ -85,7 +85,7 @@
    font-size: 16px;
    line-height: 26px;
    margin:0px 0px 0px 0px;
-   
+    color: rgb(var(--color-foreground));
 }
 .custom-tabs_item-content{
      opacity:0;
