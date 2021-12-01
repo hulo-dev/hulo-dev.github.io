@@ -78,7 +78,7 @@
 .rating-star{
     margin-right:5px; 
 }
-.custom-tabs_item-content p{
+.custom-tabs_info-cpntent-text{
    font-family: var(--font-heading-family);
    font-style: normal;
    font-weight: bold;
