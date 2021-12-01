@@ -56,16 +56,18 @@
    font-size: 48px;
    letter-spacing: 0;
    line-height: 1.2;
+    color: rgb(var(--color-foreground));
 }
 .text-for-banner p{
    font-size: 23px;
    letter-spacing: 0;
    line-height: 1.4;
    font-weight: 400;
+    color: rgb(var(--color-foreground));
 }
 .text-part-wrapper .btn{
      background-color: transparent;
-   color: #131e29;
+    color: rgb(var(--color-foreground));
    display: block;
    font-size: 14px;
    letter-spacing: 1.35px;
