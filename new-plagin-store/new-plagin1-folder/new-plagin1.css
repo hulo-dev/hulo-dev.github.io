@@ -4,14 +4,13 @@
    justify-content: space-between;
 }
 .title-left{
-    margin:0px;
-   margin-bottom:80px;
-   font-family: var(--font-heading-family);
-   font-style: normal;
-   font-weight: normal;
-   font-size: 36px;
-   line-height: 43px;
-    color: rgb(var(--color-foreground));
+   text-align:left;
+}
+.title-center{
+   text-align:center;
+}
+.title-right{
+   text-align:right;
 }
 .title-main{
     margin:0px;
