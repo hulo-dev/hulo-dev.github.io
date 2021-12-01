@@ -186,3 +186,25 @@
  }
 }
 
+  .btn2{
+    padding: 19px 68px;
+    background-color: #faf7f2;
+    font-family: var(--font-heading-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgb(var(--color-foreground));
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+    margin-top: 50px;
+    border: 0.5px solid #455d58; 
+  }
+  .btn2 a{
+   	text-decoration:none; 
+  }
