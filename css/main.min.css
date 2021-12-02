@@ -9,3 +9,10 @@
   background-image: url(/img/logos/shoes.png);
   background-color: #fff;
 }
+
+
+.portfolio-grid .portfolio-item.ss .img-wrapper .project-logo{
+  background-size: 70%;
+  background-image: url(/img/logos/shoes.png);
+  background-color: #000;
+}
