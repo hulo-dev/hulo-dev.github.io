@@ -13,7 +13,7 @@
 
 .portfolio-grid .portfolio-item.ss .img-wrapper .project-logo{
   background-size: 70%;
-  background-image: url(/img/logos/shoes.png);
+  background-image: url(/img/logos/sundaysounds-logo-2.png);
   background-color: #000;
 }
 
@@ -22,3 +22,10 @@
   background-image: url(/img/logos/1_2.png.webp);
   background-color: #7e2d40;
 }
+
+.portfolio-grid .portfolio-item.secret .img-wrapper .project-logo{
+  background-size: 70%;
+  background-image: url(/img/logos/Banner-min.png);
+  background-color: #7e2d40;
+}
+
