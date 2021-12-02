@@ -14,7 +14,7 @@
 .portfolio-grid .portfolio-item.ss .img-wrapper .project-logo{
   background-size: 70%;
   background-image: url(/img/logos/sundaysounds-logo-2.png);
-  background-color: #000;
+  background-color: #1c1c1e;
 }
 
 .portfolio-grid .portfolio-item.hos .img-wrapper .project-logo{
@@ -26,6 +26,6 @@
 .portfolio-grid .portfolio-item.secret .img-wrapper .project-logo{
   background-size: 70%;
   background-image: url(/img/logos/Banner-min.png);
-  background-color: #7e2d40;
+  background-color: #ea7d9a;
 }
 
