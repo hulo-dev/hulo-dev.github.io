@@ -7,14 +7,13 @@ if (document.body.className !== 'excluded-page'){
 
   document.body.insertAdjacentHTML("afterbegin", '<div class="transition-slide"></div>');
   
-  function overlayAdding () {
-    let overlay = document.createElement("div");
-    overlay.setAttribute("id", "transition-overlay");
-    overlay.className = "transition-overlay";
-
-    document.body.insertAdjacentHTML('afterbegin', overlay)
-  }
-
+  
+  let overlay = document.createElement("div");
+  overlay.setAttribute("id", "transition-overlay");
+  overlay.className = "transition-overlay";
+  document.body.insertAdjacentHTML('afterbegin', overlay);
+  
+  
   var tl_intro = gsap.timeline(),
   transitionSlide = document.querySelector(".transition-slide"),
   site = document.getElementById("siteWrapper") || document.querySelector(".Site");
