@@ -6,12 +6,15 @@ for (var i = 0; i < window.bannerSectionTransition_plugin.excluded.length; i++) 
 if (document.body.className !== 'excluded-page'){
 
   document.body.insertAdjacentHTML("afterbegin", '<div class="transition-slide"></div>');
+  document.body.insertAdjacentHTML("afterbegin", '<div class="transition-overlay"></div>');
 
   var gsap_method = gsap.timeline(),
   transitionSlide = document.querySelector(".transition-slide"),
+  transitionOverlay = document.querySelector(".transition-overlay"),    
   site = document.getElementById("siteWrapper") || document.querySelector(".Site");
 
   (transitionSlide.style.visibility = "visible"),
+  (transitionOverlay.style.visibility = "visible"),
 
   gsap_method
   .fromTo(transitionSlide, 1.2, { y: "100%" }, { y: "0%", ease: "expo.inOut" }, 0)   
