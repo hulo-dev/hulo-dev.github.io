@@ -6,10 +6,9 @@ for (var i = 0; i < window.bannerSectionTransition_plugin.excluded.length; i++) 
 if (document.body.className !== 'excluded-page'){
 
   document.body.insertAdjacentHTML("afterbegin", '<div class="transition-slide"></div>');
-  
-  
-  var overlayDiv = document.createElement("div");
-  overlayDiv.setAttribute("id", "transition-overlay");
+
+  var item = document.createElement('div');
+  item.classList.add('transition-overlay');
   //overlay.className = "transition-overlay";
   //document.body.insertAdjacentHTML('afterbegin', overlay);
   
