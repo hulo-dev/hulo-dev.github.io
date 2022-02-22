@@ -1,7 +1,7 @@
 /* Vertical Transition Plugin */
 
-if (window.bannerSectionTransition && window.bannerSectionTransition.excluded && Array.isArray(window.bannerSectionTransition.excluded) && window.bannerSectionTransition.excluded.length > 0)
-for (var i = 0; i < window.bannerSectionTransition.excluded.length; i++) window.location.pathname.indexOf(window.bannerSectionTransition.excluded[i]) > -1 && document.body.classList.add("excluded-page");
+if (window.bannerSectionTransition_plugin && window.bannerSectionTransition_plugin.excluded && Array.isArray(window.bannerSectionTransition_plugin.excluded) && window.bannerSectionTransition_plugin.excluded.length > 0)
+for (var i = 0; i < window.bannerSectionTransition_plugin.excluded.length; i++) window.location.pathname.indexOf(window.bannerSectionTransition_plugin.excluded[i]) > -1 && document.body.classList.add("excluded-page");
 
 if (!document.body.classList.contains("excluded-page")) { 
 
