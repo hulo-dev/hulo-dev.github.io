@@ -1,4 +1,4 @@
-<!-- Vertical Transition Plugin -->
+/* Vertical Transition Plugin */
 
 if (window.pageBannerTransition && window.pageBannerTransition.excluded && Array.isArray(window.pageBannerTransition.excluded) && window.pageBannerTransition.excluded.length > 0)
 for (var i = 0; i < window.pageBannerTransition.excluded.length; i++) window.location.pathname.indexOf(window.pageBannerTransition.excluded[i]) > -1 && document.body.classList.add("excluded-page");
@@ -40,4 +40,4 @@ if (!document.body.classList.contains("excluded-page")) {
   );
 }
 
-<!-- Vertical Transition Plugin -->
+/* Vertical Transition Plugin */
