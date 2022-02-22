@@ -1,7 +1,10 @@
 /* Vertical Transition Plugin */
 
-if (window.bannerSectionTransition_plugin && window.bannerSectionTransition_plugin.excluded && Array.isArray(window.bannerSectionTransition_plugin.excluded) && window.bannerSectionTransition_plugin.excluded.length > 0)
-for (var i = 0; i < window.bannerSectionTransition_plugin.excluded.length; i++) window.location.pathname.indexOf(window.bannerSectionTransition_plugin.excluded[i]) > -1 && document.body.classList.add("excluded-page");
+// if (window.bannerSectionTransition_plugin && window.bannerSectionTransition_plugin.excluded && Array.isArray(window.bannerSectionTransition_plugin.excluded) && window.bannerSectionTransition_plugin.excluded.length > 0)
+// for (var i = 0; i < window.bannerSectionTransition_plugin.excluded.length; i++) window.location.pathname.indexOf(window.bannerSectionTransition_plugin.excluded[i]) > -1 && document.body.classList.add("excluded-page");
+
+if (window.pageBannerTransition && window.pageBannerTransition.excluded && Array.isArray(window.pageBannerTransition.excluded) && window.pageBannerTransition.excluded.length > 0)
+for (var i = 0; i < window.pageBannerTransition.excluded.length; i++) window.location.pathname.indexOf(window.pageBannerTransition.excluded[i]) > -1 && document.body.classList.add("excluded-page");
 
 if (!document.body.classList.contains("excluded-page")) {
 // if (!document.body.className === 'excluded-page'){
