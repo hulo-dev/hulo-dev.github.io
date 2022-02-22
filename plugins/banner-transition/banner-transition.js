@@ -8,10 +8,10 @@ if (document.body.className !== 'excluded-page'){
   document.body.insertAdjacentHTML("afterbegin", '<div class="transition-slide"></div>');
   
   
-  let overlay = document.createElement("div");
-  overlay.setAttribute("id", "transition-overlay");
-  overlay.className = "transition-overlay";
-  document.body.insertAdjacentHTML('afterbegin', overlay);
+  var overlayDiv = document.createElement("div");
+  overlayDiv.setAttribute("id", "transition-overlay");
+  //overlay.className = "transition-overlay";
+  //document.body.insertAdjacentHTML('afterbegin', overlay);
   
   
   var tl_intro = gsap.timeline(),
