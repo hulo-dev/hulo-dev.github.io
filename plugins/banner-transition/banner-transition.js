@@ -4,7 +4,7 @@ if (window.bannerSectionTransition_plugin && window.bannerSectionTransition_plug
 for (var i = 0; i < window.bannerSectionTransition_plugin.excluded.length; i++) window.location.pathname.indexOf(window.bannerSectionTransition_plugin.excluded[i]) > -1 && document.body.classList.add("excluded-page");
 
 // if (!document.body.classList.contains("excluded-page")) {
-if (!document.body.className === 'excluded-page'){
+if (document.body.className !=== 'excluded-page'){
 // if  ($('#elementId').length > 0)
 
   document.body.insertAdjacentHTML("afterbegin", '<div class="transition-slide"></div>');
