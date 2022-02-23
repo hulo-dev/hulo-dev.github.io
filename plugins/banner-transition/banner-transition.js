@@ -14,8 +14,8 @@ if (document.body.className !== 'excluded-page'){
   (transitionOverlay.style.visibility = "visible"),
 
   gsap_method
-  .fromTo(transitionOverlay, 1.2, { y: "0%" }, { y: "100%", ease: "Power4.easeOut" }, 0)   
-  .to(transitionOverlay, 1, { y: "100%", ease: "Power4.easeOut", onComplete: function () {transitionOverlay.style.visibility = "hidden";}, }, 1)
+  .fromTo(transitionOverlay, 1.2, { y: "100%" }, { y: "0%", ease: "Power4.easeOut" }, 0)   
+  .to(transitionOverlay, 1, { y: "-100%", ease: "Power4.easeOut", onComplete: function () {transitionOverlay.style.visibility = "hidden";}, }, 1)
 
   .to(siteWrapper,
     { 
@@ -23,12 +23,12 @@ if (document.body.className !== 'excluded-page'){
         { y: "100%", ease: "Power4.easeOut", duration: 0 },
         { y: "20em", ease: "Power4.easeOut", duration: 0, delay: 1 },
         {
-          y: "100%",
+          y: "0",
           ease: "Power4.easeOut",
           duration: 2,
           clearProps: "transform",
           onStart: function () {
-            window.scrollTo(100, 100), (siteWrapper.style.opacity = "1");
+            window.scrollTo(0, 0), (siteWrapper.style.opacity = "1");
           },
         },
       ],
