@@ -12,18 +12,19 @@ if (document.body.className !== 'excluded-page'){
   (transitionOverlay.style.visibility = "visible"),
 
   gsap_method
-  .fromTo(transitionOverlay, 1.2, { y: "-120%" }, { y: "0%", ease: "Power4.easeOut" }, 0)   
-  .to(transitionOverlay, 1, { y: "100%", ease: "Power4.easeOut", onComplete: function () {transitionOverlay.style.visibility = "hidden";}, }, 1)
+  .fromTo(transitionOverlay, { y: "-120%" }, { y: "0%", ease: "Power4.easeOut", duration: 1.2}, 0)   
+  .to(transitionOverlay, { y: "100%", ease: "Power4.easeOut", duration: 1.2, onComplete: function () {transitionOverlay.style.visibility = "hidden";}, }, 0.75)
 
   .to(siteWrapper,
     { 
       keyframes: [
         { y: "100%", ease: "Power4.easeOut", duration: 0 },
-        { y: "20em", ease: "Power4.easeOut", duration: 0, delay: 1 },
+        { y: "10vh", ease: "Power4.easeOut", duration: 0.5, delay: 0.25 },
         {
           y: "0",
           ease: "Power4.easeOut",
           duration: 1,
+          delay: 0,
           clearProps: "transform",
           onStart: function () {
             window.scrollTo(0, 0), (siteWrapper.style.opacity = "1");
