@@ -15,7 +15,7 @@ if (document.body.className !== 'excluded-page'){
 
   gsap_method
   .fromTo(transitionOverlay, 1.2, { y: "0%" }, { y: "100%", ease: "Power4.easeOut" }, 0)   
-  .to(transitionOverlay, 1, { y: "-100%", ease: "Power4.easeOut", onComplete: function () {transitionOverlay.style.visibility = "hidden";}, }, 1)
+  .to(transitionOverlay, 1, { y: "100%", ease: "Power4.easeOut", onComplete: function () {transitionOverlay.style.visibility = "hidden";}, }, 1)
 
   .to(siteWrapper,
     { 
