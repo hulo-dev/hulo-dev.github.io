@@ -5,38 +5,35 @@ for (var i = 0; i < window.bannerSectionTransition_plugin.excluded.length; i++) 
 
 if (document.body.className !== 'excluded-page'){
 
-  document.body.insertAdjacentHTML("afterbegin", '<div class="transition-slide"></div>');
   document.body.insertAdjacentHTML("afterbegin", '<div class="transition-overlay"></div>');
 
   var gsap_method = gsap.timeline(),
-  transitionSlide = document.querySelector(".transition-slide"),
   transitionOverlay = document.querySelector(".transition-overlay"),    
-  site = document.getElementById("siteWrapper") || document.querySelector(".Site");
+  siteWrapper = document.getElementById("siteWrapper") || document.querySelector(".Site");
 
-  (transitionSlide.style.visibility = "visible"),
   (transitionOverlay.style.visibility = "visible"),
 
   gsap_method
-  .fromTo(transitionSlide, 1.2, { y: "100%" }, { y: "0%", ease: "expo.inOut" }, 0)   
-  .to(transitionSlide,1, { y: "-100%", ease: "expo.inOut", onComplete: function () {transitionSlide.style.visibility = "hidden";}, }, 1)
+  .fromTo(transitionOverlay, 1.5, { y: "100%" }, { y: "0%", ease: "Power4.easeOut" }, 0)   
+  .to(transitionOverlay, 1.2, { y: "-100%", ease: "Power4.easeOut", onComplete: function () {transitionOverlay.style.visibility = "hidden";}, }, 1)
 
-  .to(site,
+  .to(siteWrapper,
     { 
       keyframes: [
-        { y: "100vh", ease: "expo.inOut", duration: 0 },
-        { y: "20h", ease: "expo.inOut", duration: 0, delay: 1 },
+        { y: "100%", ease: "Power4.easeOut", duration: 0 },
+        { y: "20em", ease: "Power4.easeOut", duration: 0, delay: 1 },
         {
           y: "0",
-          ease: "expo.inOut",
+          ease: "Power4.easeOut",
           duration: 1,
           clearProps: "transform",
           onStart: function () {
-            window.scrollTo(0, 0), (site.style.opacity = "1");
+            window.scrollTo(0, 0), (siteWrapper.style.opacity = "1");
           },
         },
       ],
       onComplete: function () {
-        document.body.classList.add("transition-slide-end");
+        document.body.classList.add("transition-overlay-hidden");
       },
     },        
     0
