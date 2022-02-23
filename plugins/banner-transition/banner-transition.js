@@ -23,12 +23,12 @@ if (document.body.className !== 'excluded-page'){
         { y: "100%", ease: "Power4.easeOut", duration: 0 },
         { y: "20em", ease: "Power4.easeOut", duration: 0, delay: 1 },
         {
-          y: "0",
+          y: "100%",
           ease: "Power4.easeOut",
           duration: 2,
           clearProps: "transform",
           onStart: function () {
-            window.scrollTo(0, 0), (siteWrapper.style.opacity = "1");
+            window.scrollTo(100, 100), (siteWrapper.style.opacity = "1");
           },
         },
       ],
