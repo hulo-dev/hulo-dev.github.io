@@ -14,17 +14,17 @@ if (document.body.className !== 'excluded-page'){
   (transitionOverlay.style.visibility = "visible"),
 
   gsap_method
-  .fromTo(transitionOverlay, 1.5, { y: "100%" }, { y: "0%", ease: "Power4.easeOut" }, 0)   
-  .to(transitionOverlay, 1.2, { y: "-100%", ease: "Power4.easeOut", onComplete: function () {transitionOverlay.style.visibility = "hidden";}, }, 1)
+  .fromTo(transitionOverlay, 1.2, { y: "100%" }, { y: "0%", ease: "expo.inOut" }, 0)   
+  .to(transitionOverlay, 1, { y: "-100%", ease: "expo.inOut", onComplete: function () {transitionOverlay.style.visibility = "hidden";}, }, 1)
 
   .to(siteWrapper,
     { 
       keyframes: [
-        { y: "100%", ease: "Power4.easeOut", duration: 0 },
-        { y: "20em", ease: "Power4.easeOut", duration: 0, delay: 1 },
+        { y: "100vh", ease: "expo.inOut", duration: 0 },
+        { y: "20vh", ease: "expo.inOut", duration: 0, delay: 1 },
         {
           y: "0",
-          ease: "Power4.easeOut",
+          ease: "expo.inOut",
           duration: 1,
           clearProps: "transform",
           onStart: function () {
