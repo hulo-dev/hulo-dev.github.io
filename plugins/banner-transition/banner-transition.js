@@ -25,7 +25,7 @@ if (document.body.className !== 'excluded-page'){
         {
           y: "0",
           ease: "Power4.easeOut",
-          duration: 2,
+          duration: 1,
           clearProps: "transform",
           onStart: function () {
             window.scrollTo(0, 0), (siteWrapper.style.opacity = "1");
