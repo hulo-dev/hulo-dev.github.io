@@ -1189,10 +1189,30 @@ li[data-type=control_fileupload] .jfUpload-heading{
   background:green; 
 }
 
-
-
-
-
+#cid_65 .header-default{
+  padding:0px;
+  margin:0px;
+  border:none;
+}
+#cid_65  .form-header{
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom:16px;
+  letter-spacing: 0.15px;
+  color: #FFFFFF;
+}
+#cid_65 .form-subHeader{
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+  color: #FFFFFF; 
+}
 
 
 
