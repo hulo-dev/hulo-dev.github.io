@@ -1298,12 +1298,19 @@ li[data-type=control_fileupload] .jfUpload-heading{
     line-height: 140%;
     letter-spacing: 0.15px;
     color: #FFFFFF;
+    padding-left: 6px;
 }
 #cid_71{
    width: 100px;
 }
-
-
+#cid_71 .form-spinner-button{
+    background: transparent;
+    color: #fff;
+    width: 25px;
+}
+#cid_71 > div > div > div > div.form-spinner-button-container > div.form-spinner-button.form-spinner-up:before{
+  left:55%;
+}
 
 
 
