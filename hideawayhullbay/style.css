@@ -1280,6 +1280,10 @@ li[data-type=control_fileupload] .jfUpload-heading{
   color: #FFFFFF;
 }
 
+
+
+
+
 #id_71{
     display: flex;
     width: 100%;
@@ -1310,6 +1314,15 @@ li[data-type=control_fileupload] .jfUpload-heading{
 }
 #cid_71 > div > div > div > div.form-spinner-button-container > div.form-spinner-button.form-spinner-up:before{
   left:55%;
+}
+#input_71{
+  border:none; 
+}
+#cid_71 .form-spinner-button{
+   border-left: 1px solid #e49d57;
+}
+#cid_71  .form-spinner-down{
+  border-right: 1px solid #e49d57;
 }
 
 
