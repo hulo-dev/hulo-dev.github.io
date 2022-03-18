@@ -1283,13 +1283,21 @@ li[data-type=control_fileupload] .jfUpload-heading{
 #id_71{
     display: flex;
     width: 100%;
-    max-width: 161px;
+    max-width: 163px;
     align-items: center;
+    border: 1px solid #E49D57;
 }
 #label_71{
     width: 100%;
     max-width: 60px;
     margin: 0px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
 }
 #cid_71{
    width: 100px;
