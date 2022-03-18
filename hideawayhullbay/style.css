@@ -1280,9 +1280,20 @@ li[data-type=control_fileupload] .jfUpload-heading{
   color: #FFFFFF;
 }
 
-
-
-
+#id_71{
+    display: flex;
+    width: 100%;
+    max-width: 161px;
+    align-items: center;
+}
+#label_71{
+    width: 100%;
+    max-width: 60px;
+    margin: 0px;
+}
+#cid_71{
+   width: 100px;
+}
 
 
 
