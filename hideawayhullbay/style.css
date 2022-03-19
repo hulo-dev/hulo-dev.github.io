@@ -1799,8 +1799,52 @@ li[data-type=control_fileupload] .jfUpload-heading{
 }
 
 
-
-
+#id_103 #label_103{
+   font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.5px;
+    margin-bottom:16px;
+    color: #FFFFFF;
+}
+#id_103 .form-single-column{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+#id_103 .form-single-column .form-checkbox-item{
+    padding: 10px 20px;
+    margin: 0px;
+    clear: left;
+    padding-bottom: 10px !important;
+    border: 1px solid #E49D57;
+    box-sizing: border-box;
+    border-radius: 48px;
+}
+#id_103 .form-single-column .form-checkbox-item .form-checkbox{
+  right:0; 
+}
+#id_103 .form-single-column .form-checkbox-item label{
+    padding: 0px;
+    padding-right: 30px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#id_103 .form-single-column .form-checkbox-item label:before{
+    left: auto;
+    right: 0;
+    background: transparent;
+    border: 1px solid #fff;
+    top: -2px;
+}
 
 
 
