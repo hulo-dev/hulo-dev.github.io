@@ -1868,7 +1868,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     width: 100% !important;
 }
 
-#id_100 #input_104{
+#id_104 #input_104{
     font-family : 'Lexend';
     font-style : normal;
     font-weight : 400;
@@ -1882,6 +1882,14 @@ li[data-type=control_fileupload] .jfUpload-heading{
     padding-left : 0px;
     resize:none;
 }
+
+
+
+
+
+
+
+
 
 
 
