@@ -1391,6 +1391,16 @@ li[data-type=control_fileupload] .jfUpload-heading{
 
  
 
+
+
+
+
+
+
+
+
+
+
 #id_78 #label_78 {
     font-family : 'Lexend';
     font-style : normal;
@@ -1416,6 +1426,64 @@ li[data-type=control_fileupload] .jfUpload-heading{
     width : 100% !important;
     padding-left : 0px;
     resize:none;
+}
+
+
+
+
+
+#id_81,  #id_82, #id_83, #id_84{
+    display: flex;
+    width: 100%;
+    max-width: 163px;
+    align-items: center;
+    border: 1px solid #E49D57;
+    margin-right: 30px;
+}
+#id_81{
+       max-width: 179px;
+}
+#id_82{
+       max-width: 200px;
+}
+#id_83{
+       max-width: 199px;
+}
+#id_84{
+       max-width: 203px;
+}
+
+
+
+
+
+#label_81{
+    width: 100%;
+    max-width: 77px;
+    margin: 0px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+    padding-left: 6px;
+}
+#label_82{
+    max-width: 98px;
+    margin: 0px;
+    padding-left: 6px;
+}
+#label_83{
+  max-width: 97px;
+  margin: 0px;
+  padding-left: 6px;
+}
+#label_84{
+  max-width: 100px;
+  margin: 0px;
+  padding-left: 6px;
 }
 
 
