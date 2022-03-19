@@ -1914,5 +1914,24 @@ li[data-type=control_fileupload] .jfUpload-heading{
 }
 
 
+#id_106 #input_106{
+    font-family : 'Lexend';
+    font-style : normal;
+    font-weight : 400;
+    font-size : 24px;
+    line-height : 140%;
+    border : none;
+    border-bottom : 1px solid #E49D57;
+    padding-bottom : 16px;
+    color : #FFFFFF;
+    width : 100% !important;
+    padding-left : 0px;
+    resize:none;
+}
+
+
+
+
+
 
 
