@@ -1455,6 +1455,19 @@ li[data-type=control_fileupload] .jfUpload-heading{
   border-right: 1px solid #e49d57;
 }
 
+#id_70{
+  margin-bottom:30px; 
+}
+#text_70{
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  margin:0px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
 
 
 
