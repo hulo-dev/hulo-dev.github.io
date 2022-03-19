@@ -1419,3 +1419,48 @@ li[data-type=control_fileupload] .jfUpload-heading{
 }
 
 
+
+#cid_81,  #cid_82, #cid_83, #cid_84{
+   width: 100px;
+}
+
+
+#cid_81 .form-spinner-button,  #cid_82 .form-spinner-button, #cid_83 .form-spinner-button, #cid_84 .form-spinner-button  {
+    background: transparent;
+    color: #fff;
+    width: 25px;
+}
+#cid_81 > div > div > div > div.form-spinner-button-container > div.form-spinner-button.form-spinner-up:before{
+  left:55%;
+}
+
+#cid_82 > div > div > div > div.form-spinner-button-container > div.form-spinner-button.form-spinner-up:before{
+  left:55%;
+}
+#cid_83 > div > div > div > div.form-spinner-button-container > div.form-spinner-button.form-spinner-up:before{
+  left:55%;
+}
+#cid_84 > div > div > div > div.form-spinner-button-container > div.form-spinner-button.form-spinner-up:before{
+  left:55%;
+}
+
+
+#input_81,  #input_82, #input_83, #input_84{
+  border:none; 
+}
+#cid_81 .form-spinner-button,  #cid_82 .form-spinner-button, #cid_83 .form-spinner-button, #cid_84 .form-spinner-button{
+   border-left: 1px solid #e49d57;
+}
+#cid_81  .form-spinner-down, #cid_82  .form-spinner-down, #cid_83  .form-spinner-down, #cid_84  .form-spinner-down{
+  border-right: 1px solid #e49d57;
+}
+
+
+
+
+
+
+
+
+
+
