@@ -1822,6 +1822,8 @@ li[data-type=control_fileupload] .jfUpload-heading{
     border: 1px solid #E49D57;
     box-sizing: border-box;
     border-radius: 48px;
+    width: auto !important;
+    margin-bottom: 16px;
 }
 #id_103 .form-single-column .form-checkbox-item .form-checkbox{
   right:0; 
@@ -1846,7 +1848,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
     top: -2px;
 }
 #cid_103{
-  padding-bottom:16px;
   border-bottom:1px solid #E49D57;
 }
 
