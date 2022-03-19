@@ -1716,6 +1716,30 @@ li[data-type=control_fileupload] .jfUpload-heading{
 
 
 
+#id_93 #label_93, #id_94 #label_94, #id_95 #label_95, #id_96 #label_96, #id_97 #label_97, #id_98 #label_98{
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  margin:0px;
+  letter-spacing: 0.5px;
+  margin-bottom:16px;
+  color: #FFFFFF;
+}
+#id_93 #input_93, #id_94 #input_94, #id_95 #input_95, #id_96 #input_96, #id_97 #input_97, #id_98 #input_98{
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  border:none;
+  border-bottom:1px solid #E49D57;
+  padding-bottom:16px;
+  color: #FFFFFF;
+  width: 100% !important;
+  padding-left: 0px;
+}
 
 
 
