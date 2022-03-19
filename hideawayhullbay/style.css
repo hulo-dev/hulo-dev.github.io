@@ -1957,8 +1957,8 @@ li[data-type=control_fileupload] .jfUpload-heading{
     color: #0D0F0D;
 }
 
-.branding21, formFooter-heightMask.{
-  display:none; 
+.branding21, .formFooter-heightMask{
+  display:none !important; 
 }
 
 
