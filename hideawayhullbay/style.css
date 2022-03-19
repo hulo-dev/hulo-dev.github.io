@@ -1929,6 +1929,40 @@ li[data-type=control_fileupload] .jfUpload-heading{
     resize:none;
 }
 
+#label_106{
+  display:none; 
+}
+
+#id_2 .form-buttons-auto{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    justify-content: flex-start;
+}
+#input_2{
+    margin:0px; 
+    width: 100%;
+    max-width: 143px;
+    min-width: 0;
+    padding: 0px;
+    background: #E49D57;
+    border-radius: 58px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #0D0F0D;
+}
+
+
+
+
+
+
+
 
 
 
