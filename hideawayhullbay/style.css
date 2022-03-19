@@ -1752,6 +1752,8 @@ li[data-type=control_fileupload] .jfUpload-heading{
     letter-spacing : 0.5px;
     margin-bottom : 16px;
     color : #FFFFFF;
+    max-width: 100% !important;
+    width: 100% !important;
 }
 
 #id_100 #input_100, #id_101 #input_101 {
