@@ -1845,7 +1845,10 @@ li[data-type=control_fileupload] .jfUpload-heading{
     border: 1px solid #fff;
     top: -2px;
 }
-
+#cid_103{
+  padding-bottom:16px;
+  border-bottom:1px solid #E49D57;
+}
 
 
 
