@@ -1964,3 +1964,9 @@ li[data-type=control_fileupload] .jfUpload-heading{
 
  
 
+
+#id_7 #listContainer > button{
+    padding: 50px;
+}
+
+
