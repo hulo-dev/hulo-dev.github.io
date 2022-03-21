@@ -1986,8 +1986,8 @@ li[data-type=control_fileupload] .jfUpload-heading{
 }
 
 
-
-
-
+#id_16 #addInput:before{
+  color:#fff; 
+}
 
 
