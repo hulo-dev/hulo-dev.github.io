@@ -1970,7 +1970,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
 
 
 
-#id_16 #inputs .table:last-child .inputs{
+ .table:last-child #initialInput{
     font-family : 'Lexend';
     font-style : normal;
     font-weight : 400;
