@@ -2040,5 +2040,5 @@ li[data-type=control_fileupload] .jfUpload-heading{
    box-shadow: none !important;  
 }
 .form-line-active{
-    background:transparent;   
+    background-color:transparent !important;   
 }
