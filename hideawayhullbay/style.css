@@ -1,3 +1,26 @@
+.table:last-child #initialInput{
+    font-family : 'Lexend';
+    font-style : normal;
+    font-weight : 400;
+    font-size : 24px;
+    line-height : 140%;
+    border : none;
+    border-bottom : 1px solid #E49D57;
+    padding-bottom : 16px;
+    color : #FFFFFF;
+    width : 100% !important;
+    padding-left : 0px;
+    resize:none;
+}
+
+
+#addInput.fa-plus:before{
+  color:#fff; 
+}
+
+
+
+
 
 .form-section{
   padding:0px !important;
@@ -1968,24 +1991,5 @@ li[data-type=control_fileupload] .jfUpload-heading{
 }
 
 
-.table:last-child #initialInput{
-    font-family : 'Lexend';
-    font-style : normal;
-    font-weight : 400;
-    font-size : 24px;
-    line-height : 140%;
-    border : none;
-    border-bottom : 1px solid #E49D57;
-    padding-bottom : 16px;
-    color : #FFFFFF;
-    width : 100% !important;
-    padding-left : 0px;
-    resize:none;
-}
-
-
-#addInput.fa-plus:before{
-  color:#fff; 
-}
 
 
