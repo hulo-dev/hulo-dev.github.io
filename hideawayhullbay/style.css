@@ -2042,3 +2042,10 @@ li[data-type=control_fileupload] .jfUpload-heading{
 .form-line-active{
     background-color:transparent !important;   
 }
+
+#id_103 .form-single-column .form-checkbox-item label:after{
+    right: 0 !important;
+    left: auto !important;
+    top: -3px !important;
+}
+
