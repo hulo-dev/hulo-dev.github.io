@@ -2039,4 +2039,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
 .form-textarea:hover, .form-textbox:hover, li[data-type=control_fileupload] .qq-upload-button:hover, .signature-wrapper:hover{
    box-shadow: none !important;  
 }
-
+.form-line-active{
+    background:transparent;   
+}
