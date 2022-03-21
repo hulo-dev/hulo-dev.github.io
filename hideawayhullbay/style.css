@@ -1968,9 +1968,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
 }
 
 
-
-
- .table:last-child #initialInput{
+.table:last-child #initialInput{
     font-family : 'Lexend';
     font-style : normal;
     font-weight : 400;
@@ -1986,7 +1984,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
 }
 
 
-#id_16 #addInput:before{
+#addInput.fa-plus:before{
   color:#fff; 
 }
 
