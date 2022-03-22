@@ -2071,7 +2071,10 @@ li[data-type=control_fileupload] .jfUpload-heading{
     border-color: #fff;
 }
 
-
+#cid_48 #label_input_48_0:after, #cid_58 #label_input_58_0:after, #cid_59 #label_input_59_0:after, #cid_60 #label_input_60_0:after{
+    top: 12.5px;
+    background: #E49D57;
+}
 
 
 
