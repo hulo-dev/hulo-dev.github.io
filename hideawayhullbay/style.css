@@ -2055,6 +2055,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
   background-size: 2px 100%, 100% 2px, 2px 100% , 100% 2px !important;
   background-position: 0 0, 0 0, 100% 0, 0 100% !important;
   background-repeat: no-repeat !important;
+      border: none !important;
 
 }
  li[data-type=control_fileupload] .qq-upload-button:before {
