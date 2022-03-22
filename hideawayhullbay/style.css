@@ -2020,6 +2020,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     letter-spacing: 1.25px;
     text-transform: uppercase;
     color: #0D0F0D;
+    border:none;
 }
 
 .branding21, .formFooter-heightMask{
