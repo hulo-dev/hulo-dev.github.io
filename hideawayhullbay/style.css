@@ -2065,7 +2065,10 @@ li[data-type=control_fileupload] .jfUpload-heading{
 #ampm_107_time-2{
   color:#fff; 
 }
-
+#input_31_ampm, #input_32_ampm{
+    color: #fff;
+    border-color: #fff;
+}
 
 
 
