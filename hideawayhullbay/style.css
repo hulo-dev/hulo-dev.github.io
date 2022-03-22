@@ -2075,7 +2075,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     top: 12.5px;
     background: #E49D57;
 }
-#text_79, #text_86{
+ #text_86{
   font-family: 'Lexend';
   font-style: normal;
   font-weight: 400;
@@ -2084,5 +2084,13 @@ li[data-type=control_fileupload] .jfUpload-heading{
   letter-spacing: 0.5px;
   color: #FFFFFF; 
 }
-
+#text_79{
+     font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.5px;
+  color: #FFFFFF; 
+}
 
