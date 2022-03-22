@@ -2065,7 +2065,9 @@ li[data-type=control_fileupload] .qq-upload-button:before {
 
 
 
-
+#id_4 #label_4 {
+  color:red;
+}
 
 
 
