@@ -885,6 +885,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
   max-width: 200px;
   min-width: 200px;
   padding-left: 0px;
+  padding-right:0px;
 }
 
 
