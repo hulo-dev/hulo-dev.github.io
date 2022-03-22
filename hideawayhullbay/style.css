@@ -574,7 +574,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
 #id_24 .FITB-inptCont:nth-child(3){
   position:absolute;
        top: 40px;
-    left: 276px;
+    left: 267px;
 }
 #id_24 .FITB-inptCont:nth-child(3) label{
   display: flex;
@@ -629,7 +629,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
   content:'';
   position:absolute;
   bottom:-65px;
-  right:0;
+  right:5px;
   width:100%;
   max-width:411px;
   height:1px;
