@@ -1873,7 +1873,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
 }
 #id_103 .form-single-column{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap
 }
 #id_103 .form-single-column .form-checkbox-item{
@@ -1886,6 +1886,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     border-radius: 48px;
     width: auto !important;
     margin-bottom: 16px;
+    margin-right:8px;
 }
 #id_103 .form-single-column .form-checkbox-item .form-checkbox{
   right:0; 
