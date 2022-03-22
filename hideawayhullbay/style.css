@@ -226,17 +226,15 @@ li[data-type=control_fileupload] .jfUpload-heading{
     width: 95%;
     top: 16px;
     left: 16px;
-   
-  background-image: repeating-linear-gradient(25deg, #e49d57, #e49d57 14px, transparent 14px, transparent 34px, #e49d57 34px), repeating-linear-gradient(115deg, #e49d57, #e49d57 14px, transparent 14px, transparent 34px, #e49d57 34px), repeating-linear-gradient(205deg, #e49d57, #e49d57 14px, transparent 14px, transparent 34px, #e49d57 34px), repeating-linear-gradient(295deg, #e49d57, #e49d57 14px, transparent 14px, transparent 34px, #e49d57 34px);
-background-size: 2px 100%, 100% 2px, 2px 100% , 100% 2px;
-background-position: 0 0, 0 0, 100% 0, 0 100%;
-background-repeat: no-repeat;
-  
-  
-  
-  
-  
+  background-image: repeating-linear-gradient(25deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px), repeating-linear-gradient(115deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px), repeating-linear-gradient(205deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px), repeating-linear-gradient(295deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px);
+  background-size: 2px 100%, 100% 2px, 2px 100% , 100% 2px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+
 }
+
+
+
 
 #id_5 .form-submit-button-black_glass{
       background: transparent;
