@@ -2,7 +2,10 @@
   font-family: 'Lexend';
   src: url('https://static1.squarespace.com/static/61539d366385f16b55b73a98/t/621f289a904db32cdb4752e5/1646209178565/LexendDeca-Regular.ttf');
 }
-
+@font-face {
+  font-family: 'Lexend-Medium';
+  src: url('https://static1.squarespace.com/static/61539d366385f16b55b73a98/t/621f4ed0ed77c972e110b282/1646218960352/LexendDeca-Medium.ttf');
+}
 
 .table:last-child #initialInput{
     font-family : 'Lexend';
