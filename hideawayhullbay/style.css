@@ -2202,25 +2202,6 @@ span.FITB-inptCont[data-type=radiobox] label:after{
 }
 
 
-#cid_48 #label_input_48_0:after{
-  top:11.5px;
-  background-color: #E49D57;
-  
-}
-#cid_58 #label_input_58_0:after{
-  top:11.5px;
-  background-color: #E49D57;
-}
-
-#cid_59 #label_input_59_0:after{
-  top:11.5px;
-  background-color: #E49D57;
-}
-
-#cid_60 #label_input_60_0:after{
-  top:11.5px;
-  background-color: #E49D57;
-}
 
 
 
@@ -2273,11 +2254,6 @@ content:'';
   display:block !important; 
 }
 
-
-.form-radio-item label:after{
-   top: 12.5px !important;
-   background-color: #E49D57;
-}
 
 
 
