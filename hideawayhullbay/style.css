@@ -1527,16 +1527,37 @@ li[data-type=control_fileupload] .jfUpload-heading{
     max-width: 96px;
     margin: 0px;
     padding-left: 6px;
+      font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
 }
 #label_83{
   max-width: 95px;
   margin: 0px;
   padding-left: 6px;
+      font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
 }
 #label_84{
   max-width: 98px;
   margin: 0px;
   padding-left: 6px;
+      font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
 }
 
 
