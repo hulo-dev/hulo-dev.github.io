@@ -1100,19 +1100,40 @@ li[data-type=control_fileupload] .jfUpload-heading{
     line-height: 140%;
     color: #FFFFFF;
 }
-#cid_48 #label_input_48_1:before, #cid_58 #label_input_58_1:before, #cid_59 #label_input_59_1:before, #cid_60 #label_input_60_1:before{
+#cid_48 #label_input_48_1:before{
     background: transparent;
     top: 10px;
     border:1px solid #E49D57;
 }
-#cid_48 #label_input_48_1:after, #cid_58 #label_input_58_1:after, #cid_59 #label_input_59_1:after, #cid_60 #label_input_60_1:after{
+ #cid_58 #label_input_58_1:before{
+    background: transparent;
+    top: 10px;
+    border:1px solid #E49D57;
+}
+#cid_59 #label_input_59_1:before{
+    background: transparent;
+    top: 10px;
+    border:1px solid #E49D57;
+}
+#cid_60 #label_input_60_1:before{
+    background: transparent;
+    top: 10px;
+    border:1px solid #E49D57;
+}
+#cid_48 #label_input_48_1:after{
+    top: 10px;
+}
+#cid_58 #label_input_58_1:after{
     top: 10px;
 }
 
+#cid_59 #label_input_59_1:after{
+    top: 10px;
+}
 
-
-
-
+#cid_60 #label_input_60_1:after{
+    top: 10px;
+}
 
 
 
