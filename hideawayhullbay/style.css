@@ -1984,7 +1984,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     border-radius: 48px;
     width: auto !important;
     margin-bottom: 16px;
-    margin-right:7px;
+    margin-right:6px;
 }
 #id_103 .form-single-column .form-checkbox-item .form-checkbox{
   right:0; 
@@ -2020,7 +2020,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
    margin-right:0px; 
 }
 #cid_103 > div > span:nth-child(16){
-   margin-right:0px; 
+   margin-right:0px !important; 
 }
 
 
