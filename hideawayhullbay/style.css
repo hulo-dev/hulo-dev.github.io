@@ -2077,10 +2077,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
 #ampm_107_time-2{
   color:#fff; 
 }
-#input_31_ampm, #input_32_ampm{
-    color: #fff;
-    border-color: #fff;
-}
+
 
 #cid_48 #label_input_48_0:after, #cid_58 #label_input_58_0:after, #cid_59 #label_input_59_0:after, #cid_60 #label_input_60_0:after{
     top: 12.5px;
@@ -2110,8 +2107,15 @@ span.FITB-inptCont[data-type=radiobox] label:after{
 }
 
 
+#input_31_ampm{
+    color: #fff;
+    border-color: #fff;
+}
 
-
+ #input_32_ampm{
+    color: #fff;
+    border-color: #fff;
+}
 
 
 
