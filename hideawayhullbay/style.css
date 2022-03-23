@@ -2118,7 +2118,11 @@ span.FITB-inptCont[data-type=radiobox] label:after{
 }
 
 
-
+#cid_48 #label_input_48_0:after, #cid_58 #label_input_58_0:after, #cid_59 #label_input_59_0:after, #cid_60 #label_input_60_0:after{
+  top:11.5px;
+  background-color: #E49D57;
+  
+}
 
 
 
