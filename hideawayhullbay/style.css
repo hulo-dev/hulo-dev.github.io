@@ -2239,7 +2239,9 @@ span.FITB-inptCont[data-type=radiobox] label:after{
 
 }
 
-
+#cid_5 .qq-upload-button:before {
+    background-image: url('https://static1.squarespace.com/static/61539d366385f16b55b73a98/t/623af1145e2b7b29aebc3e73/1648029972250/download.png') !important;
+}
 
 
 
