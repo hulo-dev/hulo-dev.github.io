@@ -2094,10 +2094,24 @@ span.FITB-inptCont[data-type=radiobox] label:after{
 }
 
 
-#cid_48 #label_input_48_0:after, #cid_58 #label_input_58_0:after, #cid_59 #label_input_59_0:after, #cid_60 #label_input_60_0:after{
+#cid_48 #label_input_48_0:after{
   top:11.5px;
   background-color: #E49D57;
   
+}
+#cid_58 #label_input_58_0:after{
+  top:11.5px;
+  background-color: #E49D57;
+}
+
+#cid_59 #label_input_59_0:after{
+  top:11.5px;
+  background-color: #E49D57;
+}
+
+#cid_60 #label_input_60_0:after{
+  top:11.5px;
+  background-color: #E49D57;
 }
 
 
@@ -2109,11 +2123,11 @@ span.FITB-inptCont[data-type=radiobox] label:after{
     width: 95% !important;
     top: 16px !important;
     left: 16px !important;
-  background-image: repeating-linear-gradient(25deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px), repeating-linear-gradient(115deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px), repeating-linear-gradient(205deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px), repeating-linear-gradient(295deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px) !important;
-  background-size: 2px 100%, 100% 2px, 2px 100% , 100% 2px !important;
-  background-position: 0 0, 0 0, 100% 0, 0 100% !important;
-  background-repeat: no-repeat !important;
-      border: none !important;
+    background-image: repeating-linear-gradient(25deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px), repeating-linear-gradient(115deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px), repeating-linear-gradient(205deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px), repeating-linear-gradient(295deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px) !important;
+    background-size: 2px 100%, 100% 2px, 2px 100% , 100% 2px !important;
+    background-position: 0 0, 0 0, 100% 0, 0 100% !important;
+    background-repeat: no-repeat !important;
+    border: none !important;
 
 }
 #id_5 .qq-upload-button:before {
