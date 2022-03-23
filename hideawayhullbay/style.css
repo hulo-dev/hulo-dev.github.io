@@ -2105,3 +2105,16 @@ li[data-type=control_fileupload] .jfUpload-heading{
   color: #FFFFFF; 
 }
 
+span.FITB-inptCont[data-type=radiobox] label:after{
+   background-color: #E49D57;
+}
+
+
+
+
+
+
+
+
+
+
