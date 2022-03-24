@@ -2244,7 +2244,7 @@ content:'';
   height: 24px;
   display: block;
   position:absolute;
-  top:0;
+  bottom: 16px;
   right:0;
   background-size: cover;
   background-color: #000;
