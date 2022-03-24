@@ -2233,8 +2233,8 @@ span.FITB-inptCont[data-type=radiobox] label:after{
   height: 18px;
   display: block;
   position:absolute;
-  bottom: 16px;
-  right:0;
+  bottom: 25px;
+  right: 225px;
   background-size: cover;
   background-color: #000;
 }
