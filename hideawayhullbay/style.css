@@ -2269,7 +2269,10 @@ content:'';
 #cid_16{
   width: 100% !important;
 }
-
+#customFieldFrame_16{
+   max-width: 100% !important;
+    width: 100% !important; 
+}
 
 
 
