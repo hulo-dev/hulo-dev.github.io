@@ -2258,8 +2258,10 @@ content:'';
 
 
 #customFieldFrame_7{
-    width:100% !important;
+    width:686px !important;
   max-width:100% !important;
 } 
-
+#cid_7{
+  width:100% !important; 
+}
 
