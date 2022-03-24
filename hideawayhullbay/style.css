@@ -2248,7 +2248,7 @@ content:'';
   display: block;
   position:absolute;
   bottom: 16px;
-  right:0;
+  right:2px;
   background-size: cover;
   background-color: #000;
 }
