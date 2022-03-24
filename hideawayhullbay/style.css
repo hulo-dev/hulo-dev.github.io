@@ -2131,9 +2131,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     border:none;
 }
 
-.branding21, .formFooter-heightMask{
-  display:none !important; 
-}
+
 
 
 #id_7 #listContainer > button{
@@ -2250,9 +2248,6 @@ content:'';
   right:0;
 }
 
-.branding21{
-  display:block !important; 
-}
 
 
 .form-radio-item label:after{
