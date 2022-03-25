@@ -2348,10 +2348,18 @@ content:'';
     height: 100px !important;
     font-size: 18px !important;
   }
-  
-  
-  
-  
+  #id_31, #id_32{
+         width: 45% !important;
+  }
+   #id_31{
+    margin-right:10% !important;  
+  }
+  #id_31 label{
+    margin-bottom:0px !important; 
+  }
+  #id_32 label{
+     margin-bottom:0px !important; 
+  }
   
   
   
