@@ -2386,6 +2386,19 @@ content:'';
         height: 100px !important;
         font-size: 18px !important;
   }
+  #label_48, #label_58, #label_59, #label_60{
+      font-size: 18px !important;
+  }
+  #cid_48, #cid_58, #cid_59, #cid_60{
+      margin:0px !important;
+  }
+  #cid_48 #label_input_48_0, #cid_58 #label_input_58_0, #cid_59 #label_input_59_0, #cid_60 #label_input_60_0{
+      font-size: 18px !important;
+  }
+  #cid_48 #label_input_48_0:before, #cid_58 #label_input_58_0:before, #cid_59 #label_input_59_0:before, #cid_60 #label_input_60_0:before{
+      top: 5px;
+  }
+  
   
   
   
