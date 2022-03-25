@@ -2382,7 +2382,7 @@ content:'';
      font-size: 18px !important;
   }
   #id_38 #input_38{
-        padding: 0px;
+        padding: 0px !important;
         height: 100px !important;
         font-size: 18px !important;
   }
@@ -2402,8 +2402,14 @@ content:'';
   #id_48, #id_58, #id_59, #id_60{
       margin:0px !important;
   }
-  
-  
+  #cid_66{
+     margin:0px !important;
+  }
+  #id_66 #input_66{
+           padding: 0px !important;
+        height: 100px !important;
+        font-size: 18px !important;
+  }
   
   
   
