@@ -45,7 +45,6 @@
 
 
 	<!-- <meta name="robots" content="noindex"> -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
 	<link rel="stylesheet" href="css/main.min.css">
 
 </head>
@@ -55,12 +54,24 @@
 		align-items: center;
 	}
 	a{
-		color: orange;
+		color: #fee100;
 		text-decoration: underline;
+		font-size: inherit;
 	}
 	img{
 		display: block;
 		width: 100%;
+	}
+	.assets-container{
+		padding-bottom: 50%;
+		overflow: hidden;
+	}
+	.assets-container img, .assets-container video{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
 	}
 
 </style>
@@ -75,28 +86,31 @@
 				">
 				<h1>🇺🇦</h1>
 				<h3>Unexpectedly, one of the most deficit things is tourniquet.</h3>
-				
+
 				<h3>It is a tight band used to stop the blood flow to a wound. <a href="https://en.wikipedia.org/wiki/Tourniquet">Wiki</a></h3>
 				<br>
 				<h3>Friends of mine managed to set up non-profit production on a local furniture fabric.<br> 
 				We can produce 500 - 1000 items per day. Price of one item is around $3.</h3>
 				<div class="row" style="
-				margin-top: 31px;
+				margin-top: 30px;
 				margin-bottom: 50px;
 				">
 				<div class="col-md-4">
-					<video width="100%" autoplay="" controls=""><source src="https://hulo.dev/donate/0bad6b7b192144ab9149249b3674c618.MOV" type="video/mp4"></video>
+					<div class="assets-container">
+						<video width="100%" autoplay="" controls=""><source src="https://hulo.dev/donate/0bad6b7b192144ab9149249b3674c618.MOV" type="video/mp4"></video>
+						</div>
 					</div>
 					<div class="col-md-4">
-						<video width="100%" controls=""><source src="https://hulo.dev/donate/1aa3e58fa8104467b757803f6b4de7a2.MOV" type="video/mp4"></video>
+						<div class="assets-container">
+							<video width="100%" controls=""><source src="https://hulo.dev/donate/1aa3e58fa8104467b757803f6b4de7a2.MOV" type="video/mp4"></video>
+							</div>
 						</div>
 
 						<div class="col-md-4">
-							<img src="https://hulo.dev/donate/32989E3E-A9A9-47BE-914C-F65106B17316.JPG" alt="">
+							<div class="assets-container">
+								<img src="https://hulo.dev/donate/32989E3E-A9A9-47BE-914C-F65106B17316.JPG" alt="">
+							</div>
 						</div>
-
-
-
 					</div>
 					<div class="row">
 						<div class="col-md-12">
@@ -108,7 +122,7 @@
 							<h3>PayPal: hello@hulo.dev</h3>
 						</div>
 						<div class="col-md-6">
-							<h3>wise: hello@humeniuk.dev</h3>
+							<h3>Wise.com: hello@humeniuk.dev</h3>
 						</div>
 					</div>
 				</div>
