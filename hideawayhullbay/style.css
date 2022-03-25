@@ -2452,8 +2452,16 @@ content:'';
   #id_103 .form-single-column .form-checkbox-item label{
       font-size: 11px !important;
   }
-  
-  
+  #id_104 #input_104{
+        padding: 0px !important;
+        height: 100px !important;
+        font-size: 18px !important;
+  }
+  #id_106 #input_106{
+       padding: 0px !important;
+        height: 100px !important;
+        font-size: 18px !important;
+  }
   
   
   
