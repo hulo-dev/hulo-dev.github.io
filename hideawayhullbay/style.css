@@ -2327,26 +2327,26 @@ content:'';
     margin-bottom:20px !important; 
   }
   #id_9 #input_9{
-     padding-bottom: 8px;
-     font-size: 18px;
+     padding-bottom: 8px !important;
+     font-size: 18px !important;
   }
   #cid_21{
-    margin-top:-20px;
+    margin-top:-20px !important; 
   }
   #cid_27 #input_27{
-    padding-top:0px; 
-    height:100px;
+    padding-top:0px !important;  
+    height:100px  !important;
   }
   #cid_27{
-    margin:0px;
+    margin:0px!important;
   }
   #cid_28{
-    margin:0px; 
+    margin:0px !important;
   }
   #input_28{
     padding: 0px;
-    height: 100px;
-    font-size: 18px;
+    height: 100px !important;
+    font-size: 18px !important;
   }
   
   
