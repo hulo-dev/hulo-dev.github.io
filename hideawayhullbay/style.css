@@ -2413,7 +2413,11 @@ content:'';
   #cid_71, #cid_73, #cid_74, #cid_74, #cid_75, #cid_76, #cid_77{
     margin:0px !important;
   }
-  
+  #id_78 #input_78{
+        padding: 0px !important;
+        height: 100px !important;
+        font-size: 18px !important;
+  }
   
   
   
