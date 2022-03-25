@@ -2308,10 +2308,21 @@ content:'';
   #cid_4 > div > span:before{
      bottom: 10px;
   }
-  
-  
-  
-  
+  #id_5 #label_5{
+    margin-bottom: 0px; 
+  }
+  #id_5 .inputContainer {
+    width: 90% !important;
+  }
+  #id_5 .qq-upload-button .jfUpload-heading{
+    position: absolute;
+    left: auto;
+    right: auto;
+    margin-right: 30px;
+  }
+  #cid_5 .qq-upload-button:before{
+     right: 65px;
+  }
   
   
   
@@ -2322,29 +2333,6 @@ content:'';
   
   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
