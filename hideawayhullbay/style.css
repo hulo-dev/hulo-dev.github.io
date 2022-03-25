@@ -2449,7 +2449,9 @@ content:'';
         height: 100px !important;
         font-size: 18px !important;
   }
-  
+  #id_103 .form-single-column .form-checkbox-item label{
+      font-size: 11px !important;
+  }
   
   
   
