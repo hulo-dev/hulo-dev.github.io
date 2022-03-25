@@ -2290,7 +2290,38 @@ content:'';
     outline: none !important;
 }
 
-
+@media(max-width:775px){
+  #id_3 #cid_3 #input_3{
+     padding-bottom: 8px;
+     font-size: 18px;
+  }
+  #id_3 #label_3{
+     margin-bottom: 8px;
+  }
+  #id_4 #label_4{
+     margin-bottom: 8px;
+  }
+  #id_4 #lite_mode_4{
+     padding-bottom: 8px;
+     font-size: 18px;
+  }
+  #cid_4 > div > span:before{
+     bottom: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
 
 
 
