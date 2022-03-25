@@ -2394,6 +2394,7 @@ content:'';
   }
   #cid_48 #label_input_48_0, #cid_58 #label_input_58_0, #cid_59 #label_input_59_0, #cid_60 #label_input_60_0{
       font-size: 18px !important;
+      margin-bottom:8px;
   }
   #cid_48 #label_input_48_0:before, #cid_58 #label_input_58_0:before, #cid_59 #label_input_59_0:before, #cid_60 #label_input_60_0:before{
       top: 5px;
