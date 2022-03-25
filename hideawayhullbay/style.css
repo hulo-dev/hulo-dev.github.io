@@ -2421,7 +2421,34 @@ content:'';
   #cid_81, #cid_82, #cid_83, #cid_84{
        margin:0px !important;
   }
-  
+  #id_85 #input_85{
+        padding: 0px !important;
+        height: 100px !important;
+        font-size: 18px !important;
+  }
+  #id_87, #id_88, #id_89, #id_90{
+    margin:0px !important;
+  }
+  #cid_87, #cid_88, #cid_89, #cid_90{
+     margin:0px !important;
+  }
+  #id_91 #input_91{
+        padding: 0px !important;
+        height: 100px !important;
+        font-size: 18px !important;
+  }
+  #id_93 #label_93, #id_94 #label_94, #id_95 #label_95, #id_96 #label_96, #id_97 #label_97, #id_98 #label_98{
+    margin:0px !importnat; 
+  }
+  #id_93 #input_93, #id_94 #input_94, #id_95 #input_95, #id_96 #input_96, #id_97 #input_97, #id_98 #input_98{
+    font-size: 18px !important;
+    padding-bottom:5px !important;
+  }
+  #id_100 #input_100, #id_101 #input_101{
+            padding: 0px !important;
+        height: 100px !important;
+        font-size: 18px !important;
+  }
   
   
   
