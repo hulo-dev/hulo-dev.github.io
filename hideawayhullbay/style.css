@@ -631,7 +631,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
   bottom:-65px;
   right:5px;
   width:100%;
-  max-width:411px;
+  max-width:416px;
   height:1px;
   background:#E49D57;
 }
@@ -2278,6 +2278,38 @@ content:'';
    max-width: 100% !important;
     width: 100% !important; 
 }
+
+#id_24 .FITB-inptCont:nth-child(3){
+  position:absolute;
+       top: 40px;
+    left: 267px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
