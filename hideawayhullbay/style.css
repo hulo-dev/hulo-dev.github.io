@@ -70,7 +70,8 @@
   pointer-events: none;
   background:#000  !important;
   box-sizing: border-box;
-   background-image:utl('https://toppng.com/uploads/preview/blue-arrow-down-png-download-white-arrow-down-ico-11562889556udavijhnwl.png');
+  background-size:cover;
+   background-image:url('https://image.pngaaa.com/298/92298-middle.png');
 }
 
 
