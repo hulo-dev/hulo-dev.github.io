@@ -2244,7 +2244,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
   font-family: 'Lexend';
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 24px !important;
   line-height: 140%;
   border:none;
   border-bottom:1px solid #E49D57;
