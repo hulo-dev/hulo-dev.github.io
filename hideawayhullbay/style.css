@@ -2583,5 +2583,10 @@ content:'';
   opacity:0 !important;
   color:#fff !important;
 }
-
+#list > tbody > tr:nth-child(2) > td.col3 > div > div.radio:before{
+    content:"";
+    background:green;
+    width:10px;
+    height:10px;
+}
 
