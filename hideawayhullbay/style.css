@@ -87,6 +87,16 @@
   background-size:cover;
    background-image:url('https://www.iconsdb.com/icons/preview/white/arrow-204-xxl.png');
 }
+#list > tbody > tr> td.col3> div > div:nth-child(1):before{
+  content:'';
+  
+}
+#list > tbody > tr> td.col3> div > div:nth-child(1):after{
+  content:'';
+  
+}
+
+
 
 
 @media(max-width:775px){
