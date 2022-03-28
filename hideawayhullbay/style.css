@@ -1694,7 +1694,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
 
 
 
-/* 
+
 
 #id_71,  #id_73, #id_74, #id_75, #id_76, #id_77{
     display: flex;
@@ -1832,6 +1832,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
 
 #input_71,  #input_73, #input_74, #input_75, #input_76, #input_77{
   border:none; 
+  padding:0px !important;
 }
 #cid_71 .form-spinner-button,  #cid_73 .form-spinner-button, #cid_74 .form-spinner-button, #cid_75 .form-spinner-button, #cid_76 .form-spinner-button, #cid_77 .form-spinner-button{
    border-left: 1px solid #e49d57;
@@ -1840,7 +1841,16 @@ li[data-type=control_fileupload] .jfUpload-heading{
   border-right: 1px solid #e49d57;
 }
 
-  */
+
+
+
+
+.form-line:not(.fixed-width) .form-dropdown, .form-line:not(.fixed-width) .form-spinner, .form-line:not(.fixed-width) .form-textarea, .form-line:not(.fixed-width) .form-textbox:not(.time-dropdown), .form-line:not(.fixed-width) .signature-pad-passive{
+min-width: 100px;
+    max-width: 100px;
+}
+
+
 
 
 #id_78 #label_78 {
