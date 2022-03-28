@@ -2578,7 +2578,9 @@ content:'';
     padding-left: 20px;
     padding-right: 20px;
 }
-
+.calendar.popup table tbody td{
+  color #000 !important;
+}
 
 
 
