@@ -2542,6 +2542,31 @@ content:'';
 }
 
 
+.calendar.popup:before{
+  border-color: #E49D57;
+  box-shadow: none;
+}
+.calendar.popup table{
+  background-color: #000;
+}
+.currentDate, .pickerItem select, .appointmentCalendar .calendarDay, .calendar.popup th, .calendar.popup table tbody td, .calendar-new-header>*, .form-collapse-table{
+  color:#fff !important;
+}
+.clear-pad-btn, .appointmentCalendar .dayOfWeek, .calendar.popup th{
+  background: #000 !important;
+}
+.calendar-new-month{
+  border-color: #E49D57 !important;
+}
+.calendar.popup tr.days td.selected:after{
+  background-color: #E49D57 !important;
+}
+
+
+
+
+
+
 
 
 
