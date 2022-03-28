@@ -2125,6 +2125,9 @@ li[data-type=control_fileupload] .jfUpload-heading{
   padding-left: 0px;
 }
 
+
+
+
 #id_100 #label_100, #id_101 #label_101 {
     font-family : 'Lexend';
     font-style : normal;
@@ -2232,7 +2235,9 @@ li[data-type=control_fileupload] .jfUpload-heading{
 #cid_103{
   border-bottom:1px solid #E49D57;
 }
-
+#id_93 #input_93, #id_94 #input_94, #id_95 #input_95, #id_96 #input_96, #id_97 #input_97, #id_98 #input_98{
+  font-size: 24px !important;
+}
 #cid_103 > div > span:nth-child(4){
    margin-right:0px; 
 }
