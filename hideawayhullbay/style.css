@@ -55,7 +55,7 @@
   display: inline-block;
   appearance: none;
 }
-#FITB_20 .FITB-inptCont:nth-child(2) #ampm_20_time-2:before {
+#FITB_20 .FITB-inptCont:nth-child(2):before {
   content: "▼";
   padding: 0 8px;
   font-size: 12px;
@@ -64,8 +64,8 @@
   top: 4px;
   z-index: 1;
   text-align: center;
-  width: 10%;
-  height: 100%;
+  width: 10px;
+  height: 10px;
   pointer-events: none;
   box-sizing: border-box;
 }
