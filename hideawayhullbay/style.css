@@ -2562,7 +2562,13 @@ content:'';
   background-color: #E49D57 !important;
 }
 
+.calendar.popup thead > tr:nth-child(4) > th{
+      background: #000 !important;
+}
 
+.days{
+  color:#000 !important;
+}
 
 
 
