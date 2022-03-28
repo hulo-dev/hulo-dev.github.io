@@ -2166,6 +2166,12 @@ form-line:not(.fixed-width) .form-spinner{
 }
 
 
+#id_87, #id_88, #id_89, #id_90{
+      margin-right: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+
 #id_91 #label_91 {
     font-family : 'Lexend';
     font-style : normal;
@@ -2708,9 +2714,6 @@ content:'';
 
 
 
-#id_87, #id_88, #id_89, #id_90{
-      margin-right: 30px !important;
-    margin-bottom: 30px !important;
-}
+
 
 
