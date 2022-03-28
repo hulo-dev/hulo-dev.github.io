@@ -2570,8 +2570,14 @@ content:'';
   color:#000 !important;
 }
 
-
-
+#input_31_ampm{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#input_32_ampm{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 
 
