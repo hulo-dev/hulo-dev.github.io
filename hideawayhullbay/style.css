@@ -1847,7 +1847,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
 
 
 
-form-line:not(.fixed-width) .form-spinner{
+.form-line:not(.fixed-width) .form-spinner{
   min-width: 100px;
     max-width: 100px;
 }
