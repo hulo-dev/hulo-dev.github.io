@@ -2543,11 +2543,11 @@ content:'';
 
 
 .calendar.popup:before{
-  border-color: #E49D57;
-  box-shadow: none;
+  border-color: #E49D57 !important;
+  box-shadow: none !important;
 }
 .calendar.popup table{
-  background-color: #000;
+  background-color: #000 !important;
 }
 .currentDate, .pickerItem select, .appointmentCalendar .calendarDay, .calendar.popup th, .calendar.popup table tbody td, .calendar-new-header>*, .form-collapse-table{
   color:#fff !important;
