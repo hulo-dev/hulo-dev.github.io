@@ -2581,7 +2581,21 @@ content:'';
     flex-direction: row-reverse;
     margin: 0px;
 }
-
+#form-pagebreak-next_108{
+      border-color: #000;
+    margin: 0px;
+    background: #E49D57;
+    border-radius: 58px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #0D0F0D;
+    min-width: 143px;
+}
 
 
 
