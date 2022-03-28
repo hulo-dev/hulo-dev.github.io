@@ -50,12 +50,12 @@
 
 
 
-#ampm_20_time-2{
+#id_20 #ampm_20_time-2{
   position: relative;
   display: inline-block;
   appearance: none;
 }
-#ampm_20_time-2:after {
+#id_20 #ampm_20_time-2:after {
   content: "▼";
   padding: 0 8px;
   font-size: 12px;
