@@ -1847,8 +1847,8 @@ li[data-type=control_fileupload] .jfUpload-heading{
 
 
 
-.form-line:not(.fixed-width) .form-dropdown, .form-line:not(.fixed-width) .form-spinner, .form-line:not(.fixed-width) .form-textarea, .form-line:not(.fixed-width) .form-textbox:not(.time-dropdown), .form-line:not(.fixed-width) .signature-pad-passive{
-min-width: 100px;
+form-line:not(.fixed-width) .form-spinner{
+  min-width: 100px;
     max-width: 100px;
 }
 .form-spinner-input{
