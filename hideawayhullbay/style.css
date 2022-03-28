@@ -7,8 +7,27 @@
   font-family: 'Lexend-Medium';
   src: url('https://static1.squarespace.com/static/61539d366385f16b55b73a98/t/621f4ed0ed77c972e110b282/1646218960352/LexendDeca-Medium.ttf');
 }
-
-/* *{display: none !important;} */
+#cid_108 .form-pagebreak{
+      padding: 0px;
+    border: none;
+    flex-direction: row-reverse;
+    margin: 0px;
+}
+#form-pagebreak-next_108{
+      border-color: #000;
+    margin: 0px;
+    background: #E49D57;
+    border-radius: 58px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #0D0F0D;
+    min-width: 143px;
+}
 
 ::placeholder {
   color: #fff !important;
@@ -2574,29 +2593,6 @@ content:'';
 #inputs > div:last-child{
   margin-right:0px !important;
 }
-
-#cid_108 .form-pagebreak{
-      padding: 0px;
-    border: none;
-    flex-direction: row-reverse;
-    margin: 0px;
-}
-#form-pagebreak-next_108{
-      border-color: #000;
-    margin: 0px;
-    background: #E49D57;
-    border-radius: 58px;
-    font-family: 'Lexend';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
-    letter-spacing: 1.25px;
-    text-transform: uppercase;
-    color: #0D0F0D;
-    min-width: 143px;
-}
-
 
 
 
