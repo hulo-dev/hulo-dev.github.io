@@ -50,12 +50,12 @@
 
 
 
-#id_20 #ampm_20_time-2{
+#FITB_20 .FITB-inptCont:nth-child(2) #ampm_20_time-2{
   position: relative;
   display: inline-block;
   appearance: none;
 }
-#id_20 #ampm_20_time-2:after {
+#FITB_20 .FITB-inptCont:nth-child(2) #ampm_20_time-2:before {
   content: "▼";
   padding: 0 8px;
   font-size: 12px;
