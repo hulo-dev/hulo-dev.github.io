@@ -68,8 +68,9 @@
   width: 10px;
   height: 10px;
   pointer-events: none;
-  background:#fff !important;
+  background:#000  !important;
   box-sizing: border-box;
+   background-image:utl('https://toppng.com/uploads/preview/blue-arrow-down-png-download-white-arrow-down-ico-11562889556udavijhnwl.png');
 }
 
 
