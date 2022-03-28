@@ -2566,7 +2566,7 @@ content:'';
       background: #000 !important;
 }
 
-.days{
+ .unselectable {
   color:#000 !important;
 }
 
