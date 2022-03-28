@@ -56,7 +56,7 @@
   appearance: none;
 }
 #FITB_20 .FITB-inptCont:nth-child(2):before {
-  content: "▼";
+  content: " ";
   padding: 0 8px;
   font-size: 12px;
   position: absolute;
@@ -67,6 +67,7 @@
   width: 10px;
   height: 10px;
   pointer-events: none;
+  background:#fff !important;
   box-sizing: border-box;
 }
 
