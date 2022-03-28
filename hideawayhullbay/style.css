@@ -1849,7 +1849,9 @@ li[data-type=control_fileupload] .jfUpload-heading{
 min-width: 100px;
     max-width: 100px;
 }
-
+.form-spinner-input{
+  padding:0px !important;
+}
 
 
 
