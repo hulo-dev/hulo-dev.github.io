@@ -14,11 +14,9 @@
   color: #fff !important;
 }
 
-
 :focus-visible {
     outline: -webkit-focus-ring-color auto 0px !important;
 }
-
 
 #id_20-date-1:before{
       background-image: url('https://static1.squarespace.com/static/61539d366385f16b55b73a98/t/623af118748758708623b31d/1648029976868/calendar.png') !important;
@@ -34,7 +32,6 @@
     z-index: 1111;
 }
 
-
 #id_107-date-1:before{
       background-image: url('https://static1.squarespace.com/static/61539d366385f16b55b73a98/t/623af118748758708623b31d/1648029976868/calendar.png') !important;
     content: '';
@@ -48,8 +45,6 @@
     background-color: #000;
     z-index: 1111;
 }
-
-
 
 #FITB_20 .FITB-inptCont:nth-child(2) #ampm_20_time-2{
   position: relative;
@@ -73,17 +68,6 @@
   background-size:cover;
    background-image:url('https://image.pngaaa.com/298/92298-middle.png');
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media(max-width:775px){
@@ -310,16 +294,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .table:last-child #initialInput{
     font-family : 'Lexend';
     font-style : normal;
@@ -339,9 +313,6 @@
 #addInput:before{
   color:#fff; 
 }
-
-
-
 
 #label_7{
     display:none;   
@@ -396,12 +367,6 @@
   -moz-appearance: none;
   appearance: none;
 }
-
-
-
-
-
-
 
 .form-section{
   padding:0px !important;
@@ -541,8 +506,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
 }
 
 
-
-
 #id_5 .form-submit-button-black_glass{
       background: transparent;
           color: transparent;
@@ -574,7 +537,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   letter-spacing: 0.15px;
   color: #FFFFFF;
 }
-
 
 #id_9 #label_9{
     font-family: 'Lexend';
@@ -743,11 +705,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   line-height: 140%;
   color: #FFFFFF;
 }
-
-
-
-
-
 
 #FITB_107  p{
     display: flex;
@@ -1044,7 +1001,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   padding-left: 0px;
 }
 
-
 #id_28 #label_28{
   margin:0px;
   margin-bottom:16px;
@@ -1068,7 +1024,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   resize:none;
   padding-left: 0px;
 }
-
 
 #cid_29 .header-default{
   margin:0px;
@@ -1118,8 +1073,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
 #id_31, #id_32{
     width: 50%;
 }
-
-
 
 #id_31 label{
   font-family: 'Lexend';
@@ -1224,7 +1177,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   padding-right:0px;
 }
 
-
 #cid_34 .header-default{
   margin:0px;
   padding:0px;
@@ -1252,7 +1204,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   letter-spacing: 0.25px;
   color: #FFFFFF;
 }
-
 
 #id_35 #label_35{
   font-family: 'Lexend';
@@ -1304,8 +1255,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   padding-left: 0px;
 }
 
-
-
 #cid_37 .header-default{
     margin:0px;
   padding:0px;
@@ -1333,10 +1282,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   color: #FFFFFF;
 }
 
-
-
-
-
 #id_38 #label_38{
   font-family: 'Lexend';
   font-style: normal;
@@ -1363,8 +1308,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   resize:none;
 }
 
-
-
 #cid_40 .header-default{
       margin:0px;
   padding:0px;
@@ -1380,12 +1323,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   color: #FFFFFF;
   margin:0px;
 }
-
-
-
-
-
-
 
 #id_48, #id_58, #id_59, #id_60{
   display:flex;
@@ -1471,11 +1408,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
     top: 10px;
 }
 
-
-
-
-
-
 #id_61, #id_62, #id_63, #id_64{
   display:flex;
   justify-content: space-between;
@@ -1536,8 +1468,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
     top: 10px;
 }
 
-
-
 #id_54 #label_54, #id_55 #label_55, #id_56 #label_56, #id_57 #label_57{
     display:none;
 }
@@ -1561,10 +1491,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   margin-bottom:30px;
 }
 
-
-
-
-
 #id_50 #label_50, #id_51 #label_51, #id_52 #label_52, #id_53 #label_53{
     display:none;
 }
@@ -1587,7 +1513,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
 #id_50, #id_51, #id_52, #id_53{
   margin-bottom:30px;
 }
-
 
  #input_50,  #input_51,  #input_52, #input_53{
       font-family: 'Lexend';
@@ -1695,10 +1620,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   color: #FFFFFF;
 }
 
-
-
-
-
 #id_71,  #id_73, #id_74, #id_75, #id_76, #id_77{
     display: flex;
     width: 100%;
@@ -1722,10 +1643,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
 #id_77{
        max-width: 168px;
 }
-
-
-
-
 
 #label_71{
     width: 100%;
@@ -1801,11 +1718,9 @@ li[data-type=control_fileupload] .jfUpload-heading{
     color: #FFFFFF;
 }
 
-
 #cid_71,  #cid_73, #cid_74, #cid_74, #cid_75, #cid_76, #cid_77{
    width: 100px;
 }
-
 
 #cid_71 .form-spinner-button,  #cid_73 .form-spinner-button, #cid_74 .form-spinner-button, #cid_75 .form-spinner-button, #cid_76 .form-spinner-button, #cid_77 .form-spinner-button   {
     background: transparent;
@@ -1832,7 +1747,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   left:55%;
 }
 
-
 #input_71,  #input_73, #input_74, #input_75, #input_76, #input_77{
   border:none; 
   padding:0px !important;
@@ -1844,10 +1758,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   border-right: 1px solid #e49d57;
 }
 
-
-
-
-
 .form-line:not(.fixed-width) .form-spinner{
   min-width: 100px;
     max-width: 100px;
@@ -1855,8 +1765,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
 .form-spinner-input{
   padding:0px !important;
 }
-
-
 
 #id_78 #label_78 {
     font-family : 'Lexend';
@@ -1885,10 +1793,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
     resize:none;
 }
 
-
-
-
-
 #id_81,  #id_82, #id_83, #id_84{
     display: flex;
     width: 100%;
@@ -1909,10 +1813,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
 #id_84{
        max-width: 203px;
 }
-
-
-
-
 
 #label_81{
     width: 100%;
@@ -1964,12 +1864,9 @@ li[data-type=control_fileupload] .jfUpload-heading{
     color: #FFFFFF;
 }
 
-
-
 #cid_81,  #cid_82, #cid_83, #cid_84{
    width: 100px;
 }
-
 
 #cid_81 .form-spinner-button,  #cid_82 .form-spinner-button, #cid_83 .form-spinner-button, #cid_84 .form-spinner-button  {
     background: transparent;
@@ -1990,7 +1887,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   left:55%;
 }
 
-
 #input_81,  #input_82, #input_83, #input_84{
   border:none; 
 }
@@ -2000,10 +1896,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
 #cid_81  .form-spinner-down, #cid_82  .form-spinner-down, #cid_83  .form-spinner-down, #cid_84  .form-spinner-down{
   border-right: 1px solid #e49d57;
 }
-
-
-
-
 
 #id_70{
   margin-bottom:30px; 
@@ -2018,9 +1910,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   letter-spacing: 0.5px;
   color: #FFFFFF;
 }
-
-
-
 
 #id_85 #label_85 {
     font-family : 'Lexend';
@@ -2049,11 +1938,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
     resize:none;
 }
 
-
-
-
-
-
 #id_87,  #id_88, #id_89, #id_90{
     display: flex;
     width: 100%;
@@ -2074,10 +1958,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
 #id_90{
        max-width: 267px;
 }
-
-
-
-
 
 #label_87{
     width: 100%;
@@ -2129,12 +2009,9 @@ li[data-type=control_fileupload] .jfUpload-heading{
     color: #FFFFFF;
 }
 
-
-
 #cid_87,  #cid_88, #cid_89, #cid_90{
    width: 100px;
 }
-
 
 #cid_87 .form-spinner-button,  #cid_88 .form-spinner-button, #cid_89 .form-spinner-button, #cid_90 .form-spinner-button  {
     background: transparent;
@@ -2166,12 +2043,10 @@ li[data-type=control_fileupload] .jfUpload-heading{
   border-right: 1px solid #e49d57;
 }
 
-
 #id_87, #id_88, #id_89, #id_90{
       margin-right: 30px !important;
     margin-bottom: 30px !important;
 }
-
 
 #id_91 #label_91 {
     font-family : 'Lexend';
@@ -2200,8 +2075,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
     resize:none;
 }
 
-
-
 #cid_92 .header-default{
   padding:0px;
   margin:0px;
@@ -2227,9 +2100,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   color: #FFFFFF; 
 }
 
-
-
-
 #id_93 #label_93, #id_94 #label_94, #id_95 #label_95, #id_96 #label_96, #id_97 #label_97, #id_98 #label_98{
   font-family: 'Lexend';
   font-style: normal;
@@ -2254,7 +2124,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   width: 100% !important;
   padding-left: 0px;
 }
-
 
 #id_100 #label_100, #id_101 #label_101 {
     font-family : 'Lexend';
@@ -2285,8 +2154,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
     resize:none;
 }
 
-
-
 #cid_102 .header-default{
   padding:0px;
   margin:0px;
@@ -2311,7 +2178,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
   letter-spacing: 0.25px;
   color: #FFFFFF; 
 }
-
 
 #id_103 #label_103{
    font-family: 'Lexend';
@@ -2377,9 +2243,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
    margin-right:0px !important; 
 }
 
-
-
-
 #id_104 #label_104 {
     font-family : 'Lexend';
     font-style : normal;
@@ -2393,7 +2256,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
     max-width: 100% !important;
     width: 100% !important;
 }
-
 #id_104 #input_104{
     font-family : 'Lexend';
     font-style : normal;
@@ -2408,11 +2270,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
     padding-left : 0px;
     resize:none;
 }
-
-
-
-
-
 
 #cid_105 .header-default{
   padding:0px;
