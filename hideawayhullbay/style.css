@@ -18,7 +18,7 @@
     outline: -webkit-focus-ring-color auto 0px !important;
 }
 
-#id_107-date-1:after{
+#id_107-date-1:before{
       background-image: url(https://static1.squarespace.com/static/61539d3…/t/623af11…/1648029976868/calendar.png) !important;
     content: '';
     width: 24px;
