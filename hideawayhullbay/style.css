@@ -18,7 +18,19 @@
     outline: -webkit-focus-ring-color auto 0px !important;
 }
 
-
+#id_107-date-1:after{
+      background-image: url(https://static1.squarespace.com/static/61539d3…/t/623af11…/1648029976868/calendar.png) !important;
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    bottom: 8px;
+    right: 2px;
+    background-size: cover;
+    background-color: #000;
+    z-index: 1111;
+}
 
 
 
@@ -2598,20 +2610,8 @@ content:'';
 :focus-visible {
     outline: -webkit-focus-ring-color auto 0px !important;
 }
-#id_107-date-1:after{
-      background-image: url(https://static1.squarespace.com/static/61539d3…/t/623af11…/1648029976868/calendar.png) !important;
-    content: '';
-    width: 24px;
-    height: 24px;
-    display: block;
-    position: absolute;
-    bottom: 8px;
-    right: 2px;
-    background-size: cover;
-    background-color: #000;
-    z-index: 1111;
-}
-}
+
+
 
 
 
