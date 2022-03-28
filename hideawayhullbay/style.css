@@ -2566,9 +2566,7 @@ content:'';
       background: #000 !important;
 }
 
- .unselectable {
-  color:#000 !important;
-}
+
 
 #input_31_ampm{
     padding-left: 20px;
@@ -2579,8 +2577,11 @@ content:'';
     padding-right: 20px;
 }
 .calendar.popup table tbody td{
-  color #000 !important;
+  color: #000 !important;
 }
-
+.calendar.popup table tbody td .unselectable{
+  opacity:0 !important;
+  color:#fff !important;
+}
 
 
