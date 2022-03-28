@@ -337,6 +337,35 @@
 }
 
 
+#ampm_107_time-2 {
+  position: relative;
+  display: inline-block;
+}
+#ampm_107_time-2:after {
+  content: "▼";
+  padding: 0 8px;
+  font-size: 12px;
+  position: absolute;
+  right: 8px;
+  top: 4px;
+  z-index: 1;
+  text-align: center;
+  width: 10%;
+  height: 100%;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+#ampm_107_time-2 {
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+
+
+
+
 
 
 .form-section{
