@@ -993,6 +993,11 @@ li[data-type=control_fileupload] .jfUpload-heading{
   height:1px;
   background:#E49D57;
 }
+
+#timeInput_107_time-2{
+  width: 174px !important;
+}
+
 #cid_25{
   margin-top:70px;
 }
