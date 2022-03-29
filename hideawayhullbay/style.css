@@ -112,11 +112,11 @@ select {
   background-size:cover;
    background-image:url('https://static1.squarespace.com/static/61539d366385f16b55b73a98/t/6242bd5b7393af1bf41ed02b/1648541019642/arrow.png');
 }
-#list > tbody > tr> td.col3> div > div:nth-child(1):before{
+#cid_7 #customFieldFrame_7 .wf-active #list > tbody > tr> td.col3> div > div:nth-child(1):before{
   content:'';
   
 }
-#list > tbody > tr> td.col3> div > div:nth-child(1):after{
+#cid_7 #customFieldFrame_7 .wf-active #list > tbody > tr> td.col3> div > div:nth-child(1):after{
   content:'';
   
 }
