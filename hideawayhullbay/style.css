@@ -2672,6 +2672,9 @@ content:'';
   #cid_4 > div > span:before {
     bottom: 8px !important;
   }
+  #cid_32 > div{
+    padding-bottom:15px !important;
+  }
 }
 
 
