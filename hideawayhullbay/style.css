@@ -1704,8 +1704,8 @@ li[data-type=control_fileupload] .jfUpload-heading{
 #label_73{
     max-width: 83px;
     margin: 0px;
-    padding-left: 6px;
-      font-family: 'Lexend';
+    padding-left: 3px;
+    font-family: 'Lexend';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -1797,6 +1797,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
 }
 #cid_71 .form-spinner-button,  #cid_73 .form-spinner-button, #cid_74 .form-spinner-button, #cid_75 .form-spinner-button, #cid_76 .form-spinner-button, #cid_77 .form-spinner-button{
    border-left: 1px solid #e49d57;
+   border-radius: 0px !important;
 }
 #cid_71  .form-spinner-down, #cid_73  .form-spinner-down, #cid_74  .form-spinner-down, #cid_75  .form-spinner-down, #cid_76  .form-spinner-down, #cid_77  .form-spinner-down{
   border-right: 1px solid #e49d57;
