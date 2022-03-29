@@ -1811,6 +1811,39 @@ li[data-type=control_fileupload] .jfUpload-heading{
   padding:0px !important;
 }
 
+
+:focus-visible {
+    outline: none !important;
+}
+
+#inputs > div:last-child{
+  margin-right:0px !important;
+}
+
+#inputs > div:last-child > div:nth-child(1) > input{
+      width: 100% !important;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    border: none;
+    height: auto;
+    border-bottom: 1px solid #E49D57;
+    color: #fff;
+}
+
+#label_16 #inputs > div{
+  margin-right:0px !important;
+}
+
+
+
+
+
+
+
+
 #id_78 #label_78 {
     font-family : 'Lexend';
     font-style : normal;
@@ -2611,30 +2644,6 @@ content:'';
 
 #inputs > div:last-child input{
   padding-bottom:15px !important;
-}
-:focus-visible {
-    outline: -webkit-focus-ring-color auto 0px !important;
-}
-
-#inputs > div:last-child{
-  margin-right:0px !important;
-}
-
-#inputs > div:last-child > div:nth-child(1) > input{
-      width: 100% !important;
-    font-family: 'Lexend';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 140%;
-    border: none;
-    height: auto;
-    border-bottom: 1px solid #E49D57;
-    color: #fff;
-}
-
-#label_16 #inputs > div{
-  margin-right:0px !important;
 }
 
 
