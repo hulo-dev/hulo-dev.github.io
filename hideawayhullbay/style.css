@@ -70,7 +70,7 @@
   display: inline-block;
   appearance: none;
 }
-#FITB_20 .FITB-inptCont:before {
+#FITB_20 .FITB-inptCont:nth-child(2):before {
   content: " ";
   padding: 0 8px;
   font-size: 12px;
