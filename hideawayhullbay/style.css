@@ -75,14 +75,13 @@
   padding: 0 8px;
   font-size: 12px;
   position: absolute;
-  right: 8px;
-  top: 4px;
-  z-index: 1;
-  text-align: center;
-  width: 10px;
-  height: 10px;
-  pointer-events: none;
-  background:#000  !important;
+     right: -45px;
+    top: 15px;
+    z-index: 1;
+    text-align: center;
+    width: 10px;
+    height: 12px;
+    pointer-events: none;
   box-sizing: border-box;
   background-size:cover;
    background-image:url('https://static1.squarespace.com/static/61539d366385f16b55b73a98/t/6242bd5b7393af1bf41ed02b/1648541019642/arrow.png');
@@ -2620,7 +2619,9 @@ content:'';
   padding-bottom:15px !important;
 }
 
-
+#FITB_20 .FITB-inptCont:nth-child(2){
+      overflow: visible !important;
+}
 
 
 
