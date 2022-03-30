@@ -2246,245 +2246,6 @@ li[data-type=control_fileupload] .jfUpload-heading{
     border:none;
 }
 
-
-
-
-#id_7 #listContainer > button{
-    padding: 50px;
-}
-
-
-.form-textarea:hover, .form-textbox:hover, li[data-type=control_fileupload] .qq-upload-button:hover, .signature-wrapper:hover{
-   box-shadow: none !important;  
-}
-.form-line-active{
-    background-color:transparent !important;   
-}
-
-#id_103 .form-single-column .form-checkbox-item label:after{
-    right: 0 !important;
-    left: auto !important;
-    top: -3px !important;
-}
-
-
-
-
-
-#ampm_107_time-2{
-  color:#fff; 
-}
-
-
-#cid_48 #label_input_48_0:after, #cid_58 #label_input_58_0:after, #cid_59 #label_input_59_0:after, #cid_60 #label_input_60_0:after{
-    top: 12.5px;
-    background: #E49D57;
-}
- #text_86{
-  font-family: 'Lexend';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 140%;
-  letter-spacing: 0.5px;
-  color: #FFFFFF; 
-}
-#text_79{
-     font-family: 'Lexend';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 140%;
-  letter-spacing: 0.5px;
-  color: #FFFFFF; 
-}
-
-span.FITB-inptCont[data-type=radiobox] label:after{
-   background-color: #E49D57;
-}
-
-
-#input_31_ampm{
-    color: #fff;
-    border-color: #fff;
-}
-
- #input_32_ampm{
-    color: #fff;
-    border-color: #fff;
-}
-
-
-
-
-
-#id_5 .inputContainer{
-  
-  height: 66px !important;
-    position: absolute !important;
-    width: 95% !important;
-    top: 16px !important;
-    left: 16px !important;
-    background-image: repeating-linear-gradient(25deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px), repeating-linear-gradient(115deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px), repeating-linear-gradient(205deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px), repeating-linear-gradient(295deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px) !important;
-    background-size: 2px 100%, 100% 2px, 2px 100% , 100% 2px !important;
-    background-position: 0 0, 0 0, 100% 0, 0 100% !important;
-    background-repeat: no-repeat !important;
-    border: none !important;
-
-}
-
-#cid_103 > div > span:nth-child(13){
-  margin-right:0px; 
-}
-#cid_103 > div > span:nth-child(16){
-    margin-right:0px; 
-}
-
-
-#cid_5 .qq-upload-button:before {
-    background-image: url('https://static1.squarespace.com/static/61539d366385f16b55b73a98/t/623af1145e2b7b29aebc3e73/1648029972250/download.png') !important;
-  content:'';
-  width: 18px;
-  height: 18px;
-  display: block;
-  position:absolute;
-  bottom: 25px;
-  right: 225px;
-  background-size: cover;
-  background-color: #000;
-}
-
-
-#cid_4 > div > span:before{
-       background-image: url('https://static1.squarespace.com/static/61539d366385f16b55b73a98/t/623af118748758708623b31d/1648029976868/calendar.png') !important;
-content:'';
-  width: 24px;
-  height: 24px;
-  display: block;
-  position:absolute;
-  bottom: 8px;
-  right:2px;
-  background-size: cover;
-  background-color: #000;
-}
-
-
-
-.form-radio-item label:after{
-   top: 12.5px !important;
-   background-color: #E49D57 !important;
-}
-
-
-
-#customFieldFrame_7{
-    width:686px !important;
-  max-width:100% !important;
-} 
-#cid_7{
-  width:100% !important; 
-}
-
-
-#cid_16{
-  width: 100% !important;
-}
-#customFieldFrame_16{
-   max-width: 100% !important;
-    width: 100% !important; 
-}
-
-#id_24 .FITB-inptCont:nth-child(3){
-  position:absolute;
-       top: 40px;
-    left: 267px;
-}
-
-
-:focus-visible {
-    outline: none !important;
-}
-
-  #id_87, #id_88, #id_89, #id_90{
-    margin-right:30px !important;
-
-  }
-
-.form-all{
-  box-shadow: none !important;
-}
-
-
-.calendar.popup:before{
-  border-color: #E49D57 !important;
-  box-shadow: none !important;
-}
-.calendar.popup table{
-  background-color: #000 !important;
-}
-.currentDate, .pickerItem select, .appointmentCalendar .calendarDay, .calendar.popup th, .calendar.popup table tbody td, .calendar-new-header>*, .form-collapse-table{
-  color:#fff !important;
-}
-.clear-pad-btn, .appointmentCalendar .dayOfWeek, .calendar.popup th{
-  background: #000 !important;
-}
-.calendar-new-month{
-  border-color: #E49D57 !important;
-}
-.calendar.popup tr.days td.selected:after{
-  background-color: #E49D57 !important;
-}
-
-.calendar.popup thead > tr:nth-child(4) > th{
-      background: #000 !important;
-}
-
-
-
-#input_31_ampm{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-#input_32_ampm{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.calendar.popup table tbody td{
-  color: #fff !important;
-}
-.calendar.popup table tbody td .unselectable{
-  opacity:0 !important;
-  color:#fff !important;
-}
-#list > tbody > tr:nth-child(2) > td.col3 > div > div.radio:before{
-    content:"";
-    background:green;
-    width:10px;
-    height:10px;
-}
-
-#inputs > div:last-child input{
-  padding-bottom:15px !important;
-}
-
-#FITB_20 .FITB-inptCont:nth-child(2){
-      overflow: visible !important;
-}
-@media (max-width: 775px){
-  #id_5 .inputContainer {
-      width: 90% !important;
-  }
-  #cid_4 > div > span:before {
-    bottom: 8px !important;
-  }
-  #cid_32 > div{
-    padding-bottom:15px !important;
-  }
-  max-width: 180px;
-    font-size: 12px;
-  }
-}
-
 @media(max-width:775px){
   #id_3 #cid_3 #input_3{
      padding-bottom: 8px !important;
@@ -2731,6 +2492,245 @@ content:'';
 
   
 }
+
+
+
+#id_7 #listContainer > button{
+    padding: 50px;
+}
+
+
+.form-textarea:hover, .form-textbox:hover, li[data-type=control_fileupload] .qq-upload-button:hover, .signature-wrapper:hover{
+   box-shadow: none !important;  
+}
+.form-line-active{
+    background-color:transparent !important;   
+}
+
+#id_103 .form-single-column .form-checkbox-item label:after{
+    right: 0 !important;
+    left: auto !important;
+    top: -3px !important;
+}
+
+
+
+
+
+#ampm_107_time-2{
+  color:#fff; 
+}
+
+
+#cid_48 #label_input_48_0:after, #cid_58 #label_input_58_0:after, #cid_59 #label_input_59_0:after, #cid_60 #label_input_60_0:after{
+    top: 12.5px;
+    background: #E49D57;
+}
+ #text_86{
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.5px;
+  color: #FFFFFF; 
+}
+#text_79{
+     font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.5px;
+  color: #FFFFFF; 
+}
+
+span.FITB-inptCont[data-type=radiobox] label:after{
+   background-color: #E49D57;
+}
+
+
+#input_31_ampm{
+    color: #fff;
+    border-color: #fff;
+}
+
+ #input_32_ampm{
+    color: #fff;
+    border-color: #fff;
+}
+
+
+
+
+
+#id_5 .inputContainer{
+  
+  height: 66px !important;
+    position: absolute !important;
+    width: 95% !important;
+    top: 16px !important;
+    left: 16px !important;
+    background-image: repeating-linear-gradient(25deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px), repeating-linear-gradient(115deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px), repeating-linear-gradient(205deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px), repeating-linear-gradient(295deg, #e49d57, #e49d57 14px, transparent 14px, transparent 24px, #e49d57 24px) !important;
+    background-size: 2px 100%, 100% 2px, 2px 100% , 100% 2px !important;
+    background-position: 0 0, 0 0, 100% 0, 0 100% !important;
+    background-repeat: no-repeat !important;
+    border: none !important;
+
+}
+
+#cid_103 > div > span:nth-child(13){
+  margin-right:0px; 
+}
+#cid_103 > div > span:nth-child(16){
+    margin-right:0px; 
+}
+
+
+#cid_5 .qq-upload-button:before {
+    background-image: url('https://static1.squarespace.com/static/61539d366385f16b55b73a98/t/623af1145e2b7b29aebc3e73/1648029972250/download.png') !important;
+  content:'';
+  width: 18px;
+  height: 18px;
+  display: block;
+  position:absolute;
+  bottom: 25px;
+  right: 225px;
+  background-size: cover;
+  background-color: #000;
+}
+
+
+#cid_4 > div > span:before{
+       background-image: url('https://static1.squarespace.com/static/61539d366385f16b55b73a98/t/623af118748758708623b31d/1648029976868/calendar.png') !important;
+content:'';
+  width: 24px;
+  height: 24px;
+  display: block;
+  position:absolute;
+  bottom: 8px;
+  right:2px;
+  background-size: cover;
+  background-color: #000;
+}
+
+
+
+.form-radio-item label:after{
+   top: 12.5px !important;
+   background-color: #E49D57 !important;
+}
+
+
+
+#customFieldFrame_7{
+    width:686px !important;
+  max-width:100% !important;
+} 
+#cid_7{
+  width:100% !important; 
+}
+
+
+#cid_16{
+  width: 100% !important;
+}
+#customFieldFrame_16{
+   max-width: 100% !important;
+    width: 100% !important; 
+}
+
+#id_24 .FITB-inptCont:nth-child(3){
+  position:absolute;
+       top: 40px;
+    left: 267px;
+}
+
+
+:focus-visible {
+    outline: none !important;
+}
+
+  #id_87, #id_88, #id_89, #id_90{
+    margin-right:30px !important;
+
+  }
+
+.form-all{
+  box-shadow: none !important;
+}
+
+
+.calendar.popup:before{
+  border-color: #E49D57 !important;
+  box-shadow: none !important;
+}
+.calendar.popup table{
+  background-color: #000 !important;
+}
+.currentDate, .pickerItem select, .appointmentCalendar .calendarDay, .calendar.popup th, .calendar.popup table tbody td, .calendar-new-header>*, .form-collapse-table{
+  color:#fff !important;
+}
+.clear-pad-btn, .appointmentCalendar .dayOfWeek, .calendar.popup th{
+  background: #000 !important;
+}
+.calendar-new-month{
+  border-color: #E49D57 !important;
+}
+.calendar.popup tr.days td.selected:after{
+  background-color: #E49D57 !important;
+}
+
+.calendar.popup thead > tr:nth-child(4) > th{
+      background: #000 !important;
+}
+
+
+
+#input_31_ampm{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#input_32_ampm{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.calendar.popup table tbody td{
+  color: #fff !important;
+}
+.calendar.popup table tbody td .unselectable{
+  opacity:0 !important;
+  color:#fff !important;
+}
+#list > tbody > tr:nth-child(2) > td.col3 > div > div.radio:before{
+    content:"";
+    background:green;
+    width:10px;
+    height:10px;
+}
+
+#inputs > div:last-child input{
+  padding-bottom:15px !important;
+}
+
+#FITB_20 .FITB-inptCont:nth-child(2){
+      overflow: visible !important;
+}
+@media (max-width: 775px){
+  #id_5 .inputContainer {
+      width: 90% !important;
+  }
+  #cid_4 > div > span:before {
+    bottom: 8px !important;
+  }
+  #cid_32 > div{
+    padding-bottom:15px !important;
+  }
+  max-width: 180px;
+    font-size: 12px;
+  }
+}
+
 
 
 
