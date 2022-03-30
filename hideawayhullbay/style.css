@@ -318,7 +318,7 @@ select {
   #id_66 #input_66{
            padding: 0px !important;
         height: 100px !important;
-        font-size: 18px !important;
+        font-size: 18px ;
   }
   #cid_71, #cid_73, #cid_74, #cid_74, #cid_75, #cid_76, #cid_77{
     margin:0px !important;
@@ -326,7 +326,7 @@ select {
   #id_78 #input_78{
         padding: 0px !important;
         height: 100px !important;
-        font-size: 18px !important;
+        font-size: 18px ;
   }
   #cid_81, #cid_82, #cid_83, #cid_84{
        margin:0px !important;
@@ -334,7 +334,7 @@ select {
   #id_85 #input_85{
         padding: 0px !important;
         height: 100px !important;
-        font-size: 18px !important;
+        font-size: 18px ;
   }
   #id_87, #id_88, #id_89, #id_90{
     margin:0px !important;
@@ -346,7 +346,7 @@ select {
   #id_91 #input_91{
         padding: 0px !important;
         height: 100px !important;
-        font-size: 18px !important;
+        font-size: 18px ;
   }
   #id_93 #label_93, #id_94 #label_94, #id_95 #label_95, #id_96 #label_96, #id_97 #label_97, #id_98 #label_98{
     margin:0px !importnat; 
@@ -358,7 +358,7 @@ select {
   #id_100 #input_100, #id_101 #input_101{
             padding: 0px !important;
         height: 100px !important;
-        font-size: 18px !important;
+        font-size: 18px ;
   }
   #id_103 .form-single-column .form-checkbox-item label{
       font-size: 11px !important;
