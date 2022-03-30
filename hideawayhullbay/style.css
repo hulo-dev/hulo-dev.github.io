@@ -399,17 +399,17 @@ select {
   }
 #label_87{
     max-width: 180px !important;
-    font-size: 12px !important;
+    font-size: 12px ;
 }
 #label_88 {
   max-width: 165px !important;
-    font-size: 12px !important;
+    font-size: 12px ;
 }
 #label_89 {
-    font-size: 12px !important;
+    font-size: 12px;
 }
 #label_90 {
-    font-size: 12px !important;
+    font-size: 12px;
 }
 #id_5 .inputContainer{
       width: 90% !important;
