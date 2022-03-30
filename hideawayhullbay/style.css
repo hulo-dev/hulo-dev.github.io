@@ -128,7 +128,7 @@ select {
 }
 
 #cid_27 #input_27{
-      font-size: 24px ;
+      font-size: 24px  !important;
 }
 #id_33 #input_33{
   font-size: 24px ;
