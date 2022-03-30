@@ -2445,7 +2445,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
         font-size: 18px ;
   }
   #cid_27 #input_27{
-    font-size: 18px ;
+    font-size: 18px  !important;
   }
   #cid_3{
     margin:0px !important;
