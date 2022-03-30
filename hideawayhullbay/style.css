@@ -179,255 +179,6 @@ select {
 }
 
 
-@media(max-width:775px){
-  #id_3 #cid_3 #input_3{
-     padding-bottom: 8px !important;
-     font-size: 14px !important;
-  }
-  #id_3 #label_3{
-     margin-bottom: 8px !important;
-  }
-  #id_4 #label_4{
-     margin-bottom: 8px !important;
-  }
-  #id_4 #lite_mode_4{
-     padding-bottom: 8px !important;
-     font-size: 18px !important;
-  }
-  #cid_4 > div > span:before{
-     bottom: 8px !important;
-  }
-  #id_5 #label_5{
-    margin-bottom: 0px !important;
-  }
-  #id_5 .inputContainer {
-    width: 90% !important;
-  }
-  #id_5 .qq-upload-button .jfUpload-heading{
-    position: absolute !important;
-    left: auto !important;
-    right: auto !important;
-    margin-right: 30px !important;
-  }
-  #cid_5 .qq-upload-button:before{
-     right: 65px !important;
-  }
-  .form-section li{
-    margin-bottom:20px !important; 
-  }
-  #id_9 #input_9{
-     padding-bottom: 8px !important;
-     font-size: 14px !important;
-  }
-  #cid_21{
-    margin-top:-20px !important; 
-  }
-  #cid_27 #input_27{
-    padding-top:0px !important;  
-    height:100px  !important;
-  }
-  #cid_27{
-    margin:0px!important;
-  }
-  #cid_28{
-    margin:0px !important;
-  }
-  #input_28{
-    padding: 0px;
-    height: 100px !important;
-    font-size: 18px !important;
-  }
-  #id_31, #id_32{
-         width: 45% !important;
-  }
-   #id_31{
-    margin-right:10% !important;  
-  }
-  #id_31 label{
-    margin-bottom:0px !important; 
-  }
-  #id_32 label{
-     margin-bottom:0px !important; 
-  }
-  #cid_33{
-    margin:0px !important; 
-  }
-  #id_33 #input_33{
-     padding-bottom: 8px !important;
-     font-size: 18px !important;
-  }
-  #id_35 #label_35{
-    margin:0px !important; 
-  }
-  #id_35 #input_35{
-     padding-bottom: 8px !important;
-     font-size: 14px !important;
-  }
-  #cid_36{
-    margin:0px !important; 
-  }
-  #id_36 #input_36{
-     padding-bottom: 8px !important;
-     font-size: 14px !important;
-  }
-  #id_38 #input_38{
-        padding: 0px !important;
-        height: 100px !important;
-        font-size: 18px !important;
-  }
-  #label_48, #label_58, #label_59, #label_60{
-      font-size: 18px !important;
-  }
-  
-  #label_61, #label_62, #label_63, #label_64{
-    font-size: 18px !important;
-  }
-  
-  #cid_48, #cid_58, #cid_59, #cid_60{
-      margin:0px !important;
-  }
-  #cid_61, #cid_62, #cid_63, #cid_64{
-      margin:0px !important;
-  }
-  
-  #cid_48 #label_input_48_0, #cid_58 #label_input_58_0, #cid_59 #label_input_59_0, #cid_60 #label_input_60_0{
-      font-size: 18px !important;
-      margin-bottom:8px;
-  }
-    #cid_61 #label_input_61_0, #cid_62 #label_input_62_0, #cid_63 #label_input_63_0, #cid_64 #label_input_64_0}
-   font-size: 18px !important;
-      margin-bottom:8px;
-}
-  
-  
-  #cid_48 #label_input_48_0:before, #cid_58 #label_input_58_0:before, #cid_59 #label_input_59_0:before, #cid_60 #label_input_60_0:before{
-      top: 5px;
-  }
-  #cid_61 #label_input_61_0:before, #cid_62 #label_input_62_0:before, #cid_63 #label_input_63_0:before, #cid_64 #label_input_64_0:before{
-        top: 5px;
-  }
-
-
-  #id_48, #id_58, #id_59, #id_60{
-      margin:0px !important;
-  }
-  #id_61, #id_62, #id_63, #id_64{
-      margin:0px !important; 
-  }
-  
-  
-  #cid_66{
-     margin:0px !important;
-  }
-  #id_66 #input_66{
-           padding: 0px !important;
-        height: 100px !important;
-        font-size: 18px ;
-  }
-  #cid_71, #cid_73, #cid_74, #cid_74, #cid_75, #cid_76, #cid_77{
-    margin:0px !important;
-  }
-  #id_78 #input_78{
-        padding: 0px !important;
-        height: 100px !important;
-        font-size: 18px ;
-  }
-  #cid_81, #cid_82, #cid_83, #cid_84{
-       margin:0px !important;
-  }
-  #id_85 #input_85{
-        padding: 0px !important;
-        height: 100px !important;
-        font-size: 18px ;
-  }
-  #id_87, #id_88, #id_89, #id_90{
-    margin:0px !important;
-    margin-bottom:10px !Important;
-  }
-  #cid_87, #cid_88, #cid_89, #cid_90{
-     margin:0px !important;
-  }
-  #id_91 #input_91{
-        padding: 0px !important;
-        height: 100px !important;
-        font-size: 18px ;
-  }
-  #id_93 #label_93, #id_94 #label_94, #id_95 #label_95, #id_96 #label_96, #id_97 #label_97, #id_98 #label_98{
-    margin:0px !importnat; 
-  }
-  #id_93 #input_93, #id_94 #input_94, #id_95 #input_95, #id_96 #input_96, #id_97 #input_97, #id_98 #input_98{
-    font-size: 14px !important;
-    padding-bottom:5px !important;
-  }
-  #id_100 #input_100, #id_101 #input_101{
-            padding: 0px !important;
-        height: 100px !important;
-        font-size: 18px ;
-  }
-  #id_103 .form-single-column .form-checkbox-item label{
-      font-size: 11px !important;
-  }
-  #id_104 #input_104{
-        padding: 0px !important;
-        height: 100px !important;
-        font-size: 18px ;
-  }
-  #id_106 #input_106{
-       padding: 0px !important;
-        height: 100px !important;
-        font-size: 18px ;
-  }
-  #cid_27 #input_27{
-    font-size: 18px ;
-  }
-  #cid_3{
-    margin:0px !important;
-  }  
-  #cid_4{
-    margin:0px !important;
-  }
-  #id_3 #cid_3 #input_3{
-    padding-bottom:8px !importnat;
-  }
- #id_4 #lite_mode_4{
-    font-size: 14px !important;
-  }
-  #id_33 #input_33{
-    font-size: 14px ;
-  }
-  #id_93 #label_93, #id_94 #label_94, #id_95 #label_95, #id_96 #label_96, #id_97 #label_97, #id_98 #label_98{
-    margin-bottom:0px !important;
-  }
-  #id_5 .inputContainer{
-    width: 90% !important;
-  }
-#label_87{
-    max-width: 180px;
-    font-size: 12px ;
-}
-#label_88 {
-  max-width: 165px;
-    font-size: 12px ;
-}
-#label_89 {
-    font-size: 12px;
-}
-#label_90 {
-    font-size: 12px;
-}
-#id_5 .inputContainer{
-      width: 90% !important;
-}
-#cid_32 > div{
-      padding-bottom: 15px !important;
-}
-
-
-  
-}
-
-
-
 .table:last-child #initialInput{
     font-family : 'Lexend';
     font-style : normal;
@@ -2734,6 +2485,252 @@ content:'';
   }
 }
 
+@media(max-width:775px){
+  #id_3 #cid_3 #input_3{
+     padding-bottom: 8px !important;
+     font-size: 14px !important;
+  }
+  #id_3 #label_3{
+     margin-bottom: 8px !important;
+  }
+  #id_4 #label_4{
+     margin-bottom: 8px !important;
+  }
+  #id_4 #lite_mode_4{
+     padding-bottom: 8px !important;
+     font-size: 18px !important;
+  }
+  #cid_4 > div > span:before{
+     bottom: 8px !important;
+  }
+  #id_5 #label_5{
+    margin-bottom: 0px !important;
+  }
+  #id_5 .inputContainer {
+    width: 90% !important;
+  }
+  #id_5 .qq-upload-button .jfUpload-heading{
+    position: absolute !important;
+    left: auto !important;
+    right: auto !important;
+    margin-right: 30px !important;
+  }
+  #cid_5 .qq-upload-button:before{
+     right: 65px !important;
+  }
+  .form-section li{
+    margin-bottom:20px !important; 
+  }
+  #id_9 #input_9{
+     padding-bottom: 8px !important;
+     font-size: 14px !important;
+  }
+  #cid_21{
+    margin-top:-20px !important; 
+  }
+  #cid_27 #input_27{
+    padding-top:0px !important;  
+    height:100px  !important;
+  }
+  #cid_27{
+    margin:0px!important;
+  }
+  #cid_28{
+    margin:0px !important;
+  }
+  #input_28{
+    padding: 0px;
+    height: 100px !important;
+    font-size: 18px !important;
+  }
+  #id_31, #id_32{
+         width: 45% !important;
+  }
+   #id_31{
+    margin-right:10% !important;  
+  }
+  #id_31 label{
+    margin-bottom:0px !important; 
+  }
+  #id_32 label{
+     margin-bottom:0px !important; 
+  }
+  #cid_33{
+    margin:0px !important; 
+  }
+  #id_33 #input_33{
+     padding-bottom: 8px !important;
+     font-size: 18px !important;
+  }
+  #id_35 #label_35{
+    margin:0px !important; 
+  }
+  #id_35 #input_35{
+     padding-bottom: 8px !important;
+     font-size: 14px !important;
+  }
+  #cid_36{
+    margin:0px !important; 
+  }
+  #id_36 #input_36{
+     padding-bottom: 8px !important;
+     font-size: 14px !important;
+  }
+  #id_38 #input_38{
+        padding: 0px !important;
+        height: 100px !important;
+        font-size: 18px !important;
+  }
+  #label_48, #label_58, #label_59, #label_60{
+      font-size: 18px !important;
+  }
+  
+  #label_61, #label_62, #label_63, #label_64{
+    font-size: 18px !important;
+  }
+  
+  #cid_48, #cid_58, #cid_59, #cid_60{
+      margin:0px !important;
+  }
+  #cid_61, #cid_62, #cid_63, #cid_64{
+      margin:0px !important;
+  }
+  
+  #cid_48 #label_input_48_0, #cid_58 #label_input_58_0, #cid_59 #label_input_59_0, #cid_60 #label_input_60_0{
+      font-size: 18px !important;
+      margin-bottom:8px;
+  }
+    #cid_61 #label_input_61_0, #cid_62 #label_input_62_0, #cid_63 #label_input_63_0, #cid_64 #label_input_64_0}
+   font-size: 18px !important;
+      margin-bottom:8px;
+}
+  
+  
+  #cid_48 #label_input_48_0:before, #cid_58 #label_input_58_0:before, #cid_59 #label_input_59_0:before, #cid_60 #label_input_60_0:before{
+      top: 5px;
+  }
+  #cid_61 #label_input_61_0:before, #cid_62 #label_input_62_0:before, #cid_63 #label_input_63_0:before, #cid_64 #label_input_64_0:before{
+        top: 5px;
+  }
+
+
+  #id_48, #id_58, #id_59, #id_60{
+      margin:0px !important;
+  }
+  #id_61, #id_62, #id_63, #id_64{
+      margin:0px !important; 
+  }
+  
+  
+  #cid_66{
+     margin:0px !important;
+  }
+  #id_66 #input_66{
+           padding: 0px !important;
+        height: 100px !important;
+        font-size: 18px ;
+  }
+  #cid_71, #cid_73, #cid_74, #cid_74, #cid_75, #cid_76, #cid_77{
+    margin:0px !important;
+  }
+  #id_78 #input_78{
+        padding: 0px !important;
+        height: 100px !important;
+        font-size: 18px ;
+  }
+  #cid_81, #cid_82, #cid_83, #cid_84{
+       margin:0px !important;
+  }
+  #id_85 #input_85{
+        padding: 0px !important;
+        height: 100px !important;
+        font-size: 18px ;
+  }
+  #id_87, #id_88, #id_89, #id_90{
+    margin:0px !important;
+    margin-bottom:10px !Important;
+  }
+  #cid_87, #cid_88, #cid_89, #cid_90{
+     margin:0px !important;
+  }
+  #id_91 #input_91{
+        padding: 0px !important;
+        height: 100px !important;
+        font-size: 18px ;
+  }
+  #id_93 #label_93, #id_94 #label_94, #id_95 #label_95, #id_96 #label_96, #id_97 #label_97, #id_98 #label_98{
+    margin:0px !importnat; 
+  }
+  #id_93 #input_93, #id_94 #input_94, #id_95 #input_95, #id_96 #input_96, #id_97 #input_97, #id_98 #input_98{
+    font-size: 14px !important;
+    padding-bottom:5px !important;
+  }
+  #id_100 #input_100, #id_101 #input_101{
+            padding: 0px !important;
+        height: 100px !important;
+        font-size: 18px ;
+  }
+  #id_103 .form-single-column .form-checkbox-item label{
+      font-size: 11px !important;
+  }
+  #id_104 #input_104{
+        padding: 0px !important;
+        height: 100px !important;
+        font-size: 18px ;
+  }
+  #id_106 #input_106{
+       padding: 0px !important;
+        height: 100px !important;
+        font-size: 18px ;
+  }
+  #cid_27 #input_27{
+    font-size: 18px ;
+  }
+  #cid_3{
+    margin:0px !important;
+  }  
+  #cid_4{
+    margin:0px !important;
+  }
+  #id_3 #cid_3 #input_3{
+    padding-bottom:8px !importnat;
+  }
+ #id_4 #lite_mode_4{
+    font-size: 14px !important;
+  }
+  #id_33 #input_33{
+    font-size: 14px ;
+  }
+  #id_93 #label_93, #id_94 #label_94, #id_95 #label_95, #id_96 #label_96, #id_97 #label_97, #id_98 #label_98{
+    margin-bottom:0px !important;
+  }
+  #id_5 .inputContainer{
+    width: 90% !important;
+  }
+#label_87{
+    max-width: 180px;
+    font-size: 12px ;
+}
+#label_88 {
+  max-width: 165px;
+    font-size: 12px ;
+}
+#label_89 {
+    font-size: 12px;
+}
+#label_90 {
+    font-size: 12px;
+}
+#id_5 .inputContainer{
+      width: 90% !important;
+}
+#cid_32 > div{
+      padding-bottom: 15px !important;
+}
+
+
+  
+}
 
 
 
