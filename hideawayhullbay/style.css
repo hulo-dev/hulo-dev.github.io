@@ -2699,7 +2699,7 @@ content:'';
     padding-right: 20px;
 }
 .calendar.popup table tbody td{
-  color: #000 !important;
+  color: #fff !important;
 }
 .calendar.popup table tbody td .unselectable{
   opacity:0 !important;
