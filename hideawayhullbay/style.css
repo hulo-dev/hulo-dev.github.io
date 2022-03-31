@@ -13,6 +13,30 @@
     padding: 20px !important;
 }
 
+.thankyou .form-all{
+    margin: 0 auto !important;
+}
+.thankyou #stage > div > div h1{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+}
+.thankyou #stage > div > div p{
+        font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+}
+.thankyou .form-footer{
+  display:none !important;
+}
+
+
+
+
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
