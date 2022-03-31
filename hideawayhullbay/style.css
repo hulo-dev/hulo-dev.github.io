@@ -679,11 +679,16 @@ li[data-type=control_fileupload] .jfUpload-heading{
 
 
 
-#FITB_20 .FITB-inptCont:nth-child(1):before{
+#FITB_20 .FITB-inptCont:nth-child(1):after{
   content:'asdasdasd';
   position:absolute;
   top:0px;
-  
+  left:0px;
+  font-family: 'Lexend';
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
 }
 
 
