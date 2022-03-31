@@ -679,7 +679,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
 
 
 
-#id_20-date-1 label:before{
+#FITB_20 .FITB-inptCont:nth-child(1) label:before{
   content:'asdasdasd';
   position:absolute;
   top:0px;
