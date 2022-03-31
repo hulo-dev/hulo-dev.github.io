@@ -679,7 +679,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
 
 
 
-#id_20-date-1:before:after{
+#id_20-date-1:after{
   content:'asdasdasd';
   position:absolute;
   top:0px;
