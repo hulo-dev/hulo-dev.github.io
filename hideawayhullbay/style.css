@@ -711,59 +711,56 @@ li[data-type=control_fileupload] .jfUpload-heading{
     left: 0 !important;
     max-width: 100% !important;
     top: 230px !important;
-}
-  #FITB_20 .FITB-inptCont:nth-child(1) label{
-  overflow: visible;
-}
-#FITB_20 .FITB-inptCont:nth-child(1) label:before{
-  content:'asdasdasd';
-  position:absolute;
-  top:-30px;
-  left:0px;
-  font-family: 'Lexend';
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.5px;
-  color: #FFFFFF;
+  }
+    #FITB_20 .FITB-inptCont:nth-child(1) label{
+    overflow: visible;
+  }
+  #FITB_20 .FITB-inptCont:nth-child(1) label:before{
+    content:'asdasdasd';
+    position:absolute;
+    top:-30px;
+    left:0px;
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+  }
+
+  #FITB_20 .FITB-inptCont:nth-child(2) label{
+    overflow: visible;
+  }
+  #FITB_20 .FITB-inptCont:nth-child(2) label:before{
+    content:'asdasdasd';
+    position:absolute;
+    top:-30px;
+    left:0px;
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+  }
+
+
+  #FITB_20 .FITB-inptCont:nth-child(3) label{
+    overflow: visible;
+  }
+  #FITB_20 .FITB-inptCont:nth-child(3) label:before{
+    content:'asdasdasd';
+    position:absolute;
+    top:-30px;
+    left:0px;
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+  }
+
+  
 }
 
-#FITB_20 .FITB-inptCont:nth-child(2) label{
-  overflow: visible;
-}
-#FITB_20 .FITB-inptCont:nth-child(2) label:before{
-  content:'asdasdasd';
-  position:absolute;
-  top:-30px;
-  left:0px;
-  font-family: 'Lexend';
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.5px;
-  color: #FFFFFF;
-}
-
-
-#FITB_20 .FITB-inptCont:nth-child(3) label{
-  overflow: visible;
-}
-#FITB_20 .FITB-inptCont:nth-child(3) label:before{
-  content:'asdasdasd';
-  position:absolute;
-  top:-30px;
-  left:0px;
-  font-family: 'Lexend';
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.5px;
-  color: #FFFFFF;
-}
-
-  
-  
-  
-  
-  
-}
 
 
 #id_24 p{
