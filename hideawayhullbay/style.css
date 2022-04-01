@@ -988,7 +988,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
   #id_24 .FITB-inptCont:nth-child(3):before{
     position:absolute;
     content:'Do you need us to arrange transportation for you?';
-    top: -30px;
+    top: -40px;
     left: 0;
     text-indent: 0px;
     font-family: 'Lexend';
@@ -1015,12 +1015,12 @@ li[data-type=control_fileupload] .jfUpload-heading{
     text-indent: 0px;
   }
   #id_24 .FITB-inptCont:nth-child(3){
-    top: 130px;
+    top: 140px;
     left: 0px;
     text-indent: 0px;
   }
   #id_24 .FITB-inptCont:nth-child(4){
-    top: 130px;
+    top: 140px;
     left: 100px;
     text-indent: 0px;
   }   
