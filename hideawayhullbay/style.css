@@ -2608,11 +2608,7 @@ content:'';
     width: 100% !important; 
 }
 
-#id_24 .FITB-inptCont:nth-child(3){
-  position:absolute;
-       top: 40px;
-    left: 267px;
-}
+
 
 
 :focus-visible {
