@@ -784,7 +784,13 @@ li[data-type=control_fileupload] .jfUpload-heading{
       transform: translateY(0%) !important;
       opacity: 0 !important;
   }
-
+  #id_20 span.FITB-inptCont[data-type=textbox] input:focus~label{
+   transform: translateY(0%) !important;
+      opacity: 0 !important;
+  }
+  
+  
+  
   
   #FITB_20 p{
     text-indent: -770px;
