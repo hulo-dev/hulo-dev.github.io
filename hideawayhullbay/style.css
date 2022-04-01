@@ -690,6 +690,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     font-size: 16px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+    display:none;
   }
 
   #FITB_20 .FITB-inptCont:nth-child(2) label{
@@ -705,6 +706,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     font-size: 16px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+    display:none;
   }
 
 
@@ -721,6 +723,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     font-size: 16px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+    display:none;
   }
 
 
@@ -739,6 +742,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     font-size: 16px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+    display:none;
   }
 
   #FITB_107 .FITB-inptCont:nth-child(2) label{
@@ -754,6 +758,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     font-size: 16px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+    display:none;
   }
 
 
@@ -770,6 +775,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     font-size: 16px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+    display:none;
   }
 
 
@@ -848,7 +854,24 @@ li[data-type=control_fileupload] .jfUpload-heading{
     max-width: 100% !important;
     top: 230px !important;
   }
-  
+  #FITB_20 .FITB-inptCont:nth-child(1) label:before{
+    display:block;
+  }
+    #FITB_20 .FITB-inptCont:nth-child(2) label:before{
+    display:block;
+  }
+    #FITB_20 .FITB-inptCont:nth-child(3) label:before{
+    display:block;
+  }
+    #FITB_107 .FITB-inptCont:nth-child(1) label:before{
+    display:block;
+  }
+    #FITB_107 .FITB-inptCont:nth-child(2) label:before{
+    display:block;
+  }
+    #FITB_107 .FITB-inptCont:nth-child(3) label:before{
+    display:block;
+  }
 }
 
 
@@ -976,7 +999,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
   #id_24 .FITB-inptCont:nth-child(1):before{
     position:absolute;
     content:'Will you be renting a car?';
-    top: -30px;
+    top: -25px;
     left: 0;
     text-indent: 0px;
     font-family: 'Lexend';
@@ -984,6 +1007,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     font-size: 16px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+    display:none;
   }
   #id_24 .FITB-inptCont:nth-child(3):before{
     position:absolute;
@@ -996,6 +1020,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     font-size: 16px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
+    display:none;
   }
 
 
@@ -1026,7 +1051,12 @@ li[data-type=control_fileupload] .jfUpload-heading{
     left: 100px;
     text-indent: 0px;
   }   
-  
+    #id_24 .FITB-inptCont:nth-child(1):before{
+    display:block;
+  }
+  #id_24 .FITB-inptCont:nth-child(3):before{
+    display:block;
+  }
 }
 
 
