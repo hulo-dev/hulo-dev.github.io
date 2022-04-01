@@ -677,10 +677,10 @@ li[data-type=control_fileupload] .jfUpload-heading{
 }
 
 
-    #FITB_20 .FITB-inptCont:nth-child(1) input{
+    #FITB_20 .FITB-inptCont:nth-child(1) label{
     overflow: visible;
   }
-  #FITB_20 .FITB-inptCont:nth-child(1)  input:before{
+  #FITB_20 .FITB-inptCont:nth-child(1)  label:before{
     content:'Arrival Date:';
     position:absolute;
     top:-30px;
@@ -693,10 +693,10 @@ li[data-type=control_fileupload] .jfUpload-heading{
     display:none;
   }
 
-  #FITB_20 .FITB-inptCont:nth-child(2){
+  #FITB_20 .FITB-inptCont:nth-child(2) label{
     overflow: visible;
   }
-  #FITB_20 .FITB-inptCont:nth-child(2):after{
+  #FITB_20 .FITB-inptCont:nth-child(2) label:after{
     content:'Arrival Time:';
     position:absolute;
     top:-30px;
@@ -710,10 +710,10 @@ li[data-type=control_fileupload] .jfUpload-heading{
   }
 
 
-  #FITB_20 .FITB-inptCont:nth-child(3) input{
+  #FITB_20 .FITB-inptCont:nth-child(3) label{
     overflow: visible;
   }
-  #FITB_20 .FITB-inptCont:nth-child(3) input:before{
+  #FITB_20 .FITB-inptCont:nth-child(3) label:before{
     content:'Airline & Flight Number:';
     position:absolute;
     top:-30px;
