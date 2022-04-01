@@ -774,9 +774,11 @@ li[data-type=control_fileupload] .jfUpload-heading{
 
 
 @media(max-width:775px){
+  
+  
   #FITB_20 p{
     text-indent: -500px;
-    padding-bottom: 300px !important;
+    padding-bottom: 270px !important;
   }
    #FITB_107 p{
     text-indent: -500px;
@@ -970,6 +972,34 @@ li[data-type=control_fileupload] .jfUpload-heading{
   height:1px;
   background:#E49D57;
 }
+@media(max-width:775px){
+  #id_24 p{
+    text-indent: -1500px;
+    padding-bottom: 130px;
+  }
+  #id_24 .FITB-inptCont:nth-child(1){
+    top: 40px;
+    left: 0;
+    text-indent: 0px;
+  }
+  #id_24 .FITB-inptCont:nth-child(2){
+    top: 40px;
+    left: 100px;
+    text-indent: 0px;
+  }
+  #id_24 .FITB-inptCont:nth-child(3){
+    top: 150px;
+    left: 0px;
+    text-indent: 0px;
+  }
+  #id_24 .FITB-inptCont:nth-child(4){
+    top: 150px;
+    left: 100px;
+    text-indent: 0px;
+  }   
+  
+}
+
 
 #timeInput_107_time-2{
   width: 174px !important;
