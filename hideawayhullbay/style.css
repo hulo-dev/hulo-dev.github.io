@@ -972,6 +972,33 @@ li[data-type=control_fileupload] .jfUpload-heading{
   height:1px;
   background:#E49D57;
 }
+
+  #id_24 .FITB-inptCont:nth-child(1):before{
+    position:absolute;
+    content:'asdasdasd';
+    top: -30px;
+    left: 0;
+    text-indent: 0px;
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+  }
+  #id_24 .FITB-inptCont:nth-child(3):before{
+    position:absolute;
+    content:'asdasdasd';
+    top: -30px;
+    left: 0;
+    text-indent: 0px;
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+  }
+
+
 @media(max-width:775px){
   #id_24 p{
     text-indent: -1500px;
