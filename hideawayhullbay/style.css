@@ -780,7 +780,11 @@ li[data-type=control_fileupload] .jfUpload-heading{
 
 
 @media(max-width:775px){
-  
+  #id_20 span.FITB-inptCont[data-type=datebox] input:focus~label{
+      transform: translateY(0%) !important;
+      opacity: 0 !important;
+  }
+
   
   #FITB_20 p{
     text-indent: -770px;
