@@ -729,10 +729,10 @@ li[data-type=control_fileupload] .jfUpload-heading{
 
 
 
-    #FITB_107 .FITB-inptCont:nth-child(1) input{
+    #FITB_107 .FITB-inptCont:nth-child(1) label{
     overflow: visible;
   }
-  #FITB_107 .FITB-inptCont:nth-child(1) input:before{
+  #FITB_107 .FITB-inptCont:nth-child(1) label:before{
     content:'Departure Date:';
     position:absolute;
     top:-30px;
@@ -745,10 +745,10 @@ li[data-type=control_fileupload] .jfUpload-heading{
     display:none;
   }
 
-  #FITB_107 .FITB-inptCont:nth-child(2) input{
+  #FITB_107 .FITB-inptCont:nth-child(2) label{
     overflow: visible;
   }
-  #FITB_107 .FITB-inptCont:nth-child(2) input:before{
+  #FITB_107 .FITB-inptCont:nth-child(2) label:before{
     content:'Departure Time: ';
     position:absolute;
     top:-30px;
@@ -762,10 +762,10 @@ li[data-type=control_fileupload] .jfUpload-heading{
   }
 
 
-  #FITB_107 .FITB-inptCont:nth-child(3) input{
+  #FITB_107 .FITB-inptCont:nth-child(3) label{
     overflow: visible;
   }
-  #FITB_107 .FITB-inptCont:nth-child(3) input:before{
+  #FITB_107 .FITB-inptCont:nth-child(3) label:before{
     content:'Airline & Flight Number:';
     position:absolute;
     top:-30px;
@@ -854,22 +854,22 @@ li[data-type=control_fileupload] .jfUpload-heading{
     max-width: 100% !important;
     top: 230px !important;
   }
-  #FITB_20 .FITB-inptCont:nth-child(1) input:before{
+  #FITB_20 .FITB-inptCont:nth-child(1) label:before{
     display:block;
   }
-    #FITB_20 .FITB-inptCont:nth-child(2) input:before{
+    #FITB_20 .FITB-inptCont:nth-child(2) label:before{
     display:block;
   }
-    #FITB_20 .FITB-inptCont:nth-child(3) input:before{
+    #FITB_20 .FITB-inptCont:nth-child(3) label:before{
     display:block;
   }
-    #FITB_107 .FITB-inptCont:nth-child(1) input:before{
+    #FITB_107 .FITB-inptCont:nth-child(1) label:before{
     display:block;
   }
-    #FITB_107 .FITB-inptCont:nth-child(2) input:before{
+    #FITB_107 .FITB-inptCont:nth-child(2) label:before{
     display:block;
   }
-    #FITB_107 .FITB-inptCont:nth-child(3) input:before{
+    #FITB_107 .FITB-inptCont:nth-child(3) label:before{
     display:block;
   }
 }
