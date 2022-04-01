@@ -696,7 +696,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
   #FITB_20 .FITB-inptCont:nth-child(2) label{
     overflow: visible;
   }
-  #FITB_20 .FITB-inptCont:nth-child(2) label:after{
+  #FITB_20 .FITB-inptCont:nth-child(2) label:before{
     content:'Arrival Time:';
     position:absolute;
     top:-30px;
