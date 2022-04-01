@@ -693,10 +693,10 @@ li[data-type=control_fileupload] .jfUpload-heading{
     display:none;
   }
 
-  #FITB_20 .FITB-inptCont:nth-child(2)  input{
+  #FITB_20 .FITB-inptCont:nth-child(2){
     overflow: visible;
   }
-  #FITB_20 .FITB-inptCont:nth-child(2)  input:before{
+  #FITB_20 .FITB-inptCont:nth-child(2):after{
     content:'Arrival Time:';
     position:absolute;
     top:-30px;
