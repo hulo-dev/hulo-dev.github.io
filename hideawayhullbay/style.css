@@ -677,10 +677,10 @@ li[data-type=control_fileupload] .jfUpload-heading{
 }
 
 
-    #FITB_20 .FITB-inptCont:nth-child(1) label{
+    #FITB_20 .FITB-inptCont:nth-child(1) input{
     overflow: visible;
   }
-  #FITB_20 .FITB-inptCont:nth-child(1) label:before{
+  #FITB_20 .FITB-inptCont:nth-child(1)  input:before{
     content:'Arrival Date:';
     position:absolute;
     top:-30px;
@@ -693,10 +693,10 @@ li[data-type=control_fileupload] .jfUpload-heading{
     display:none;
   }
 
-  #FITB_20 .FITB-inptCont:nth-child(2) label{
+  #FITB_20 .FITB-inptCont:nth-child(2)  input{
     overflow: visible;
   }
-  #FITB_20 .FITB-inptCont:nth-child(2) label:before{
+  #FITB_20 .FITB-inptCont:nth-child(2)  input:before{
     content:'Arrival Time:';
     position:absolute;
     top:-30px;
