@@ -681,7 +681,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     overflow: visible;
   }
   #FITB_20 .FITB-inptCont:nth-child(1) label:before{
-    content:'asdasdasd';
+    content:'Arrival Date:';
     position:absolute;
     top:-30px;
     left:0px;
@@ -696,7 +696,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     overflow: visible;
   }
   #FITB_20 .FITB-inptCont:nth-child(2) label:before{
-    content:'asdasdasd';
+    content:'Arrival Time:';
     position:absolute;
     top:-30px;
     left:0px;
@@ -712,7 +712,56 @@ li[data-type=control_fileupload] .jfUpload-heading{
     overflow: visible;
   }
   #FITB_20 .FITB-inptCont:nth-child(3) label:before{
-    content:'asdasdasd';
+    content:'Airline & Flight Number:';
+    position:absolute;
+    top:-30px;
+    left:0px;
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+  }
+
+
+
+
+    #FITB_107 .FITB-inptCont:nth-child(1) label{
+    overflow: visible;
+  }
+  #FITB_107 .FITB-inptCont:nth-child(1) label:before{
+    content:'Departure Date:';
+    position:absolute;
+    top:-30px;
+    left:0px;
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+  }
+
+  #FITB_107 .FITB-inptCont:nth-child(2) label{
+    overflow: visible;
+  }
+  #FITB_107 .FITB-inptCont:nth-child(2) label:before{
+    content:'Departure Time: ';
+    position:absolute;
+    top:-30px;
+    left:0px;
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+  }
+
+
+  #FITB_107 .FITB-inptCont:nth-child(3) label{
+    overflow: visible;
+  }
+  #FITB_107 .FITB-inptCont:nth-child(3) label:before{
+    content:'Airline & Flight Number:';
     position:absolute;
     top:-30px;
     left:0px;
@@ -727,7 +776,11 @@ li[data-type=control_fileupload] .jfUpload-heading{
 @media(max-width:775px){
   #FITB_20 p{
     text-indent: -500px;
-    padding-bottom: 400px !important;
+    padding-bottom: 300px !important;
+  }
+   #FITB_107 p{
+    text-indent: -500px;
+    padding-bottom: 300px !important;
   }
   #FITB_20 .FITB-inptCont:nth-child(1){
 
