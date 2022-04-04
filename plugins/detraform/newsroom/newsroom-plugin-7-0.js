@@ -1,4 +1,4 @@
-//window.Squarespace.onInitialize(Y, function() {
+window.Squarespace.onInitialize(Y, function() {
 
   var isGallery = document.querySelectorAll('.sqs-gallery-design-carousel');
   var pluginName = 'detraform-press-release';
@@ -21,4 +21,4 @@
 
   }
 
-// })
+})
