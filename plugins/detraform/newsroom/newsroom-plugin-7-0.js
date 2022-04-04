@@ -1,6 +1,6 @@
 window.Squarespace.onInitialize(Y, function() {
 
-  var isGallery = document.querySelectorAll('.sqs-gallery-design-carousel');
+  var isGallery = document.querySelectorAll('.summary-block-wrapper.sqs-gallery-design-carousel').not('.detraform-testimonials-plugin');
   var pluginName = 'detraform-press-release';
 
   if (typeof(isGallery) != 'undefined' && isGallery != null){
