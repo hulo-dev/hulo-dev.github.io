@@ -9,13 +9,22 @@
 }
 
 #id_5 .qq-uploader:before{
- content:'Upload ID Photos';
- color: #fff;
+    content: 'Upload ID Photos';
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 30px;
+    left: 190px;
     z-index: 1111;
-    font-size: 40px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px 50px;
+    background: #000;
 }
 .form-line-error{
     background-color: #000000;
