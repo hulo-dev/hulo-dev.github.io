@@ -7,6 +7,11 @@
   font-family: 'Lexend-Medium';
   src: url('https://static1.squarespace.com/static/61539d366385f16b55b73a98/t/621f4ed0ed77c972e110b282/1646218960352/LexendDeca-Medium.ttf');
 }
+
+#id_5 .qq-uploader:berore{
+ content:'Upload ID Photos';
+ 
+}
 .form-line-error{
     background-color: #000000;
     border: 1px solid red;
@@ -2738,8 +2743,5 @@ content:'';
 }
 
 
-#id_5 .qq-uploader:berore{
- content:'Upload ID Photos';
- 
-}
+
 
