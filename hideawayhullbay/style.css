@@ -26,6 +26,30 @@
     padding: 10px 50px;
     background: #000;
 }
+@media(max-width:775px){
+    #id_5 .qq-uploader:before {
+        content: 'Upload ID Photos';
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        z-index: 1111;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 10px 30px;
+        background: #000;
+    }
+    #cid_5 .qq-upload-button:before {
+      right: 45px !important;
+      z-index: 111111111;
+    }
+}
 .form-line-error{
     background-color: #000000;
     border: 1px solid red;
