@@ -8,9 +8,14 @@
   src: url('https://static1.squarespace.com/static/61539d366385f16b55b73a98/t/621f4ed0ed77c972e110b282/1646218960352/LexendDeca-Medium.ttf');
 }
 
-.fileupload-input:before{
+#id_5 .qq-uploader:before{
  content:'Upload ID Photos';
- 
+ color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1111;
+    font-size: 40px;
 }
 .form-line-error{
     background-color: #000000;
