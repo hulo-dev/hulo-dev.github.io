@@ -25,6 +25,7 @@
     color: #FFFFFF;
     padding: 10px 50px;
     background: #000;
+    pointer-events: none;
 }
 @media(max-width:775px){
     #id_5 .qq-uploader:before {
