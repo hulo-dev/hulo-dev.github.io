@@ -8,7 +8,7 @@
   src: url('https://static1.squarespace.com/static/61539d366385f16b55b73a98/t/621f4ed0ed77c972e110b282/1646218960352/LexendDeca-Medium.ttf');
 }
 
-.fileupload-input:berore{
+.fileupload-input:before{
  content:'Upload ID Photos';
  
 }
