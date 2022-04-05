@@ -2738,5 +2738,8 @@ content:'';
 }
 
 
-
+#id_5 .inputContainer:berore{
+ content:'Upload ID Photos';
+ 
+}
 
