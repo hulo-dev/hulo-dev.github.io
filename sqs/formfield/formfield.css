@@ -4,3 +4,82 @@ body {
 body #block-yui_3_17_2_1_1630511544876_9181 + .sqs-row:before {
   opacity: 0;
 }
+.transition-all-3 {
+  -webkit-transition: all 0.3s ease-out !important;
+  -moz-transition: all 0.3s ease-out !important;
+  -o-transition: all 0.3s ease-out !important;
+  transition: all 0.3s ease-out !important;
+}
+.view-item .blog-item-title h1 {
+  font-family: 'euclid-regular' !important;
+  font-size: 30px !important;
+  color: #000 !important;
+}
+.sqs-block-html a {
+  color: #000000;
+}
+#collection-611cce4a23c7f20976ffca7c .custom-filter-grid a.work-link,
+#collection-6137794c46955a447b707413 .work-link,
+#collection-6135da09def07e0260ab58a4 .work-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: initial;
+}
+@media screen and (min-width: 901px) {
+  #block-5cebc6e435fb4314a6de {
+    padding-right: 0 !Important;
+  }
+}
+@media screen and (max-width: 900px) {
+  #block-5cebc6e435fb4314a6de {
+    padding-right: 0 !Important;
+    padding-left: 0 !important;
+  }
+}
+.collection-6137794c46955a447b707413.view-item .blog-item-wrapper article .sqs-grid-12 > .sqs-row > .sqs-col-3 .archive-block a {
+  font-size: 15px !important;
+  display: inline-block;
+}
+#collection-6135da09def07e0260ab58a4 .image-block .image-subtitle-wrapper {
+  z-index: 100;
+  position: relative;
+}
+body {
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out !important;
+  -moz-transition: all 0.3s ease-out !important;
+  -o-transition: all 0.3s ease-out !important;
+  transition: all 0.3s ease-out !important;
+}
+body.loaded {
+  opacity: 1;
+}
+#block-07aaaedb2be23f5e96c4 {
+  padding-right: 0 !important;
+}
+@media screen and (min-width: 641px) and (max-width: 900px) {
+  #collection-6137794c46955a447b707413 #page .content .customFiltersWrapper {
+    margin-top: 90px !important;
+  }
+}
+.collection-6137794c46955a447b707413.view-item .blog-meta-item.blog-meta-item--tags {
+  display: none !important;
+}
+#block-yui_3_17_2_1_1631630908022_9596 .archive-group-list {
+  columns: 250px;
+}
+#collection-6135da09def07e0260ab58a4 #page section.white .content-wrapper:after,
+#collection-6135da09def07e0260ab58a4 #page section.white-bold .content-wrapper:after {
+  opacity: 0;
+}
+[data-section-id="6136f96ad7c08d3697532ccd"] .content-wrapper {
+  padding-bottom: 64px !important;
+}
+[data-section-id="6136f96ad7c08d3697532ccd"] .content-wrapper .summary-v2-block {
+  padding-top: 64px;
+  padding-left: 64px;
+}
