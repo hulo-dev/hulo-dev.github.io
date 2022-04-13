@@ -159,6 +159,14 @@ body #block-yui_3_17_2_1_1630511544876_9181 + .sqs-row:before {
   height: 200px;
 }
 @media screen and (max-width: 1440px) {
+  body #block-yui_3_17_2_1_1630511544876_9181 + .sqs-row:before {
+    width: 14.5% !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  body #block-yui_3_17_2_1_1630511544876_9181 + .sqs-row:before {
+    width: 14.2% !important;
+  }
 }
 @media screen and (min-width: 2000px) {
   #block-36b6b203ef117d2755a3 .summary-block-header {
