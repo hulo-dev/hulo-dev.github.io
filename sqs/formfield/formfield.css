@@ -154,7 +154,7 @@ body #block-yui_3_17_2_1_1630511544876_9181 + .sqs-row .sqs-col-3 {
 }
 body #block-yui_3_17_2_1_1630511544876_9181 + .sqs-row:before {
   width: calc(28% - 171px) !important;
-  width: 15.38% !important;
+  width: 15.25% !important;
   background: #000;
   height: 200px;
 }
