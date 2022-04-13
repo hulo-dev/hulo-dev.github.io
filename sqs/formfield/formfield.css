@@ -1008,7 +1008,7 @@ body #page section.white-bold + .section_3 .image-block .image-card-wrapper:afte
   }
 }
 @media screen and (max-width: 767px) {
-  #block-yui_3_17_2_1_1630514211535_6423 {
+  #block-yui_3_17_2_1_1630514211535_6423 .summary-item-list {
     background: #fff;
   }
 }
