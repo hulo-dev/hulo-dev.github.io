@@ -1,5 +1,5 @@
 body {
-  background: #fff;
+  overflow: #fff;
 }
 body .header .header-inner .header-nav .header-nav-wrapper .header-nav-list .header-nav-item:not(.active-menu) a {
   display: none;
