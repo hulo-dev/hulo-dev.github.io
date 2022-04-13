@@ -671,7 +671,7 @@ body .header .header-inner .header-nav .header-nav-wrapper .header-nav-list .hea
   }
 }
 @media screen and (max-width: 767px) {
-  :not(.collection-type-blog-single-column.view-item .blog-item-wrapper article #block-1 > .content-inner) {
+  body:not(.collection-type-blog-single-column.view-item .blog-item-wrapper article #block-1 > .content-inner) {
     border: 0px !important;
   }
 }
