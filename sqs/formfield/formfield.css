@@ -983,8 +983,8 @@ body #page section.white-bold + .section_3 .image-block .image-card-wrapper:afte
     display: none;
   }
   .sidebar-item-wrapper .all-projects-sidebar > div {
-    width: calc(100% - 150px);
-    margin-left: 150px;
+    width: calc(100% - 105px);
+    margin-left: 105px;
     border-left: 1px solid #000;
   }
   .sidebar-item-wrapper .all-projects-sidebar > div a {
