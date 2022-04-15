@@ -470,8 +470,8 @@ body [data-section-id="613635b46b869e6955267b52"] .content-wrapper h4 span,
     columns: auto;
   }
   .collection-6137794c46955a447b707413.view-item #page .archive-block .list-inner {
-    width: calc(100% - 150px);
-    margin-left: 150px;
+    width: calc(100% - 105px);
+    margin-left: 105px;
     border-left: 1px solid #000;
   }
   .collection-6137794c46955a447b707413.view-item #page .archive-block li:nth-child(1) {
@@ -489,6 +489,11 @@ body [data-section-id="613635b46b869e6955267b52"] .content-wrapper h4 span,
   border-bottom: 0px;
   text-align: right;
   margin: 0;
+}
+@media screen and (max-width: 900px) {
+  .collection-6137794c46955a447b707413.view-item #page .archive-block .archive-group-list li {
+    text-align: left;
+  }
 }
 .collection-6137794c46955a447b707413.view-item #page .archive-block .archive-group-list li:nth-child(1) {
   margin-top: 10px;
