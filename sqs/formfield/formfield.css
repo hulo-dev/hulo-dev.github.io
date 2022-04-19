@@ -884,7 +884,7 @@ body #page section.bright .content-wrapper:after {
 }
 @media screen and (max-width: 800px) {
   body.studio-page #page .sidebar-wrapper .sidebar-wrapper-inner .wrap-main-mobile p.folder-title {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.4em;
     top: 2px;
   }
