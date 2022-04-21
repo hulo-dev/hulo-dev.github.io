@@ -42,6 +42,16 @@
   z-index: 100;
   position: relative;
 }
+body {
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out !important;
+  -moz-transition: all 0.3s ease-out !important;
+  -o-transition: all 0.3s ease-out !important;
+  transition: all 0.3s ease-out !important;
+}
+body.loaded {
+  opacity: 1;
+}
 #block-07aaaedb2be23f5e96c4 {
   padding-right: 0 !important;
 }
