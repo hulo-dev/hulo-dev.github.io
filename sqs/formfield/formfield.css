@@ -919,7 +919,7 @@ body #page section.white-bold + .section_3 .image-block .image-card-wrapper:afte
 }
 @media screen and (max-width: 480px) {
   .header-background.theme-bg--primary:before {
-    right: 69px;
+    right: 70px;
   }
 }
 @media screen and (max-width: 480px) {
