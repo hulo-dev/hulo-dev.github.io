@@ -2783,5 +2783,29 @@ content:'';
 }
 
 
+/* NEW CHANGES STYLES */
+#id_110 #label_110 {
+    margin-bottom: 16px;
+    font-family: 'Lexend';
+    font-size: 16px;
+    line-height: 1.4em;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+}
 
+#id_110 #label_110 {
+    margin-bottom: 16px;
+    font-family: 'Lexend';
+    font-size: 16px;
+    line-height: 1.4em;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+}
 
+#id_110 .form-dropown {
+  background-color: transparent;
+  border-color: #FFFFFF;
+  border-bottom: 1px solid #E49D57;
+}
