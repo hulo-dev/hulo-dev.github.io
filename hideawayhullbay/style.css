@@ -8,6 +8,46 @@
   src: url('https://static1.squarespace.com/static/61539d366385f16b55b73a98/t/621f4ed0ed77c972e110b282/1646218960352/LexendDeca-Medium.ttf');
 }
 
+
+
+
+
+#id_110 #label_110 {
+    margin-bottom: 16px;
+    font-family: 'Lexend';
+    font-size: 16px;
+    line-height: 1.4em;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+}
+
+#id_110 #label_110 {
+    margin-bottom: 16px;
+    font-family: 'Lexend';
+    font-size: 16px;
+    line-height: 1.4em;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
+}
+
+#id_110 .form-dropown {
+  background-color: transparent;
+  border-color: #FFFFFF;
+  border-bottom: 1px solid #E49D57;
+}
+
+#id_110 {
+   max-width: 50%;
+}
+
+
+
+
+
+
+
 #id_5 .qq-uploader:before{
     content: 'Upload ID Photos';
     position: absolute;
@@ -2780,36 +2820,4 @@ content:'';
   max-width: 180px;
     font-size: 12px;
   }
-}
-
-
-/* NEW CHANGES STYLES */
-#id_110 #label_110 {
-    margin-bottom: 16px;
-    font-family: 'Lexend';
-    font-size: 16px;
-    line-height: 1.4em;
-    font-weight: 500;
-    letter-spacing: 0.15px;
-    color: #FFFFFF;
-}
-
-#id_110 #label_110 {
-    margin-bottom: 16px;
-    font-family: 'Lexend';
-    font-size: 16px;
-    line-height: 1.4em;
-    font-weight: 500;
-    letter-spacing: 0.15px;
-    color: #FFFFFF;
-}
-
-#id_110 .form-dropown {
-  background-color: transparent;
-  border-color: #FFFFFF;
-  border-bottom: 1px solid #E49D57;
-}
-
-#id_110 {
-max-width: 50%;
 }
