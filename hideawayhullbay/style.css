@@ -30,18 +30,14 @@
     font-weight: 500;
     letter-spacing: 0.15px;
     color: #FFFFFF;
+    text-transform: uppercase; 
 }
 
 #id_110 .form-dropown {
-  background-color: transparent;
+  background-color: transparent !important;
   border-color: #FFFFFF;
   border-bottom: 1px solid #E49D57;
 }
-
-#id_110 {
-   max-width: 50%;
-}
-
 
 
 
