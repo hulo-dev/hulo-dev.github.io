@@ -20,20 +20,10 @@
     font-weight: 500;
     letter-spacing: 0.15px;
     color: #FFFFFF;
-}
-
-#id_110 #label_110 {
-    margin-bottom: 16px;
-    font-family: 'Lexend';
-    font-size: 16px;
-    line-height: 1.4em;
-    font-weight: 500;
-    letter-spacing: 0.15px;
-    color: #FFFFFF;
     text-transform: uppercase; 
 }
 
-#id_110 .form-dropdown {
+#id_110 #cid_110 select {
   background-color: transparent !important;
   border-color: #FFFFFF;
   border-bottom: 1px solid #E49D57;
