@@ -67,7 +67,7 @@
   text-transform: capitalize;
 }
 
-#id_116 .form-radio-item label:before {
+#id_116 .form-radio-item label:after {
   top: 3px !important;
 }
 
