@@ -71,6 +71,14 @@
   top: 3px !important;
 }
 
+#cid_48 #label_input_48_0:after, #cid_58 #label_input_58_0:aftere, #cid_59 #label_input_59_0:after, #cid_60 #label_input_60_0:after{
+  top: 13px !important;
+}
+
+#cid_61 #label_input_61_0:after, #cid_62 #label_input_62_0:after, #cid_63 #label_input_63_0:after, #cid_64 #label_input_64_0:after{
+  top: 13px !important;
+}
+
 
 
 #id_5 .qq-uploader:before{
