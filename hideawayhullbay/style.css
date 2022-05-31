@@ -67,6 +67,10 @@
   text-transform: capitalize;
 }
 
+#id_116 .form-radio-item label:before {
+  top: 3px;
+}
+
 
 
 #id_5 .qq-uploader:before{
