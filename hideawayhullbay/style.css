@@ -63,7 +63,8 @@
 #id_113 .form-checkbox-item label:before,
 #id_114 .form-checkbox-item label:before,
 #id_115 .form-checkbox-item label:before,
-#id_116 .form-radio-item label:before {
+#id_116 .form-radio-item label:before,
+#id_117 .form-checkbox-item label:before {
   background: transparent;
   border: 1px solid #E49D57;
   border-radius: 50%;
