@@ -32,14 +32,15 @@
 #id_113 .form-label,
 #id_114 .form-label,
 #id_115 .form-label {
-	margin: 0 0 16px;
-	font-family: 'Lexend';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 140%;
-	letter-spacing: 0.5px;
-	color: #FFFFFF;
+  margin: 0 0 16px;
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 
