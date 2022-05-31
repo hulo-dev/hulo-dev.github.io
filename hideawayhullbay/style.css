@@ -33,7 +33,7 @@
 #id_114 .form-label,
 #id_115 .form-label,
 #id_116 .form-label,
-#id_117 .form-label {
+#id_118 .form-label {
   margin: 0 0 16px;
   font-family: 'Lexend';
   font-style: normal;
@@ -45,15 +45,15 @@
   color: #FFFFFF;
 }
 
-.#id_117 .form-label {
- width: 100%;
+.#id_118 .form-label {
+ width: 100% !improtant;
 }
 
 #id_113 .form-checkbox-item label,
 #id_114 .form-checkbox-item label,
 #id_115 .form-checkbox-item label,
 #id_116 .form-radio-item label,
-#id_117 .form-checkbox-item label {
+#id_117 .form-radio-item label {
   font-family: 'Lexend';
   font-size: 14px;
   line-height: 1.4em;
@@ -64,7 +64,7 @@
 #id_114 .form-checkbox-item label:before,
 #id_115 .form-checkbox-item label:before,
 #id_116 .form-radio-item label:before,
-#id_117 .form-checkbox-item label:before {
+#id_117 .form-radio-item label:before {
   background: transparent;
   border: 1px solid #E49D57;
   border-radius: 50%;
