@@ -81,7 +81,13 @@
 
 #id_119,
 #id_120 {
-  margin-bottom: 16px;
+  margin-bottom: 24px !important;
+}
+
+
+#cid_119,
+#cid_120 {
+  max-width: 200px !important;
 }
 
 #id_119 label.form-label,
