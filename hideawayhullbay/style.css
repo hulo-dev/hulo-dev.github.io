@@ -79,7 +79,7 @@
   top: 3px !important;
 }
 
-#cid_48 #label_input_48_0:after, #cid_48 #label_input_48_1:after, #cid_58 #label_input_58_0:after, #cid_58 #label_input_58_1:after, #cid_59 #label_input_59_0:after, #cid_59 #label_input_59_1:after, #cid_60 #label_input_60_0:after, #cid_60 #label_input_60_1:after, #cid_119 #label_input_119_0:after, #cid_120 #label_input_120_1:after {
+#cid_48 #label_input_48_0:after, #cid_48 #label_input_48_1:after, #cid_58 #label_input_58_0:after, #cid_58 #label_input_58_1:after, #cid_59 #label_input_59_0:after, #cid_59 #label_input_59_1:after, #cid_60 #label_input_60_0:after, #cid_60 #label_input_60_1:after {
   top: 13px !important;
 }
 
@@ -1595,16 +1595,16 @@ li[data-type=control_fileupload] .jfUpload-heading{
   margin:0px;
 }
 
-#id_48, #id_58, #id_59, #id_60, #id_119, #id_120 {
+#id_48, #id_58, #id_59, #id_60 {
   display:flex;
   justify-content: space-between;
   margin-bottom: 16px;
 }
-#cid_48, #cid_58, #cid_59, #cid_60, #id_119, #id_120 {
+#cid_48, #cid_58, #cid_59, #cid_60 {
   max-width:200px;
 }
 
-#label_48, #label_58, #label_59, #label_60, #id_119, #id_120  {
+#label_48, #label_58, #label_59, #label_60 {
   font-family: 'Lexend';
   font-style: normal;
   font-weight: 400;
@@ -1612,14 +1612,14 @@ li[data-type=control_fileupload] .jfUpload-heading{
   line-height: 140%;
   color: #FFFFFF;
 }
-#cid_48 .form-single-column, #cid_58 .form-single-column, #cid_59 .form-single-column, #cid_60 .form-single-column, #id_119 .form-single-column, #id_120 .form-single-column {
+#cid_48 .form-single-column, #cid_58 .form-single-column, #cid_59 .form-single-column, #cid_60 .form-single-column {
     display: flex;
 }
-#cid_48  .form-radio-item, #cid_58  .form-radio-item, #cid_59  .form-radio-item, #cid_60 .form-radio-item, #cid_119 .form-radio-item, #cid_120 .form-radio-item {
+#cid_48  .form-radio-item, #cid_58  .form-radio-item, #cid_59  .form-radio-item, #cid_60 .form-radio-item {
     margin:0px;
 }
 
-#cid_48 #label_input_48_0, #cid_58 #label_input_58_0, #cid_59 #label_input_59_0, #cid_60 #label_input_60_0, #cid_119 #label_input_119_0, #cid_120 #label_input_120_0 {
+#cid_48 #label_input_48_0, #cid_58 #label_input_58_0, #cid_59 #label_input_59_0, #cid_60 #label_input_60_0 {
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 400;
@@ -1627,15 +1627,15 @@ li[data-type=control_fileupload] .jfUpload-heading{
     line-height: 140%;
     color: #FFFFFF;
 }
-#cid_48 #label_input_48_0:before, #cid_58 #label_input_58_0:before, #cid_59 #label_input_59_0:before, #cid_60 #label_input_60_0:before, #cid_119 #label_input_119_0:before, #cid_120 #label_input_120_0:before {
+#cid_48 #label_input_48_0:before, #cid_58 #label_input_58_0:before, #cid_59 #label_input_59_0:before, #cid_60 #label_input_60_0:before {
     background: transparent;
     top: 10px;
     border:1px solid #E49D57;
 }
-#cid_48 #label_input_48_0:after, #cid_58 #label_input_58_0:after, #cid_59 #label_input_59_0:after, #cid_60 #label_input_60_0:after, #cid_119 #label_input_119_0:after, #cid_120 #label_input_120_0:after {
+#cid_48 #label_input_48_0:after, #cid_58 #label_input_58_0:after, #cid_59 #label_input_59_0:after, #cid_60 #label_input_60_0:after {
     top: 10px;
 }
-#cid_48 #label_input_48_1, #cid_58 #label_input_58_1, #cid_59 #label_input_59_1, #cid_60 #label_input_60_1, #cid_119 #label_input_119_1, #cid_120 #label_input_120_1 {
+#cid_48 #label_input_48_1, #cid_58 #label_input_58_1, #cid_59 #label_input_59_1, #cid_60 #label_input_60_1 {
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 400;
