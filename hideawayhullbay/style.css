@@ -79,6 +79,11 @@
   top: 3px !important;
 }
 
+#id_119,
+#id_120 {
+  margin-bottom: 16px;
+}
+
 #id_119 label.form-label,
 #id_120 label.form-label {
   width: 100% !important;	
