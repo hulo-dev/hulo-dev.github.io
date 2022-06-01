@@ -81,21 +81,21 @@
 
 #id_119 label.form-label,
 #id_120 label.form-label {
-	width: 100% !important;
-	font-family: 'Lexend';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 140%;
-	letter-spacing: 0.5px;
+  width: 100% !important;	
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.5px;
   color: #FFFFFF;
 }
 
-#cid_48 #label_input_48_0:after, #cid_48 #label_input_48_1:after, #cid_58 #label_input_58_0:after, #cid_58 #label_input_58_1:after, #cid_59 #label_input_59_0:after, #cid_59 #label_input_59_1:after, #cid_60 #label_input_60_0:after, #cid_60 #label_input_60_1:after {
+#cid_48 #label_input_48_0:after, #cid_48 #label_input_48_1:after, #cid_58 #label_input_58_0:after, #cid_58 #label_input_58_1:after, #cid_59 #label_input_59_0:after, #cid_59 #label_input_59_1:after, #cid_60 #label_input_60_0:after, #cid_60 #label_input_60_1:after, #cid_119 #label_input_119_0:after, #cid_119 #label_input_119_1:after {
   top: 13px !important;
 }
 
-#cid_61 #label_input_61_0:after, #cid_61 #label_input_61_1:after, #cid_62 #label_input_62_0:after, #cid_62 #label_input_62_1:after, #cid_63 #label_input_63_0:after, #cid_63 #label_input_63_1:after, #cid_64 #label_input_64_0:after, #cid_64 #label_input_64_1:after {
+#cid_61 #label_input_61_0:after, #cid_61 #label_input_61_1:after, #cid_62 #label_input_62_0:after, #cid_62 #label_input_62_1:after, #cid_63 #label_input_63_0:after, #cid_63 #label_input_63_1:after, #cid_64 #label_input_64_0:after, #cid_64 #label_input_64_1:after, #cid_120 #label_input_120_0:after, #cid_120 #label_input_120_1:after {
   top: 13px !important;
 }
 
