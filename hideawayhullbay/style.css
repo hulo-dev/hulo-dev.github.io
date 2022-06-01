@@ -79,6 +79,18 @@
   top: 3px !important;
 }
 
+#id_119 label.form-label,
+#id_120 label.form-label {
+	width: 100% !important;
+	font-family: 'Lexend';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+	letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+
 #cid_48 #label_input_48_0:after, #cid_48 #label_input_48_1:after, #cid_58 #label_input_58_0:after, #cid_58 #label_input_58_1:after, #cid_59 #label_input_59_0:after, #cid_59 #label_input_59_1:after, #cid_60 #label_input_60_0:after, #cid_60 #label_input_60_1:after {
   top: 13px !important;
 }
