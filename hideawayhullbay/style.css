@@ -9,7 +9,6 @@
 }
 
 
-
 #id_110 #label_110 {
   margin-bottom: 16px;
   font-family: 'Lexend';
@@ -84,7 +83,6 @@
   margin-bottom: 24px !important;
 }
 
-
 #cid_119,
 #cid_120 {
   max-width: 200px !important;
@@ -110,6 +108,9 @@
   top: 13px !important;
 }
 
+#id_5 .qq-upload-button .jfUpload-heading {
+  color: transparent !important;
+}
 
 
 #id_5 .qq-uploader:before{
