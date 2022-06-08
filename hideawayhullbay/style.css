@@ -1773,8 +1773,8 @@ li[data-type=control_fileupload] .jfUpload-heading{
     display:none;
 }
 
- #input_54,  #input_55,  #input_56, #input_57{
-      font-family: 'Lexend';
+ #input_54,  #input_55,  #input_56, #input_57, #input_124 {
+  font-family: 'Lexend';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1797,7 +1797,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
 }
 
 #id_50 #input_50, #id_51 #input_51, #id_52 #input_52, #id_53 #input_53{
-      font-family: 'Lexend';
+  font-family: 'Lexend';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1815,8 +1815,8 @@ li[data-type=control_fileupload] .jfUpload-heading{
   margin-bottom:30px;
 }
 
- #input_50,  #input_51,  #input_52, #input_53{
-      font-family: 'Lexend';
+#input_50,  #input_51,  #input_52, #input_53{
+  font-family: 'Lexend';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
