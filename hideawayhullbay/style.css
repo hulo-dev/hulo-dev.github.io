@@ -9,7 +9,12 @@
 }
 
 #cid_125 #header_125 {
+  font-size: 22px;
   color: #FFFFFF;
+}
+
+#cid_125 .form-header-group  {
+  padding-left: 0;
 }
 
 #id_110 #label_110 {
