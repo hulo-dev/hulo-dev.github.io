@@ -962,11 +962,11 @@ li[data-type=control_fileupload] .jfUpload-heading{
   
   
   #FITB_20 p{
-    text-indent: -770px;
+    text-indent: -770px !important;
     padding-bottom: 270px !important;
   }
    #FITB_107 p{
-    text-indent: -700px;
+    text-indent: -700px !important;
     padding-bottom: 280px !important;
   }
   
@@ -1180,7 +1180,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     content:'Will you be renting a car?';
     top: -25px;
     left: 0;
-    text-indent: 0px;
+    text-indent: 0px !important;
     font-family: 'Lexend';
     font-weight: 400;
     font-size: 16px;
@@ -1193,7 +1193,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
     content:'Do you need us to arrange transportation for you?';
     top: -40px;
     left: 0;
-    text-indent: 0px;
+    text-indent: 0px !important;
     font-family: 'Lexend';
     font-weight: 400;
     font-size: 16px;
@@ -1205,30 +1205,30 @@ li[data-type=control_fileupload] .jfUpload-heading{
 
 @media(max-width:775px){
   #id_24 p{
-    text-indent: -1500px;
+    text-indent: -1500px !important;
     padding-bottom: 110px;
   }
   #id_24 .FITB-inptCont:nth-child(1){
     top: 40px;
     left: 0;
-    text-indent: 0px;
+    text-indent: 0px !important;
     width:100%;
   }
   #id_24 .FITB-inptCont:nth-child(2){
     top: 40px;
     left: 100px;
-    text-indent: 0px;
+    text-indent: 0px !important;
   }
   #id_24 .FITB-inptCont:nth-child(3){
     top: 140px;
     left: 0px;
-    text-indent: 0px;
+    text-indent: 0px !important;
     width:100%;
   }
   #id_24 .FITB-inptCont:nth-child(4){
     top: 140px;
     left: 100px;
-    text-indent: 0px;
+    text-indent: 0px !important;
   }   
     #id_24 .FITB-inptCont:nth-child(1):before{
     display:block;
