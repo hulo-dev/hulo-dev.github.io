@@ -8,6 +8,15 @@
   src: url('https://static1.squarespace.com/static/61539d366385f16b55b73a98/t/621f4ed0ed77c972e110b282/1646218960352/LexendDeca-Medium.ttf');
 }
 
+@media only screen and (max-width:775px){
+  #FITB_20 p {
+    text-indent: -770px !important;
+  }
+  #FITB_107 p {
+    text-indent: -700px !important;
+  }
+}
+
 #cid_125 #header_125 {
   font-size: 22px;
   color: #FFFFFF;
