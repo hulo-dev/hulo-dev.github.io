@@ -638,7 +638,8 @@ li[data-type=control_fileupload] .jfUpload-heading{
     margin: 0px;
 }
 #FITB_20 p{
-    display: flex;
+    /* display: flex; */
+    display: inline-block;
     justify-content: space-between;
     padding-bottom: 110px;
     font-family: 'Lexend';
