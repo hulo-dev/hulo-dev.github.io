@@ -18,11 +18,10 @@
 }
 
 #id_128 #label_128 {
-  padding-bottom: 8px;
+  margin-bottom: 16px;
   width: 100%;
   max-width: 100%;
   margin: 0;
-  margin-bottom: 16px;
   font-family: 'Lexend';
   font-style: normal;
   font-weight: 400;
