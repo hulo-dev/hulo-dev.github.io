@@ -1698,7 +1698,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
 #cid_48 .form-single-column, #cid_58 .form-single-column, #cid_59 .form-single-column, #cid_60 .form-single-column, #cid_119 .form-single-column, #cid_120 .form-single-column, #cid_127 .form-single-column {
     display: flex;
 }
-#cid_48  .form-radio-item, #cid_58  .form-radio-item, #cid_59  .form-radio-item, #cid_60 .form-radio-item, #cid_119 .form-radio-item, #cid_120 .form-radio-item, #cid_127 .form-radio-item {
+#cid_48  .form-radio-item, #cid_58  .form-radio-item, #cid_59  .form-radio-item, #cid_60 .form-radio-item, #cid_119 .form-radio-item, #cid_120 .form-radio-item, #cid_127 .form-radio-item, #cid_129 .form-radio-item {
     margin:0px;
 }
 
