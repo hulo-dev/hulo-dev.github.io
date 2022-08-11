@@ -122,19 +122,22 @@
 
 #id_119,
 #id_120,
-#id_127{
+#id_127,
+#id_129{
   margin-bottom: 24px !important;
 }
 
 #cid_119,
 #cid_120,
-#cid_127{
+#cid_127,
+#id_129{
   max-width: 200px !important;
 }
 
 #id_119 label.form-label,
 #id_120 label.form-label,
-#id_127 label.form-label{
+#id_127 label.form-label,
+#id_129 label.form-label{
   width: 100% !important;	
   font-family: 'Lexend';
   font-style: normal;
