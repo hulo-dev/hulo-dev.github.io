@@ -18,14 +18,17 @@
 }
 
 #cid_130 {
-	margin-bottom: 0 !important;
+   margin-bottom: 0 !important;
 }
 #cid_130 .form-header-group {
-	padding: 0;
-	border: none;
+  padding: 0;
+  border: none;
+}
+#header_130 {
+  color: #FFFFFF;
 }
 #label_129 {
-	margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 #id_128 #label_128 {
