@@ -45,7 +45,8 @@
     color: #FFFFFF;
 }
 
-#label_129 {
+#label_129,
+#label_132{
   margin-bottom: 12px;
 }
 
@@ -144,21 +145,24 @@
 #id_119,
 #id_120,
 #id_127,
-#id_129{
+#id_129,
+#id_132{
   margin-bottom: 24px !important;
 }
 
 #cid_119,
 #cid_120,
 #cid_127,
-#cid_129{
+#cid_129,
+#cid_132{
   max-width: 200px !important;
 }
 
 #id_119 label.form-label,
 #id_120 label.form-label,
 #id_127 label.form-label,
-#id_129 label.form-label{
+#id_129 label.form-label,
+#id_132 label.form-label{
   width: 100% !important;	
   font-family: 'Lexend';
   font-style: normal;
@@ -179,7 +183,7 @@
   cursor: pointer;
 }
 
-#cid_48 #label_input_48_0:after, #cid_48 #label_input_48_1:after, #cid_58 #label_input_58_0:after, #cid_58 #label_input_58_1:after, #cid_59 #label_input_59_0:after, #cid_59 #label_input_59_1:after, #cid_60 #label_input_60_0:after, #cid_60 #label_input_60_1:after, #cid_119 #label_input_119_0:after, #cid_119 #label_input_119_1:after, #cid_129 #label_input_129_0:after, #cid_129 #label_input_129_1:after {
+#cid_48 #label_input_48_0:after, #cid_48 #label_input_48_1:after, #cid_58 #label_input_58_0:after, #cid_58 #label_input_58_1:after, #cid_59 #label_input_59_0:after, #cid_59 #label_input_59_1:after, #cid_60 #label_input_60_0:after, #cid_60 #label_input_60_1:after, #cid_119 #label_input_119_0:after, #cid_119 #label_input_119_1:after, #cid_129 #label_input_129_0:after, #cid_129 #label_input_129_1:after, #cid_132 #label_input_132_0:after, #cid_132 #label_input_132_1:after {
   top: 13px !important;
 }
 
@@ -1716,10 +1720,10 @@ li[data-type=control_fileupload] .jfUpload-heading{
   line-height: 140%;
   color: #FFFFFF;
 }
-#cid_48 .form-single-column, #cid_58 .form-single-column, #cid_59 .form-single-column, #cid_60 .form-single-column, #cid_119 .form-single-column, #cid_120 .form-single-column, #cid_127 .form-single-column, #cid_129 .form-single-column {
+#cid_48 .form-single-column, #cid_58 .form-single-column, #cid_59 .form-single-column, #cid_60 .form-single-column, #cid_119 .form-single-column, #cid_120 .form-single-column, #cid_127 .form-single-column, #cid_129 .form-single-column, #cid_132 .form-single-column {
     display: flex;
 }
-#cid_48  .form-radio-item, #cid_58  .form-radio-item, #cid_59  .form-radio-item, #cid_60 .form-radio-item, #cid_119 .form-radio-item, #cid_120 .form-radio-item, #cid_127 .form-radio-item, #cid_129 .form-radio-item {
+#cid_48  .form-radio-item, #cid_58  .form-radio-item, #cid_59  .form-radio-item, #cid_60 .form-radio-item, #cid_119 .form-radio-item, #cid_120 .form-radio-item, #cid_127 .form-radio-item, #cid_129 .form-radio-item, #cid_132 .form-radio-item {
     margin:0px;
 }
 
@@ -1739,7 +1743,7 @@ li[data-type=control_fileupload] .jfUpload-heading{
 #cid_48 #label_input_48_0:after, #cid_58 #label_input_58_0:after, #cid_59 #label_input_59_0:after, #cid_60 #label_input_60_0:after {
     top: 10px;
 }
-#cid_48 #label_input_48_1, #cid_58 #label_input_58_1, #cid_59 #label_input_59_1, #cid_60 #label_input_60_1, #cid_119 #label_input_119_0, #cid_119 #label_input_119_1, #cid_120 #label_input_120_0, #cid_120 #label_input_120_1, #cid_127 #label_input_127_0, #cid_127 #label_input_127_1, #cid_129 #label_input_129_0, #cid_129 #label_input_129_1 {
+#cid_48 #label_input_48_1, #cid_58 #label_input_58_1, #cid_59 #label_input_59_1, #cid_60 #label_input_60_1, #cid_119 #label_input_119_0, #cid_119 #label_input_119_1, #cid_120 #label_input_120_0, #cid_120 #label_input_120_1, #cid_127 #label_input_127_0, #cid_127 #label_input_127_1, #cid_129 #label_input_129_0, #cid_129 #label_input_129_1, #cid_132 #label_input_132_0, #cid_132 #label_input_132_1 {
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 400;
@@ -1774,7 +1778,9 @@ li[data-type=control_fileupload] .jfUpload-heading{
 #cid_127 #label_input_127_0:before,
 #cid_127 #label_input_127_1:before,
 #cid_129 #label_input_129_0:before,
-#cid_129 #label_input_129_1:before {
+#cid_129 #label_input_129_1:before,
+#cid_132 #label_input_132_0:before,
+#cid_132 #label_input_132_1:before{
   background: transparent;
   top: 10px;
   border:1px solid #E49D57;
