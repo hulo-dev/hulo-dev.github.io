@@ -17,14 +17,17 @@
   }
 }
 
-#cid_130 {
+#cid_130,
+#cid_131 {
    margin-bottom: 0 !important;
 }
-#cid_130 .form-header-group {
+#cid_130 .form-header-group,
+#cid_131 .form-header-group {
   padding: 0;
   border: none;
 }
-#header_130 {
+#header_130,
+#header_131 {
   color: #FFFFFF;
 }
 #label_129 {
