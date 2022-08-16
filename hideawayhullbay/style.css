@@ -17,10 +17,6 @@
   }
 }
 
-#cid_131 {
-  
-}
-
 #cid_130 {
    margin-bottom: 0 !important;
 }
@@ -29,11 +25,13 @@
   padding: 0;
   border: none;
 }
+#cid_131 .form-header-group {
+  margin-bottom: 0;
+}
 #header_130,
 #header_131 {
   color: #FFFFFF;
 }
-
 #cid_131 .form-subHeader {
     margin: 0px;
     font-family: 'Lexend';
@@ -44,12 +42,9 @@
     letter-spacing: 0.25px;
     color: #FFFFFF;
 }
-
-#label_129,
-#label_132{
+#label_129{
   margin-bottom: 12px;
 }
-
 #id_128 #label_128 {
   margin-bottom: 12px !important;
   width: 100%;
