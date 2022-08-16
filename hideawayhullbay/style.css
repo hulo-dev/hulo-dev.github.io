@@ -17,8 +17,11 @@
   }
 }
 
-#cid_130,
 #cid_131 {
+  
+}
+
+#cid_130 {
    margin-bottom: 0 !important;
 }
 #cid_130 .form-header-group,
@@ -32,14 +35,14 @@
 }
 
 #cid_131 .form-subHeader {
+    margin: 0px;
     font-family: 'Lexend';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 140%;
+    line-height: 1.4em;
+    font-weight: 400;
+    font-style: italic;
     letter-spacing: 0.25px;
     color: #FFFFFF;
-    margin: 0px;
 }
 
 #label_129 {
