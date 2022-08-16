@@ -140,9 +140,12 @@
 #id_119,
 #id_120,
 #id_127,
-#id_129,
-#id_132{
+#id_129{
   margin-bottom: 24px !important;
+}
+
+#id_132{
+  margin-bottom: 34px !important;
 }
 
 #cid_119,
