@@ -42,9 +42,18 @@
     letter-spacing: 0.25px;
     color: #FFFFFF;
 }
+
+/*
 #label_129{
   margin-bottom: 12px;
+} */
+
+#label_129 {
+ margin-top: 20px;
+ margin-bottom: 0;
+ font-size: 18px !important;
 }
+
 #id_128 #label_128 {
   margin-bottom: 12px !important;
   width: 100%;
