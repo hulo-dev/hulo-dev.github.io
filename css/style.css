@@ -3458,3 +3458,6 @@ form.formkit-form{
 .portfolio__img{
 opacity: 0;
 }
+body *{
+outline: none !important;
+}
