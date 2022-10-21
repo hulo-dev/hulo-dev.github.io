@@ -3454,3 +3454,5 @@ form .form-line textarea::placeholder {
 .form.formkit-form{
   display: none;
 }
+.portfolio__img{
+opacity: 0;}
