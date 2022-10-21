@@ -1,9 +1,4 @@
-.form.formkit-form{
-  display: none;
-}
-.portfolio__img{
-opacity: 0;
-}
+
 @media (prefers-color-scheme: light) {
   :root {
     --mob-border-color:#202020;
