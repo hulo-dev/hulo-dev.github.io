@@ -63,6 +63,17 @@ $(()=>{
 
     addKonverKitForm();
     addStyleKonvertKit();
+     $('script[src="https://f.convertkit.com/ckjs/ck.5.js"]').remove();
+      addKonverKitForm();
+      addStyleKonvertKit();
+      setTimeout(addSK, 100);
+      setTimeout(addSK, 500);
+      setTimeout(addSK, 1000);
+      setTimeout(addSK, 1500);
+      setTimeout(addSK, 2000);
+      setTimeout(addSK, 3000);
+      setTimeout(addSK, 4000);
+      setTimeout(addSK, 5000);
 
     function addStyleKonvertKit(){
        setTimeout(addSK, 100);
@@ -115,6 +126,7 @@ $(()=>{
 
 // Вставка CSS в iFrame link
 $(()=>{
+
   document.querySelector('.form-wrapper').style.opacity=0;
   window.onload = () => {
     let iframeName = document.querySelector("iframe");
