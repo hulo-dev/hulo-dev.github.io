@@ -3449,3 +3449,8 @@ form .form-line textarea::placeholder {
 /****** ent footer contact page ****/
 
 /*# sourceMappingURL=style.css.map */
+
+
+.form.formkit-form{
+  display: none;
+}
