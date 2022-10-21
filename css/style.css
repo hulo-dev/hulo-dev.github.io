@@ -3461,3 +3461,8 @@ opacity: 0;
 body *{
 outline: none !important;
 }
+
+/* 21.10 Site CSS Edits */
+.amazing__img__block {-webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: calc(34% - 30px); margin: 0 15px;}
+.amazing__img__block .img-dark, .amazing__img__block .img-light {display: inline-block; width: 33.333%;}
+/* 21.10 Site CSS Edits */
