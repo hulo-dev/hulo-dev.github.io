@@ -55,35 +55,17 @@ function sw(){
 
 $(()=>{
     function addKonverKitForm(){
-      console.log(1);
         $('.form__item .creating__items-wrap').html(' <script data-script="fk" async data-uid="f1d0fdc220" src="https://sunny-teacher-604.ck.page/f1d0fdc220/index.js"></script>');
-        console.log(1);
+
     }
 
 
     addKonverKitForm();
     addStyleKonvertKit();
-     $('script[src="https://f.convertkit.com/ckjs/ck.5.js"]').remove();
-      addKonverKitForm();
-      addStyleKonvertKit();
-      setTimeout(addSK, 100);
-      setTimeout(addSK, 500);
-      setTimeout(addSK, 1000);
-      setTimeout(addSK, 1500);
-      setTimeout(addSK, 2000);
-      setTimeout(addSK, 3000);
-      setTimeout(addSK, 4000);
-      setTimeout(addSK, 5000);
+
 
     function addStyleKonvertKit(){
        setTimeout(addSK, 100);
-         setTimeout(addSK, 500);
-         setTimeout(addSK, 1000);
-         setTimeout(addSK, 1500);
-         setTimeout(addSK, 2000);
-         setTimeout(addSK, 3000);
-         setTimeout(addSK, 4000);
-         setTimeout(addSK, 5000);
     }
     function addSK(){
       const submitList = document.querySelectorAll('.seva-form');
@@ -91,11 +73,7 @@ $(()=>{
       $('.formkit-header h2').html('Want to stay updated');
       $('.formkit-subheader').text('Sign up for our newsletter to receive updates');
       $('.formkit-submit').addClass('btn');
-      $('.formkit-submit').html(` subscribe <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0.5 1H15.5M15.5 1V16M15.5 1L0.5 16" stroke="white" stroke-width="2"/>
-      </svg> <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0.5 1H15.5M15.5 1V16M15.5 1L0.5 16" stroke="white" stroke-width="2"/>
-      </svg>`);
+      $('.formkit-submit').html('subscribe <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.5 1H15.5M15.5 1V16M15.5 1L0.5 16" stroke="white" stroke-width="2"/></svg> <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.5 1H15.5M15.5 1V16M15.5 1L0.5 16" stroke="white" stroke-width="2"/></svg>');
       $('.formkit-submit svg').wrapAll('<div class="span-svg-wrap"></div>');
       $('.formkit-submit .formkit-spinner').remove();
       $('.formkit-submit span').remove();
@@ -108,15 +86,6 @@ $(()=>{
       $('script[src="https://f.convertkit.com/ckjs/ck.5.js"]').remove();
       addKonverKitForm();
       addStyleKonvertKit();
-      setTimeout(addSK, 100);
-      setTimeout(addSK, 500);
-      setTimeout(addSK, 1000);
-      setTimeout(addSK, 1500);
-      setTimeout(addSK, 2000);
-      setTimeout(addSK, 3000);
-      setTimeout(addSK, 4000);
-      setTimeout(addSK, 5000);
-
     });
 });
 
