@@ -3463,12 +3463,10 @@ outline: none !important;
 }
 
 /* 21.10 Site CSS Edits */
-.amazing__img__block {-webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: calc(34% - 30px); margin: 0 15px;}
-.amazing__img__block a.img-dark, .amazing__img__block a.img-light {margin-right: 0;}
+  .amazing__img__block {-webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: calc(34% - 30px); margin: 0 15px;}
+  .amazing__img__block a.img-dark, .amazing__img__block a.img-light {margin-right: 0;}
 
-#about .about__name .name {
-    padding-top: clamp(calc(11px * 0.3), 1.146vw, 11px);
-    padding-top: clamp(-moz-calc(11px * 0.3), 1.146vw, 11px);
-    padding-top: clamp(-webkit-calc(11px * 0.3), 1.146vw, 11px);
-}
+  #about .about__name .name {padding-top: clamp(calc(10px * 0.3), 1.146vw, 10px); padding-top: clamp(-moz-calc(10px * 0.3), 1.146vw, 10px); padding-top: clamp(-webkit-calc(10px * 0.3), 1.146vw, 10px);}
+  
+
 /* 21.10 Site CSS Edits */
