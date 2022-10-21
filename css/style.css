@@ -1,3 +1,9 @@
+.form.formkit-form{
+  display: none;
+}
+.portfolio__img{
+opacity: 0;
+}
 @media (prefers-color-scheme: light) {
   :root {
     --mob-border-color:#202020;
@@ -3451,8 +3457,9 @@ form .form-line textarea::placeholder {
 /*# sourceMappingURL=style.css.map */
 
 
-.form.formkit-form{
+form.formkit-form{
   display: none;
 }
 .portfolio__img{
-opacity: 0;}
+opacity: 0;
+}
