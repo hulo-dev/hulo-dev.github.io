@@ -3474,5 +3474,17 @@ outline: none !important;
 
   #about .about__name .name {padding-top: clamp(calc(10px * 0.3), 1.146vw, 10px); padding-top: clamp(-moz-calc(10px * 0.3), 1.146vw, 10px); padding-top: clamp(-webkit-calc(10px * 0.3), 1.146vw, 10px);}
   
+  .footer__link {position: relative;}
+  .footer__link::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -1px;
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-border);
+    transition: transform 0.3s ease;
+    transform: scale(0);}
+  .footer__link:hover::after {transform: scale(1);}
 
 /* 21.10 Site CSS Edits */
