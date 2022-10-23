@@ -39,7 +39,7 @@
 
 /* 20.10 Edits */
   .amazing__content-button a:hover {background-color: #202020; color: #FFFFFF;}
-  .amazing__content-button a:hover {svg path {stroke: #FFFFFF;}
+  .amazing__content-button a:hover svg path {stroke: #FFFFFF;}
 /* 20.10 Edits */
 
   .mobile__sevice-item {
