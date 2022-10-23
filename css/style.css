@@ -38,9 +38,9 @@
     display: none; }	
 
 /* 20.10 Edits */
-  .amazing__content-button a:hover {background-color: #202020; color: #FFFFFF;}
-  .amazing__content-button a:hover svg path {fill: #FFFFFF; stroke: #FFFFFF;}
-  .btn .span-svg-wrap svg:last-child path {fill: #FFFFFF !important; stroke: #FFFFFF !important;}
+  a.btn:hover {background-color: #202020; color: #FFFFFF;}
+  a.btn:hover svg path {fill: #FFFFFF; stroke: #FFFFFF;}
+  a.btn .span-svg-wrap svg:last-child path {fill: #FFFFFF !important; stroke: #FFFFFF !important;}
 /* 20.10 Edits */
 
   .mobile__sevice-item {
