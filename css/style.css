@@ -104,12 +104,12 @@
   padding: 0;
   box-sizing: border-box; }
 
-/* */
+/* 20.10 Edits */
 .amazing__content-button a:hover {
 	background-color: #202020; color: #FFFFFF;
 	svg path {stroke: #FFFFFF;}
 }
-/* */
+/* 20.10 Edits */
 
 main {
   z-index: 1; }
