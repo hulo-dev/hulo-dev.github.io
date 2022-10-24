@@ -840,7 +840,7 @@ body {
 
 @media (max-width: 767px) {
   .about__wrap {
-    padding-top: 64px;
+    padding-top: 48px;
     padding-bottom: 88px; }
   .about__content {
     max-width: 100%; }
