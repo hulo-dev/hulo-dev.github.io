@@ -123,7 +123,7 @@ $(()=>{
     iframeContent.head.innerHTML = iframeContent.head.innerHTML + `<link rel="stylesheet" href="css/fonts.css"> <link rel="stylesheet" href="css/style.css">`;
     setTimeout(function(){
       document.querySelector('.form-wrapper').style.opacity = 1;
-    },1000);
+    },500);
   
   
     $('iframe').contents().find('#input_2').addClass('btn');
