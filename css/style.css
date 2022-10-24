@@ -1722,9 +1722,9 @@ body {
     padding-right: clamp(calc(32px * 0.3), 1.667vw, 32px);
     padding-right: clamp(-moz-calc(32px * 0.3), 1.667vw, 32px);
     padding-right: clamp(-webkit-calc(32px * 0.3), 1.667vw, 32px);
-    padding-top: clamp(calc(24px * 0.3), 1.25vw, 24px);
-    padding-top: clamp(-moz-calc(24px * 0.3), 1.25vw, 24px);
-    padding-top: clamp(-webkit-calc(24px * 0.3), 1.25vw, 24px);
+    padding-top: clamp(calc(32px * 0.3), 1.25vw, 32px);
+    padding-top: clamp(-moz-calc(32px * 0.3), 1.25vw, 32px);
+    padding-top: clamp(-webkit-calc(32px * 0.3), 1.25vw, 32px);
     padding-bottom: clamp(calc(32px * 0.3), 1.667vw, 32px);
     padding-bottom: clamp(-moz-calc(32px * 0.3), 1.667vw, 32px);
     padding-bottom: clamp(-webkit-calc(32px * 0.3), 1.667vw, 32px);
