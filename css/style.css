@@ -3474,6 +3474,8 @@ body *{
   .amazing__img__block {-webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: calc(34% - 30px); margin: 0 15px;}
   .amazing__img__block a.img-dark, .amazing__img__block a.img-light {margin-right: 0;}
 
+  @media only screen and (max-width: 767px) {.amazing__img__block {width: calc(100% - 30px); margin: 12px 15px 0;}}
+
   #about .about__name .name {padding-top: clamp(calc(10px * 0.3), 1.146vw, 10px); padding-top: clamp(-moz-calc(10px * 0.3), 1.146vw, 10px); padding-top: clamp(-webkit-calc(10px * 0.3), 1.146vw, 10px);}
   
   .footer__link {position: relative;}
