@@ -3458,8 +3458,10 @@ form .form-line textarea::placeholder {
 /*# sourceMappingURL=style.css.map */
 
 
-form.formkit-form{
-  display: none;
+form.formkit-form {
+  /* 21.10 Site CSS Edits */
+    /* display: none; */
+  /* 21.10 Site CSS Edits */
 }
 .portfolio__img{
 opacity: 0;
