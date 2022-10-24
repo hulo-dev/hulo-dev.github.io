@@ -2428,7 +2428,7 @@ body {
       letter-spacing: -0.5px; }
 
   .featured__project-block {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     flex-wrap: wrap; }
 
   .featured__project-wrap:nth-child(1) .featured__project-item:nth-child(2) .featured__project-img {
