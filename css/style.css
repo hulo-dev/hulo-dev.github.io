@@ -3464,10 +3464,10 @@ form.formkit-form {
   /* 21.10 Site CSS Edits */
 }
 .portfolio__img{
-opacity: 0;
+  opacity: 0;
 }
 body *{
-outline: none !important;
+  outline: none !important;
 }
 
 /* 21.10 Site CSS Edits */
@@ -3489,4 +3489,8 @@ outline: none !important;
     transform: scale(0);}
   .footer__link:hover::after {transform: scale(1);}
 
+  .formkit-form[data-uid="f1d0fdc220"] .formkit-alert-success {
+    padding: 18px;
+    font-size: 18px;
+  }
 /* 21.10 Site CSS Edits */
