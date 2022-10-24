@@ -1679,12 +1679,12 @@ body {
     font-size: 0; }
   .feedbacks .swiper-button-next {
     top: auto;
-    right: 16px;
-    bottom: 84px; }
+    right: 8px;
+    bottom: 82px; }
   .feedbacks .swiper-button-prev {
     top: auto;
-    left: 16px;
-    bottom: 84px; }
+    left: 8px;
+    bottom: 82px; }
 
   .feedbacks__btn {
     margin-top: 89px; }
