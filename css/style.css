@@ -3523,6 +3523,9 @@ body *{
     justify-content: space-between;
     height: 100%;
   }
+
+  ul.nav-list .nav_links__list,
+  ul.nav-list .mobile__burger-contant {width: 100%;}
   /* MOBILE NAVIGATION */
 /* 21.10 Site CSS Edits */
 
