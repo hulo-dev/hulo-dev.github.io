@@ -3528,8 +3528,8 @@ body * {
       height: 100%;
     }
     
-    ul.nav-list .nav_links__list,
-    ul.nav-list .mobile__burger-contant {width: 100%;}
+    ul.nav-list .nav_links__list {width: 100% !important;}
+    ul.nav-list .mobile__burger-contant {width: 100% !important;}
   }
 
   @media only screen and (min-width: 768px) {
