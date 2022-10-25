@@ -3607,7 +3607,7 @@ body *{
     .thankyou-section .thankyou-text-wrapper .thankyou-title {margin-top: 24px; margin-bottom: 24px; font-family: "Work Sans"; font-size: clamp(calc(76px * 0.3), 5vw, 76px); font-size: clamp(-moz-calc(76px * 0.3), 5vw, 76px); font-size: clamp(-webkit-calc(76px * 0.3), 5vw, 76px); line-height: 1em; font-wieght: 600; text-align: center;}
     .thankyou-section .thankyou-text-wrapper .thankyou-subtitle {font-family: "Work Sans"; font-size: 32px; line-height: 1em; font-wieght: 500; text-align: center;}
 
-@media only screen and (max-width: 767px){
-   .thankyou-section .thankyou-title {font-size: clamp(30px, 5vw, 76px);}
-}
+    @media only screen and (max-width: 767px){
+      .thankyou-section .thankyou-title {font-size: clamp(30px, 5vw, 76px);}
+    }
 /* THANK YOU */
