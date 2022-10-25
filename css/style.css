@@ -3510,26 +3510,27 @@ body * {
   }
 
   /* MOBILE NAVIGATION */
-
-  ul.nav__list {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    height: 100%;
+  @media only screen and (max-width: 767px){
+    ul.nav__list {
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      height: 100%;
+    }
+    
+    ul.nav-list .nav_links__list,
+    ul.nav-list .mobile__burger-contant {width: 100%;}
   }
-
-  ul.nav-list .nav_links__list,
-  ul.nav-list .mobile__burger-contant {width: 100%;}
 
   /* MOBILE NAVIGATION */
 /* 21.10 Site CSS Edits */
