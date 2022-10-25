@@ -3528,7 +3528,8 @@ body * {
       height: 100%;
     }
     
-    ul.nav__list .nav_links__list {width: 100% !important;}
+    ul.nav__list .nav_links__list {width: 100% !important; text-aling: center;}
+    ul.nav__list .nav_links__list .nav__item {margin-left: 0;}
     ul.nav__list .mobile__burger-contant {width: 100% !important;}
   }
 
