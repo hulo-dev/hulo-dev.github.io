@@ -3532,6 +3532,9 @@ body * {
     ul.nav-list .mobile__burger-contant {width: 100%;}
   }
 
+  @media only screen and (min-width: 768px) {
+    .nav_links__list {display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex;}
+  }
   /* MOBILE NAVIGATION */
 /* 21.10 Site CSS Edits */
 
