@@ -3535,7 +3535,7 @@ body *{
       -ms-flex-pack: center;
       justify-content: center;
       width: 65.5%;
-      min-height: 75vh;  
+      min-height: 60vh;  
     }
     .thankyou-section .layout .content-col {
       width: 34.5%;
