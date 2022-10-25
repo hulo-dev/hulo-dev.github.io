@@ -3196,9 +3196,12 @@ form .form-line .form-required {
   margin-left: 0 !important;
   color: var(--text-color) !important; }
 form .form-line input {
-  padding-bottom: clamp(calc(24px * 0.3), 2.046vw, 24px) !important;
-  padding-bottom: clamp(-moz-calc(24px * 0.3), 2.046vw, 24px) !important;
-  padding-bottom: clamp(-webkit-calc(24px * 0.3), 2.046vw, 24px) !important;
+  /* padding-bottom: clamp(calc(24px * 0.3), 2.046vw, 24px) !important; */
+  /* padding-bottom: clamp(-moz-calc(24px * 0.3), 2.046vw, 24px) !important; */
+  /* padding-bottom: clamp(-webkit-calc(24px * 0.3), 2.046vw, 24px) !important; */
+  padding-bottom: clamp(calc(30px * 0.3), 2.046vw, 30px) !important;
+  padding-bottom: clamp(-moz-calc(30px * 0.3), 2.046vw, 30px) !important;
+  padding-bottom: clamp(-webkit-calc(30px * 0.3), 2.046vw, 30px) !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
   padding-top: 0 !important;
@@ -3519,8 +3522,6 @@ body *{
       width: 65.5%;
       min-height: 60vh;  
     } */
-
-
 
     /* .thankyou-section .layout #thank_you-col {width: 65.5%;} */
     .thankyou-wrapper {text-align: center;}
