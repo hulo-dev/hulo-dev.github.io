@@ -3510,7 +3510,7 @@ body *{
   }
 
   /* MOBILE NAVIGATION */
-  ul.nav-list {
+  ul.nav__list {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
