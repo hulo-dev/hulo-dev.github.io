@@ -3536,6 +3536,8 @@ body *{
     .thankyou-text-wrapper .thankyou-title {margin-top: 24px; margin-bottom: 24px; font-family: "Work Sans"; font-size: clamp(calc(76px * 0.3), 5vw, 76px); font-size: clamp(-moz-calc(76px * 0.3), 5vw, 76px); font-size: clamp(-webkit-calc(76px * 0.3), 5vw, 76px); line-height: 1em; font-wieght: 600; text-align: center;}
     .thankyou-text-wrapper .thankyou-subtitle {font-family: "Work Sans"; font-size: clamp(calc(32px * 0.3), 5vw, 32px); font-size: clamp(-moz-calc(32px * 0.3), 5vw, 32px); font-size: clamp(-webkit-calc(32px * 0.3), 5vw, 32px); line-height: 1em; font-wieght: 500; text-align: center;}
 
+    .thankyou__form-wrap {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;}
+
     @media only screen and (max-width: 1049px){
       .thankyou-image-block {max-width: clamp(calc(360px * 0.3), 5vw, 360px); max-width: clamp(-webkit-calc(360px * 0.3), 5vw, 360px); max-width: clamp(-moz-calc(360px * 0.3), 5vw, 300px); max-height: clamp(calc(360px * 0.3), 5vw, 360px); max-height: clamp(-webkit-calc(360px * 0.3), 5vw, 360px); max-height: clamp(-moz-calc(360px * 0.3), 5vw, 360px); padding: 60px;}
       .thankyou-image-wrapper img {max-width: clamp(calc(200px * 0.3), 5vw, 200px); max-width: clamp(-webkit-calc(200px * 0.3), 5vw, 200px); max-width: clamp(-moz-calc(200px * 0.3), 5vw, 200px); max-height: clamp(calc(200px * 0.3), 5vw, 200px); max-height: clamp(-webkit-calc(200px * 0.3), 5vw, 200px); max-height: clamp(-moz-calc(200px * 0.3), 5vw, 200px);}
