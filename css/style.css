@@ -3474,7 +3474,7 @@ form.formkit-form {
 .portfolio__img{
   opacity: 0;
 }
-body *{
+body * {
   outline: none !important;
 }
 
@@ -3511,7 +3511,6 @@ body *{
 
   /* MOBILE NAVIGATION */
 
-  /*
   ul.nav__list {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -3531,7 +3530,6 @@ body *{
 
   ul.nav-list .nav_links__list,
   ul.nav-list .mobile__burger-contant {width: 100%;}
-  */
 
   /* MOBILE NAVIGATION */
 /* 21.10 Site CSS Edits */
