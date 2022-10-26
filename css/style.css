@@ -3537,6 +3537,20 @@ body * {
     .nav_links__list {display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex;}
   }
   /* MOBILE NAVIGATION */
+
+  /* MOBILE FOOTER */
+    @media only screen and (max-width: 500px) {
+      .footer .copy__img-wrap {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        width: 100%;
+      }
+      .footer .copy__img-wrap a { width: 50%; margin: 10px 0 16px !important;}
+      .footer .copy__img-wrap a[href*="https://www.squarespace.com/designer/profile/4391176"] {display: none;}
+    }
+  /* MOBILE FOOTER */
 /* 21.10 Site CSS Edits */
 
 /* THANK YOU */
