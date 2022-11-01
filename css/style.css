@@ -1214,6 +1214,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     border-radius: 50%;
     max-width: clamp(calc(64px * 0.3), 3.333vw, 64px);
@@ -1222,6 +1224,7 @@ body {
     max-height: clamp(calc(64px * 0.3), 3.333vw, 64px);
     max-height: clamp(-moz-calc(64px * 0.3), 3.333vw, 64px);
     max-height: clamp(-webkit-calc(64px * 0.3), 3.333vw, 64px); }
+  .portfolio__img .img__wrap img {height: 100%;}
   .portfolio__img .img__wrap:first-child {
     right: 30%; }
   .portfolio__img .img__wrap:last-child {
