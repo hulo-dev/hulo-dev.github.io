@@ -3481,7 +3481,8 @@ form.formkit-form {
   /* 21.10 Site CSS Edits */
 }
 .portfolio__img{
-  opacity: 0;
+  opacity: 1;
+  /* opacity: 0; */
 }
 body * {
   outline: none !important;
