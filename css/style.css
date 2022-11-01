@@ -1184,6 +1184,12 @@ body {
   /* Baseline/Default */
   color: var(--text-color); }
 
+.porfolio__content .text p span {
+  font-size: clamp(calc(20px * 0.3), 1.05vw, 20px);
+  font-size: clamp(-moz-calc(20px * 0.3), 1.05vw, 20px);
+  font-size: clamp(-webkit-calc(20px * 0.3), 1.05vw, 20px);
+  line-height: 1em; }
+
 .porfolio__content {
   padding-top: clamp(calc(32px  * 0.3), 1.667vw, 32px);
   padding-top: clamp(-moz-calc(32px  * 0.3), 1.667vw, 32px);
