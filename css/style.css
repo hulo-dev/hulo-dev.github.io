@@ -3629,6 +3629,7 @@ body * {
 @media only screen and (max-width: 500px) {
   .section__contact .contact__list {border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 8px;}
   .section__contact .contact__item {padding: 15px 0; text-align: center;}
+  .section__contact .contact__item:last-of-type {border-bottom: 0;}
   .section__contact .contact__link {
     position: relative;
     display: inline-block;
