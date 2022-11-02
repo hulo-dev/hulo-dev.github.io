@@ -3650,7 +3650,7 @@ body * {
   .section__contact .contact__link:hover::after {transform: scale(1);}
   .section__contact-wrap {padding-bottom: 12px;}
   
-  footer.footer__contact {position: relative;}
+  footer.footer__contact {position: relative; border-top: 0;}
   .footer__contact .footer__contact-wrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -3660,6 +3660,22 @@ body * {
     -ms-flex-align: center;
     align-items: center;
     padding-top: 0 !important;
+  }
+  
+  .footer__contact-btn {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-left: 0;
+  }
+  .footer__contact-btn .footer-btn {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 24px;
+    line-height: 1.2em;
   }
 }
 /* 02.11 Edits */
