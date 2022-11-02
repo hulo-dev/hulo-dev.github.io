@@ -3719,12 +3719,17 @@ body * {
   }
   .footer__contact-images a.img-dark img,
   .footer__contact-images a.img-light img {
-    max-width: 50vw;
+    max-width: 40vw;
     max-height: 100%;
     width: 100%;
-    margin: 12px auto 16px;
+    margin: 10px auto 16px;
   }
   .footer__contact-images a.img-dark:first-of-type img,
   .footer__contact-images a.img-light:first-of-type img {margin-top: 0;}
+}
+
+@media only screen and (max-width: 380px) {
+  .footer__contact-images a.img-dark img,
+  .footer__contact-images a.img-light img {max-width: 50vw;}
 }
 /* 02.11 Edits */
