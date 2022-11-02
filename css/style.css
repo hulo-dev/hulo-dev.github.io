@@ -3718,13 +3718,13 @@ body * {
     text-align: center;
   }
   .footer__contact-images a.img-dark img,
-  .footer__contact-images a.img-dark img {
+  .footer__contact-images a.img-light img {
     max-width: 50vw;
     max-height: 100%;
     width: 100%;
-    margin: 10px auto 24px;
+    margin: 12px auto 16px;
   }
-  .footer__contact-images a.img-dark img:first-of-type,
-  .footer__contact-images a.img-dark img:last-of-type {margin: 10px auto 24px;}
+  .footer__contact-images a.img-dark:first-of-type img,
+  .footer__contact-images a.img-light:first-of-type img {margin-top: 0;}
 }
 /* 02.11 Edits */
