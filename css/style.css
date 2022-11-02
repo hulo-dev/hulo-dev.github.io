@@ -2764,7 +2764,7 @@ body {
   background: transparent !important;
   border: none !important; }
 
-/* .formkit-form[data-uid="f1d0fdc220"][min-width~="600"] [data-style="minimal"] { */
+.formkit-form[data-uid="f1d0fdc220"] [data-style="minimal"] {background: transparent !important; padding: 0 !important;}
 .formkit-form[data-uid="f1d0fdc220"] { background: transparent !important; padding: 0 !important;}
   /* .formkit-form[data-uid="f1d0fdc220"][min-width~="600"] [data-style="minimal"] .formkit-header { */
   .formkit-form[data-uid="f1d0fdc220"] .formkit-header {margin: 0 !important; }
