@@ -2799,7 +2799,7 @@ body {
     letter-spacing: clamp(calc(0.15px  * 0.3), 0.008vw, 0.15px) !important;
     letter-spacing: clamp(-moz-calc(0.15px  * 0.3), 0.008vw, 0.15px) !important;
     letter-spacing: clamp(-webkit-calc(0.15px  * 0.3), 0.008vw, 0.15px) !important;
-    text-align: left;
+    text-align: left !important;
     /* Baseline/Default */
     color: var(--text-color) !important; }
   /* .formkit-form[data-uid="f1d0fdc220"][min-width~="600"] [data-style="minimal"] .formkit-submit.btn { */
