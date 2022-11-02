@@ -981,7 +981,8 @@ body {
     /* Baseline/Default */
     color: var(--text-color); }
 
-.timeline p span {
+.timeline p span,
+.case p span {
   padding-top: 2px; 
   padding-left: 6px;
   font-size: 13px;
