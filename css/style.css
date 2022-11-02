@@ -3665,7 +3665,7 @@ body * {
   
   .footer__contact-btn {
     width: 100%;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
     margin-left: 0;
   }
   .footer__contact-btn .footer-btn {
@@ -3725,7 +3725,7 @@ body * {
     margin: 10px auto 16px;
   }
   .footer__contact-images a.img-dark:first-of-type img,
-  .footer__contact-images a.img-light:first-of-type img {margin-top: 0;}
+  .footer__contact-images a.img-light:first-of-type img {margin-top: 0; margin-bottom: 20px;}
 }
 
 @media only screen and (max-width: 380px) {
