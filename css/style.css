@@ -3719,7 +3719,7 @@ body * {
   }
   .footer__contact-images a.img-dark img,
   .footer__contact-images a.img-dark img {
-    max-width: 65%;
+    max-width: 50vw;
     max-height: 100%;
     width: 100%;
     margin: 10px auto 24px;
