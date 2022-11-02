@@ -3740,3 +3740,6 @@ body * {
   .footer__contact-images a.img-light img {max-width: 50vw;}
 }
 /* 02.11 Edits */
+
+
+.header_menu__nav {display: -webkit-inline-box;display: -ms-inline-flexbox;display: inline-flex;}
