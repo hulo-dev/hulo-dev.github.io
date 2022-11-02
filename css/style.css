@@ -981,10 +981,11 @@ body {
     /* Baseline/Default */
     color: var(--text-color); }
 
+.timeline p span {padding-left: 6px;}
+
 .timeline p span,
 .case p span {
-  padding-top: 2px; 
-  padding-left: 6px;
+  padding-top: 2px;
   font-size: 13px;
   line-height: 1em;}
 
