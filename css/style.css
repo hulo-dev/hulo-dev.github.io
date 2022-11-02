@@ -981,6 +981,12 @@ body {
     /* Baseline/Default */
     color: var(--text-color); }
 
+.timeline p span {
+  padding-top: 2px; 
+  padding-left: 6px;
+  font-size: 13px;
+  line-height: 1em;}
+
 .case p {
   font-family: "Work Sans";
   font-style: normal;
