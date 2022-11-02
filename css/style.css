@@ -34,8 +34,9 @@
     background-position: center;
     background-size: cover; }
 
-  .img-dark {
-    display: none; }	
+  .img-dark {display: none;}
+  
+  	button.formkit-submit:hover {background-color: #202020; color: #FFFFFF;}
 
 /* 20.10 Edits */
   a.btn:hover {background-color: #202020; color: #FFFFFF;}
