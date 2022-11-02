@@ -3739,7 +3739,18 @@ body * {
   .footer__contact-images a.img-dark img,
   .footer__contact-images a.img-light img {max-width: 50vw;}
 }
-/* 02.11 Edits */
-
 
 .header_menu__nav {display: -webkit-inline-box;display: -ms-inline-flexbox;display: inline-flex;}
+
+@media only screen and (max-width: 767px) {
+  .header_menu__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+/* 02.11 Edits */
