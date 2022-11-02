@@ -2453,19 +2453,22 @@ body {
     flex-wrap: wrap; }
 
   .featured__project-wrap:nth-child(1) .featured__project-item:nth-child(2) .featured__project-img {
-    max-height: 224px;
+    max-height: 274px;
+    /* max-height: 224px; */
     height: 100%;
     border-radius: 8px; }
 
   .featured__project-wrap:last-child .featured__project-img:first-child {
-    max-height: 224px;
+    max-height: 274px;
+    /* max-height: 224px; */
     height: 100%; }
 
   .featured__project-img {
     margin-bottom: 8px;
     max-width: 100%;
     width: 100%;
-    max-height: 224px;
+    max-height: 274px;
+    /* max-height: 224px; */
     height: 100%;
     border-radius: 8px; }
     .featured__project-img img {
