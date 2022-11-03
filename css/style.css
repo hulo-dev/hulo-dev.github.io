@@ -3789,5 +3789,5 @@ body * {
 
 .formkit-form[data-uid="f1d0fdc220"] .formkit-header h2,
 .creating__items-title h3,
-.footer__link-block .footer__link-item {font-style: italic;}
+.footer__link-block .footer__link-item a {font-style: italic;}
 /* 02.11 Edits */
