@@ -115,14 +115,14 @@ $(()=>{
 
 // Iframe link CSS inserting
 $(()=>{
-  document.querySelector('.form-wrapper').style.opacity = '0';
+  document.querySelector(".form-wrapper").style.opacity = "0";
   window.onload = () => {
     let iframeName = document.querySelector("iframe");
 
     let iframeContent = iframeName.contentDocument;
     iframeContent.head.innerHTML = iframeContent.head.innerHTML + `<link rel="stylesheet" href="css/fonts.css"> <link rel="stylesheet" href="css/style.css">`;
     setTimeout(function(){
-      document.querySelector('.form-wrapper').style.opacity = '1';
+      document.querySelector(".form-wrapper").style.opacity = "1";
     },200);
   
   
