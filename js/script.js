@@ -23,7 +23,7 @@ function sw(){
         speed:0,
         autoplay: {
           delay: 2500,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
         },
         fadeEffect: {
           crossFade: false,
