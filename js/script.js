@@ -76,7 +76,7 @@ $(()=>{
     }
     function addSK(){
       const submitList = document.querySelectorAll('.seva-form');
-      console.log('длина ' + submitList.length);
+      console.log('Lenght: ' + submitList.length);
       $('.formkit-header h2').html('Want to stay updated');
       $('.formkit-subheader').text('Sign up for our newsletter to receive updates');
       $('.formkit-submit').addClass('btn');
@@ -113,7 +113,7 @@ $(()=>{
 
 /****** style iframe */
 
-// Вставка CSS в iFrame link
+// Iframe link CSS inserting
 $(()=>{
   document.querySelector('.form-wrapper').style.opacity=0;
   window.onload = () => {
