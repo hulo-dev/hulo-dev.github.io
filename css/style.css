@@ -2672,7 +2672,7 @@ body {
       max-width: 24px;
       max-height: 24px;
     }
-    .svg-mobile svg path {stroke-width: 24px;}
+    .svg-mobile svg path {stroke-width: 2gpx;}
 
   .svg-desk {
     display: none; }
@@ -3784,6 +3784,7 @@ body * {
     -ms-flex-direction: column;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 36px;
   }
 }
 
