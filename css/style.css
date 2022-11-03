@@ -3792,3 +3792,8 @@ body * {
 .creating__items-title h3,
 .footer__link-block .footer__link-item a {font-style: italic !important;}
 /* 02.11 Edits */
+
+.swiper-slide {
+  -webkit-transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+}
