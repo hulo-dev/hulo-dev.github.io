@@ -115,7 +115,7 @@ $(()=>{
 
 // Iframe link CSS inserting
 $(()=>{
-  document.querySelector('.form-wrapper').style.opacity=0;
+  document.querySelector('.form-wrapper').style.opacity = 0;
   window.onload = () => {
     let iframeName = document.querySelector("iframe");
 
