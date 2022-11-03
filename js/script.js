@@ -19,11 +19,11 @@ function sw(){
         effect: 'fade',
         loop: true,
         onlyExternal: false,
-        allowTouchMove: false,
+        allowTouchMove: true,
         speed:0,
         autoplay: {
           delay: 2500,
-          disableOnInteraction: true,
+          disableOnInteraction: false,
         },
         fadeEffect: {
           crossFade: false,
