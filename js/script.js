@@ -19,7 +19,7 @@ function sw(){
         effect: 'fade',
         loop: true,
         onlyExternal: false,
-        allowTouchMove: true,
+        allowTouchMove: false,
         speed:0,
         autoplay: {
           delay: 2500,
