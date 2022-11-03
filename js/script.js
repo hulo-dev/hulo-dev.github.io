@@ -26,7 +26,7 @@ function sw(){
           disableOnInteraction: false,
         },
         fadeEffect: {
-          crossFade: true,
+          crossFade: false,
         },
           navigation: {
               nextEl: '.swiper-button-next',
