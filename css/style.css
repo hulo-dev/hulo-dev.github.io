@@ -3793,7 +3793,7 @@ body * {
 .footer__link-block .footer__link-item a {font-style: italic !important;}
 /* 02.11 Edits */
 
-.swiper-slide {
+.section__amazing amazing__slider .swiper-slide {
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
 }
