@@ -1104,8 +1104,8 @@ body {
   min-height: clamp(-moz-calc(313px  * 0.3), 16.302vw, 313px);
   display: flex;
   align-items: flex-end; 
-  -webkit-transition: all .5s ease-out;
-  transition: all .5s ease-out; }
+  /* -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out; */ }
   .service__content-subtitle p {
     font-family: "Work Sans";
     font-style: normal;
