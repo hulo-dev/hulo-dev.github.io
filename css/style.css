@@ -1105,7 +1105,8 @@ body {
   display: flex;
   align-items: flex-end; 
   /* -webkit-transition: all .5s ease-out;
-  transition: all .5s ease-out; */ }
+  transition: all .5s ease-out; */
+}
   .service__content-subtitle p {
     font-family: "Work Sans";
     font-style: normal;
