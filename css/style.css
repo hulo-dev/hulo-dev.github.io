@@ -3799,3 +3799,12 @@ body * {
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
 }
+
+/* 07.11 Edits */
+.desktop__contact__title {display: none;}
+
+@media only screen and (min-width: 767px) {
+  .desktop__contact__title {display: block;}
+  .mobile__contact__title {display: none;}
+}
+/* 07.11 Edits */
