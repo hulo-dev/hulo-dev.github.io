@@ -1129,8 +1129,9 @@ body {
   min-height: clamp(calc(177px  * 0.3), 9.219vw, 177px);
   min-height: clamp(-webkit-calc(177px  * 0.3), 9.219vw, 177px);
   min-height: clamp(-moz-calc(177px  * 0.3), 9.219vw, 177px);
-  -webkit-transition: all .5s ease-out;
-  transition: all .5s ease-out; }
+  /*-webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out; */ 
+} 
 .service__content-item:hover .service__content-layer {
   /* margin-bottom: clamp(calc(49px * 0.3),2.552vw,49px) ;
    margin-bottom: clamp(-webkit-calc(49px * 0.3),2.552vw,49px) ;
