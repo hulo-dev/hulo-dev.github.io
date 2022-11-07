@@ -20,7 +20,7 @@ function sw(){
         loop: true,
         onlyExternal: false,
         allowTouchMove: false,
-        speed:0,
+        speed:1000,
         autoplay: {
           delay: 2500,
           disableOnInteraction: false,
