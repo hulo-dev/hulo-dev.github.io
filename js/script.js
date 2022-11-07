@@ -28,9 +28,6 @@ function sw(){
         fadeEffect: {
           crossFade: false,
         },
-        coverflowEffect: {
-          transformEl: null,
-        },  
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
