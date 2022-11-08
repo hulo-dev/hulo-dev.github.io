@@ -3813,7 +3813,7 @@ body * {
   .section__thankyou .contact__title {display: none;}
 
   .amazing__main-banner {display: none;}
-  .amazing__main-banner .amazing__banner-wrapper {position: relative;}
+  .amazing__main-banner .amazing__banner-wrapper {position: relative; max-height: 192px;}
   .amazing__main-banner .amazing__banner-wrapper img {
     min-width: 100%;
     min-height: 100%;
