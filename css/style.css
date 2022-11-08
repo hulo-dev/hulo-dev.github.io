@@ -3811,4 +3811,10 @@ body * {
 
 /* 08.11 Edits */
   .section__thankyou .contact__title {display: none;}
+  .amazing__main-banner {display: none;}
+
+  @media only screen and (max-width: 767px) {
+    .amazing__main-banner {display: block;}
+    .amazing__slider-container {display: none;}
+  }
 /* 08.11 Edits */
