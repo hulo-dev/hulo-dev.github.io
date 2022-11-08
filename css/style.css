@@ -3811,7 +3811,19 @@ body * {
 
 /* 08.11 Edits */
   .section__thankyou .contact__title {display: none;}
+
   .amazing__main-banner {display: none;}
+  .amazing__main-banner .amazing__banner-wrapper {position: relative;}
+  .amazing__main-banner .amazing__banner-wrapper img {
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    height: clamp(calc(537px * 0.3), 27.969vw, 537px);
+    height: clamp(-moz-calc(537px * 0.3), 27.969vw, 537px);
+    height: clamp(-webkit-calc(537px * 0.3), 27.969vw, 537px);
+    min-height: 100%;
+    object-fit: contain;
+  }
 
   @media only screen and (max-width: 767px) {
     .amazing__main-banner {display: block;}
