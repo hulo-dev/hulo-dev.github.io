@@ -14,7 +14,7 @@ $(()=>{
       $('body').removeClass('active');
 
   });
-    function sw(){
+function sw(){
       const swiper = new Swiper('.amazing__slider', {
         effect: 'fade',
         loop: true,
@@ -28,15 +28,13 @@ $(()=>{
         fadeEffect: {
           crossFade: false,
         },
+        /*
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
-        },
+        }, */
       });
-    }
-    sw();
-  
-    function swn(){
+      
       const swiper1 = new Swiper('.feedbacks__slider', {
           effect: 'fade',
           speed:0,
@@ -47,15 +45,12 @@ $(()=>{
           navigation: {
               nextEl: '.swiper-button-next',
               prevEl: '.swiper-button-prev',
-          },
+            },
       });
     }
-    swn();
-  
-  
+    sw();
     $(window).resize(()=>{
       sw();
-      swn();
     });
 });
 
