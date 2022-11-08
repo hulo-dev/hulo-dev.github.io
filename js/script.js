@@ -28,11 +28,10 @@ function sw(){
         fadeEffect: {
           crossFade: false,
         },
-        /*
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
-        }, */
+        },
       });
       
       const swiper1 = new Swiper('.feedbacks__slider', {
