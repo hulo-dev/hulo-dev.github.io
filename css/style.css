@@ -3808,3 +3808,7 @@ body * {
   .mobile__contact__title {display: none;}
 }
 /* 07.11 Edits */
+
+/* 08.11 Edits */
+  .section__thankyou .contact__title {display: none;}
+/* 08.11 Edits */
