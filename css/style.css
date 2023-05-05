@@ -3832,7 +3832,11 @@ body * {
     .amazing__slider-container {display: none;}
   }
 /* 08.11 Edits */
-form .form-line input, form .form-line textarea{
+form .form-line input{
+max-width:100% !important;
+width:100% !important;
+}
+form .form-line textarea{
 max-width:100% !important;
 width:100% !important;
 }
