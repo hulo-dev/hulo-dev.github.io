@@ -334,35 +334,35 @@ p.sqsrte-small {
   color: #fff;
 }
 
-#collection-65c8be14b03b91463b90224d.view-list .page-section:nth-child(1), .collection-type-portfolio-grid-basic .page-section:nth-child(1), .portfolio-page .page-section:nth-child(1) {
+#collection-65c8be14b03b91463b90224d.view-list .page-section:nth-child(1), .portfolio-page .page-section:nth-child(1) {
   min-height: auto !important;
 }
-#collection-65c8be14b03b91463b90224d.view-list .page-section:nth-child(1) .content-wrapper, .collection-type-portfolio-grid-basic .page-section:nth-child(1) .content-wrapper, .portfolio-page .page-section:nth-child(1) .content-wrapper {
+#collection-65c8be14b03b91463b90224d.view-list .page-section:nth-child(1) .content-wrapper, .portfolio-page .page-section:nth-child(1) .content-wrapper {
   padding-bottom: 0 !important;
 }
-#collection-65c8be14b03b91463b90224d.view-list .portfolio-grid-basic, .collection-type-portfolio-grid-basic .portfolio-grid-basic, .portfolio-page .portfolio-grid-basic {
+#collection-65c8be14b03b91463b90224d.view-list .portfolio-grid-basic, .portfolio-page .portfolio-grid-basic {
   max-width: 1478px;
 }
-#collection-65c8be14b03b91463b90224d.view-list .grid-item, .collection-type-portfolio-grid-basic .grid-item, .portfolio-page .grid-item {
+#collection-65c8be14b03b91463b90224d.view-list .grid-item, .portfolio-page .grid-item {
   position: relative;
 }
-#collection-65c8be14b03b91463b90224d.view-list .grid-item:nth-child(3n), .collection-type-portfolio-grid-basic .grid-item:nth-child(3n), .portfolio-page .grid-item:nth-child(3n) {
+#collection-65c8be14b03b91463b90224d.view-list .grid-item:nth-child(3n), .portfolio-page .grid-item:nth-child(3n) {
   grid-column: 1/span 2;
 }
-#collection-65c8be14b03b91463b90224d.view-list .grid-item:nth-child(3n) .grid-image, .collection-type-portfolio-grid-basic .grid-item:nth-child(3n) .grid-image, .portfolio-page .grid-item:nth-child(3n) .grid-image {
+#collection-65c8be14b03b91463b90224d.view-list .grid-item:nth-child(3n) .grid-image, .portfolio-page .grid-item:nth-child(3n) .grid-image {
   padding-bottom: 45% !important;
 }
-#collection-65c8be14b03b91463b90224d.view-list .grid-item .grid-image, .collection-type-portfolio-grid-basic .grid-item .grid-image, .portfolio-page .grid-item .grid-image {
+#collection-65c8be14b03b91463b90224d.view-list .grid-item .grid-image, .portfolio-page .grid-item .grid-image {
   padding-bottom: 120% !important;
 }
-#collection-65c8be14b03b91463b90224d.view-list .grid-item .portfolio-text, .collection-type-portfolio-grid-basic .grid-item .portfolio-text, .portfolio-page .grid-item .portfolio-text {
+#collection-65c8be14b03b91463b90224d.view-list .grid-item .portfolio-text, .portfolio-page .grid-item .portfolio-text {
   margin: 0;
   position: absolute;
   top: 24px;
   left: 32px;
   z-index: 3;
 }
-#collection-65c8be14b03b91463b90224d.view-list .grid-item:before, .collection-type-portfolio-grid-basic .grid-item:before, .portfolio-page .grid-item:before {
+#collection-65c8be14b03b91463b90224d.view-list .grid-item:before, .portfolio-page .grid-item:before {
   content: "";
   position: absolute;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
