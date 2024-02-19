@@ -42,3 +42,8 @@ if (isBlogItem) {
             anchor.parentNode.removeChild(anchor);
         }
     });
+
+if (document.querySelector('.collection-type-portfolio-grid-basic')) {
+  // If it exists, add a class to the body
+  document.body.classList.add('portfolio-page');
+}
