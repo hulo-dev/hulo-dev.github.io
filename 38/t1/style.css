@@ -870,3 +870,7 @@ body:not(.sqs-edit-mode) #siteWrapper .tiles-v1-section .image-block .image-card
   height: auto !important;
   transition: all 0.3s ease-out !important;
 }
+
+#block-2f29adfe621b34d7d3cb * {
+  color: #000 !important;
+}
