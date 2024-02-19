@@ -652,7 +652,7 @@ body:not(.sqs-edit-mode) #siteWrapper .tiles-v1-section .image-block .image-card
   opacity: 0.7;
 }
 
-#collection-659681e1455b52052d9e9116 .blog-title a {
+#collection-659681e1455b52052d9e9116 .blog-title a, .collection-type-blog-masonry .blog-title a {
   font-size: 20px;
   font-family: "Montserrat";
 }
@@ -869,8 +869,4 @@ body:not(.sqs-edit-mode) #siteWrapper .tiles-v1-section .image-block .image-card
   display: block !important;
   height: auto !important;
   transition: all 0.3s ease-out !important;
-}
-
-#block-659691367a9da84e5b03c80d * {
-  color: #000 !important;
 }

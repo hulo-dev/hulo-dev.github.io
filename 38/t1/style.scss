@@ -803,7 +803,7 @@ body:not(.sqs-edit-mode) #siteWrapper .tiles-v1-section .image-block .image-card
   }
 }
 
-#collection-659681e1455b52052d9e9116 {
+#collection-659681e1455b52052d9e9116 , .collection-type-blog-masonry{
   .blog-meta-section {
     //  display: none;
   }
@@ -1049,13 +1049,4 @@ body:not(.sqs-edit-mode) #siteWrapper .tiles-v1-section .image-block .image-card
       }
     }
   }
-}
-
-
-//lorem test
-
-#block-659691367a9da84e5b03c80d{
-*{
-color: #000 !important;
-}
 }
