@@ -828,7 +828,7 @@ body:not(.sqs-edit-mode) #siteWrapper .tiles-v1-section .image-block .image-card
   right: calc(4vw + 112px);
 }
 
-#siteWrapper [data-section-id="659582b4bbabed548c125359"] .blog-basic-grid {
+#siteWrapper [data-section-id="659582b4bbabed548c125359"] .blog-basic-grid, .collection-type-blog-basic-grid.view-list .blog-basic-grid {
   -moz-column-count: 2;
        column-count: 2;
   -moz-column-gap: clamp(32px, 4.23vw, 64px);
@@ -838,33 +838,33 @@ body:not(.sqs-edit-mode) #siteWrapper .tiles-v1-section .image-block .image-card
   padding-top: clamp(48px, 5.95vw, 90px);
 }
 @media screen and (max-width: 767px) {
-  #siteWrapper [data-section-id="659582b4bbabed548c125359"] .blog-basic-grid {
+  #siteWrapper [data-section-id="659582b4bbabed548c125359"] .blog-basic-grid, .collection-type-blog-basic-grid.view-list .blog-basic-grid {
     -moz-column-count: 1;
          column-count: 1;
   }
 }
-#siteWrapper [data-section-id="659582b4bbabed548c125359"] .blog-item {
+#siteWrapper [data-section-id="659582b4bbabed548c125359"] .blog-item, .collection-type-blog-basic-grid.view-list .blog-item {
   -moz-column-break-inside: avoid;
        break-inside: avoid;
   margin-bottom: 1em;
   margin-bottom: clamp(32px, 4.23vw, 64px);
 }
-#siteWrapper [data-section-id="659582b4bbabed548c125359"] .blog-item > div:nth-child(1) {
+#siteWrapper [data-section-id="659582b4bbabed548c125359"] .blog-item > div:nth-child(1), .collection-type-blog-basic-grid.view-list .blog-item > div:nth-child(1) {
   display: block;
   position: relative;
   width: 100%;
   height: auto;
 }
-#siteWrapper [data-section-id="659582b4bbabed548c125359"] .blog-item > div:nth-child(1):hover img {
+#siteWrapper [data-section-id="659582b4bbabed548c125359"] .blog-item > div:nth-child(1):hover img, .collection-type-blog-basic-grid.view-list .blog-item > div:nth-child(1):hover img {
   transform: scale(1.1);
 }
-#siteWrapper [data-section-id="659582b4bbabed548c125359"] .blog-item > div:nth-child(1) a {
+#siteWrapper [data-section-id="659582b4bbabed548c125359"] .blog-item > div:nth-child(1) a, .collection-type-blog-basic-grid.view-list .blog-item > div:nth-child(1) a {
   display: block;
   position: relative;
   height: auto;
   padding-bottom: 0 !important;
 }
-#siteWrapper [data-section-id="659582b4bbabed548c125359"] .blog-item > div:nth-child(1) a img {
+#siteWrapper [data-section-id="659582b4bbabed548c125359"] .blog-item > div:nth-child(1) a img, .collection-type-blog-basic-grid.view-list .blog-item > div:nth-child(1) a img {
   position: relative !important;
   display: block !important;
   height: auto !important;
