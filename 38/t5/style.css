@@ -553,3 +553,11 @@ p.sqsrte-small {
 .html-block ol {
   padding-left: 0 !important;
 }
+
+#header .header-nav-item a:hover {
+  opacity: 0.7;
+}
+
+#siteWrapper .html-block a:hover {
+  opacity: 0.7;
+}
