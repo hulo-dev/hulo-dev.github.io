@@ -706,11 +706,13 @@ p.sqsrte-small {
 }
 
 #header .header-nav-item a{
+  @include transition-all-3;
 &:hover{
 opacity: .7;
 }
 }
 #siteWrapper .html-block a{
+  @include transition-all-3;
 &:hover{
 opacity: .7;
 }

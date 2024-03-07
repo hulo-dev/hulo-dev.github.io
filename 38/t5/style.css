@@ -554,10 +554,16 @@ p.sqsrte-small {
   padding-left: 0 !important;
 }
 
+#header .header-nav-item a {
+  transition: all 0.3s ease-out !important;
+}
 #header .header-nav-item a:hover {
   opacity: 0.7;
 }
 
+#siteWrapper .html-block a {
+  transition: all 0.3s ease-out !important;
+}
 #siteWrapper .html-block a:hover {
   opacity: 0.7;
 }
