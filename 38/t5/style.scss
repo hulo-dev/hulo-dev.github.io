@@ -706,7 +706,7 @@ p.sqsrte-small {
 }
 
 #header .header-nav-item a{
-  @include transition-all-3;
+  @include transition-all-3;//l
 &:hover{
 opacity: .7;
 }
