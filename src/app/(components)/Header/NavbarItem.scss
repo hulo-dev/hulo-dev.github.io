@@ -1,0 +1,14 @@
+@import '../../VARS.scss';
+
+
+.nav-link{
+    @extend %normal-400;
+    font-size: $font-size-small;
+    line-height: 120%;
+    letter-spacing: 1.35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-text);
+    
+
+}

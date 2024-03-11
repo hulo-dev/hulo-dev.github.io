@@ -1,0 +1,43 @@
+    /************color dark****************/
+    $color-background: #202020;
+    $color-background-paper: #262626;
+    $color-border-btn: #ffffff;
+    $color-border-btn-hover: #ffffff;
+    $border-block: rgba(255, 255, 255, 0.2);
+    $border-color: #ffffff;
+    $color-text: #ffffff;
+    $color-logo: #ffffff;
+    $color-bg-item-hover: #ffffff;
+    $color-bg-btn-hover: #ffffff;
+    $color-text-btn-hover: #202020;
+    $color-btn-svg-stroke-hover: #202020;
+
+   
+
+
+/************font-size**********************/
+$font-size-extra-large: clamp(33px, 5.681vw, 111px);
+$font-size-large: clamp(18px, 3.125vw, 60px);
+$font-size-less-large: clamp(14px, 2.5vw, 48px);
+
+$font-size-exta-medium: clamp(10px, 1.771vw, 34px);
+$font-size-medium: clamp(7px, 1.25vw, 24px);
+$font-size-less-medium: clamp(6px, 1.042vw, 20px);
+
+$font-size-extra-small: clamp(14px, 0.833vw, 16px);
+$font-size-small: 14px;
+$font-size-less-small: 12px;
+
+
+%normal-300 {
+    font-style: normal;
+    font-weight: 300;
+}
+%normal-400 {
+    font-style: normal;
+    font-weight: 400;
+}
+%italic-400 {
+    font-style: italic !important;
+    font-weight: 400 !important;
+}
