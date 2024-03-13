@@ -1,0 +1,91 @@
+@import '../../VARS.scss';
+
+.feedback{
+    .swiper{
+        width: 100%;
+        height: 100%;
+        padding-right: clamp(36px,6.406vw,123px);
+    }
+    
+    .swiper-slide{
+        opacity: 0 !important;
+       
+    }
+    .swiper-slide.swiper-slide-active{
+        opacity: 1 !important;
+    }
+    
+    .slider-controller{
+        .slider-arrow{
+            right: 0 !important;
+            left:auto;
+            width:clamp(14px,2.500vw,48px);
+            height: clamp(14px,2.500vw,48px);
+            svg{
+                path{
+                    stroke: var(--color-svg);
+                }
+                rect{
+                    stroke: var(--color-svg);
+                }
+            }
+        }
+        .slider-arrow::after{
+            content: none;
+        }
+        .swiper-button-prev{
+            top:clamp(60px,4.427vw,85px);
+        }
+        .swiper-button-next{
+            top:23px;
+        }
+    }
+}
+
+
+@media (max-width:767px){
+    .feedback{
+        .swiper{
+            width: 100%;
+            height: auto;
+            padding-right: 0;
+        }
+        
+        .swiper-slide{
+            opacity: 0 !important;
+            padding:16px;
+        }
+        
+        .slider-controller{
+            /*height: 64px;*/
+           
+            border-top: 1px solid var(--border-block);
+            padding: 8px;
+            display:flex;
+            justify-content: space-between;
+            .slider-arrow{
+                position: static;
+                width:48px;
+                height: 48px;
+                margin-top:0px;
+                svg{
+                    path{
+                        transform-origin: center center;
+                        transform: rotate(45deg);
+                        
+                    }
+                }
+            }
+            .slider-arrow::after{
+                content: none;
+            }
+            .swiper-button-prev{
+                top:clamp(60px,4.427vw,85px);
+            }
+            .swiper-button-next{
+                top:23px;
+            }
+        }
+    }
+    
+}
