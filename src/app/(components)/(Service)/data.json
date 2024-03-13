@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "White Label for Agencies",
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "cases": "",
+            "timeline": "TIMELINE PROJECT",
+            "timelinesup": "DEPENDENT",
+            "text": "We offer select white label and partnership opportunities for other designers and agencies. Please email hello@hulo.dev to inquire."
+        },
+        {
+            "id": 2,
+            "title": "Squarespace ",
+            "img1": "b1-1.png",
+            "img2": "b3-2.png",
+            "img3": "b1-3.png",
+            "cases": "115",
+            "timeline": "TIMELINE 2-3",
+            "timelinesup": "WEEKS",
+            "text": "We provide transparent and simple yet engaging and visual Squarespace design from scratch that drives customers to take action. Our team supports you at all stages and fixes any website errors on their way. In the end, you’ll get a safe and mobile responsive custom website creation that delivers great conversion and high-quality leads."
+        },
+        {
+            "id": 3,
+            "title": "Shopify",
+            "img1": "b1-2.png",
+            "img2": "b2-2.png",
+            "img3": "b3-2.png",
+            "cases": "65",
+            "timeline": "TIMELINE 4-6",
+            "timelinesup": "WEEKS",
+            "text": "Building on, migrating into, and growing Shopify and Shopify Plus stores is what we do here. We provide turnkey design and implementation services. This includes theme design, Shopify expert app setup, as well as Shopify marketing services. We support Shopify stores carrying significant business complexity."
+        },
+        {
+            "id": 4,
+            "title": "UX/UI design",
+            "img1": "b1.png",
+            "img2": "b2.png",
+            "img3": "b3.png",
+            "cases": "30",
+            "timeline": "TIMELINE 2-3",
+            "timelinesup": "WEEKS",
+            "text": "We enhance the connection between you and your client with the help of smart-matching technologies and the power of our creative vision. We create eye-catching UX/UI design that builds specifically for Squarespace and Shopify, increases lead conversion, and builds up a consistent user experience."
+        }
+    ]
+}

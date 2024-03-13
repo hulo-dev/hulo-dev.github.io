@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "./VARS.scss";
+
+:root {
+    --color-background: #f5f4f4;
+    --color-background-paper: url("../../public/itembgLight.png");
+    --color-border-btn: #202020;
+    --color-border-btn-hover: #eaeaea;
+    --border-block: rgba(32, 32, 32, 0.2);
+    --border-color: rgba(32, 32, 32, 0.2);
+    --color-text: #202020;
+    --color-logo: #202020;
+    --color-bg-item-hover: #202020;
+    --color-bg-btn-hover: #ffffff;
+    --color-text-btn-hover: #202020;
+    --color-btn-svg-stroke-hover: #202020;
+
+    --color-svg: #202020;
+    --color-logo: #202020;
+    --filter-img: invert(0.8);
+    --filter-img1: invert(0.3);
+    --bg-switcher: #202020;
+    --color-text-switcher: #ffffff;
+}
+[data-theme="dark"] {
+    --color-background: #202020;
+    --color-background-paper: url("../../public/itembgDark.png");
+    --color-border-btn: #ffffff;
+    --color-border-btn-hover: #ffffff;
+    --border-block: rgba(255, 255, 255, 0.2);
+    --border-color: #ffffff;
+    --color-text: #ffffff;
+    --color-logo: #ffffff;
+    --color-bg-item-hover: #ffffff;
+    --color-bg-btn-hover: #ffffff;
+    --color-text-btn-hover: #202020;
+    --color-btn-svg-stroke-hover: #202020;
+
+    --color-svg: #ffffff;
+    --color-logo: #ffffff;
+    --filter-img: invert(0);
+    --filter-img1: invert(0);
+    --bg-switcher: #ffffff;
+    --color-text-switcher: #202020;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    background: var(--color-background);
+    font-family: "Work Sans";
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+.lock {
+    overflow: hidden;
+}
+.overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: url("/r1.png");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.container {
+    max-width: 1920px;
+    padding: 0 clamp(16px, 3.333vw, 64px);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.section__wrap {
+    padding: clamp(24px, 3.177vw, 61px) 0 0 0;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: clamp(20px, 3.021vw, 58px);
+    border: 1px solid var(--color-border-btn);
+    background: transparent;
+    border-radius: 112px;
+    padding: 0 24px 0 24px;
+    @extend %normal-400;
+    font-size: $font-size-medium;
+    color: var(--color-text);
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    span {
+        position: relative;
+        overflow: hidden;
+        margin-left: clamp(5px, 0.833vw, 16px);
+        min-width: clamp(5px, 0.833vw, 16px);
+        min-height: clamp(5px, 0.833vw, 16px);
+        max-height: clamp(5px, 0.833vw, 16px);
+        svg {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: clamp(5px, 0.833vw, 16px);
+            height: clamp(5px, 0.833vw, 16px);
+            path {
+                stroke: var(--color-svg);
+            }
+        }
+        svg:last-child {
+            top: 15px;
+            left: -15px;
+        }
+    }
+    &:not(.text):hover {
+        background: var(--color-bg-btn-hover);
+        color: var(--color-text-btn-hover);
+        border-color: var(--color-border-btn-hover);
+        span {
+            svg:first-child {
+                top: -4px;
+                left: 4px;
+            }
+            svg:last-child {
+                top: 0%;
+                left: 0%;
+                transition: all 0.5s ease-out;
+            }
+            svg {
+                path {
+                    fill: var(--color-btn-svg-stroke-hover);
+                    stroke: var(--color-btn-svg-stroke-hover);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .btn {
+        height: 48px;
+        padding: 0 16px 0 16px;
+        font-size: 24px;
+
+        span {
+            margin-left: 16px;
+            min-width: 15px;
+            min-height: 15px;
+            max-height: 15px;
+            svg {
+                width: 15px;
+                height: 15px;
+            }
+            svg:last-child {
+                top: 15px;
+                left: -15px;
+            }
+        }
+    }
+}
+@media (max-width: 319px) {
+    .btn {
+        font-size: 20px;
+    }
+}
+.btn.text {
+    border: none;
+    padding: 0;
+
+    &:hover {
+        svg:first-child {
+            top: -4px;
+            left: 4px;
+        }
+        svg:last-child {
+            top: 0%;
+            left: 0%;
+            transition: all 0.5s ease-out;
+        }
+    }
+}
+
+.name {
+    @extend %normal-400;
+    font-size: $font-size-extra-small;
+    color: var(--color-text);
+}
+.section-title {
+    h2 {
+        @extend %italic-400;
+        font-size: $font-size-large;
+        line-height: 120%;
+        letter-spacing: -0.5px;
+        color: var(--color-text);
+    }
+}
+
+.card-title {
+}
+
+.card-extra-title {
+}
+
+.italic {
+    @extend %italic-400;
+}
+.section {
+    margin-bottom: clamp(64px, 3.333vw, 130px);
+}
+.img-dark {
+    img {
+        filter: var(--filter-img);
+    }
+}
