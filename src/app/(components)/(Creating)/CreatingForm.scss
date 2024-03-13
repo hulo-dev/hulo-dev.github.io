@@ -1,0 +1,69 @@
+@import "../../VARS.scss";
+
+
+.form{
+    .input_wrap{
+        border: 1px solid var(--border-block);
+        border-radius: 8px;
+        height: clamp(24px,4.271vw,82px);
+        margin-bottom:clamp(12px,2.083vw,40px);
+        input{
+            display:block;
+            width:100%;
+            height: 100%;
+            background-color: transparent;
+            @extend %italic-400;
+            line-height: 140%;
+            color:var(--color-text);
+            border: none;
+            font-size: $font-size-medium;
+            padding: 0 clamp(7px,1.250vw,24px);
+            &::placeholder{
+                @extend %italic-400;
+                line-height: 140%;
+                color:var(--color-text);
+                font-size: $font-size-medium;
+                opacity: 0.7;
+            }
+            &:focus{
+                outline: none;
+            }
+        }
+        
+    }
+    .message{
+        padding:10px;
+        border-radius: 10px;
+        background: #d3fbeb;
+        border-color: #10bf7a;
+        color: #0c905c;
+        font-size: $font-size-less-medium;
+    }
+    .hidden{
+        display:none;
+    }
+}
+
+
+@media (max-width:767px){
+    .form{
+        .input_wrap{
+           
+            height: 54px;
+            margin-bottom:24px;
+            input{
+                font-size: 16px;
+                padding: 0 16px;
+                &::placeholder{
+                    font-size: 16px;
+                }
+               
+            }
+            
+        }
+        .message{
+            font-size: 16px;
+        }
+    }
+   
+}

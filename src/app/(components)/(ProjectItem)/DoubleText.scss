@@ -1,0 +1,43 @@
+@import "../../VARS.scss";
+.double-text{
+    padding-bottom: clamp(50px,7.292vw,140px);
+    .text-list{
+        display:flex;
+        flex-wrap:wrap;
+        gap:3.333vw;
+    }
+    .text-item{
+        width:calc(50% - 3.333vw / 2);
+    }
+
+    .big-text{
+        h2{
+            @extend %normal-400;
+            font-size: $font-size-exta-medium;
+            line-height: 140%; /* 47.6px */
+            letter-spacing: 0.25px;
+            max-width: 554px;
+        }
+    }
+    .small-text{
+        h3{
+            @extend %normal-300;
+            line-height: 140%;
+            font-size: $font-size-medium;
+            max-width: 555px;
+        }
+    }
+}
+
+
+@media (min-width:1920px){
+    .double-text{
+        .text-list{
+            gap: 64px;
+        }
+        
+        .text-item{
+            width:calc(50% - 64px / 2); 
+        }
+    }
+}

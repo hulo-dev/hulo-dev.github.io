@@ -1,0 +1,100 @@
+@import '../../VARS.scss';
+
+.footer-social{
+    ul{
+        display:flex;
+        list-style: none;
+        padding:0;
+        margin:0;
+        border-top: 1px solid var(--border-block);
+        border-bottom: 1px solid var(--border-block);
+        li:last-child{
+            border-right: 0;
+        }
+        li{
+            display: flex;
+            justify-content: center;
+            width:20%;
+            padding:clamp(10px,1.250vw,24px) 0;
+            border-right: 1px solid var(--border-block);
+            a{
+                display: flex;
+                align-items: center;
+                position: relative;
+                @extend %normal-300;
+                line-height: 140%;
+                text-align: center;
+                letter-spacing: 0.15px;
+                font-size: $font-size-less-medium;
+                color: var(--color-text);
+                text-decoration: none;
+                
+                svg{
+                    margin-right:10px;
+                    path{
+                        fill:var(--color-svg);
+                    }
+                }
+            }
+            a:before{
+                content:'';
+                position:absolute;
+                left:0;
+                bottom:0;
+                width: 100%;
+                height: 1px;
+                background-color: var(--border-block);
+                transform: scale(0);
+                transition: all .3s ease;
+            }
+            a:hover:before{
+                transform: scale(1);
+                transition: all .3s ease;
+            }
+            .italic{
+                @extend %italic-400;
+            }
+            .bold{
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+
+@media (max-width:767px){
+    .footer-social{
+        ul{
+            flex-wrap:wrap;
+            border: 1px solid var(--border-block);
+            border-radius: 24px;
+            li:last-child{
+               
+                border-bottom:0;
+            }
+            li{
+                
+                width:100%;
+                padding:16px 0;
+                border-right: 0;
+                border-bottom: 1px solid var(--border-block);
+                a{
+                    font-size: 20px;
+                    font-style: italic;
+                    font-weight: 400;
+                    svg{
+                        margin-right:10px;
+                        path:{
+                            stroke:var(--color-svg);
+                        }
+                    }
+                }
+                .bold{
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    
+
+}
