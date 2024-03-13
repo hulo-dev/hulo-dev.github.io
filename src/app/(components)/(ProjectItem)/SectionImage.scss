@@ -1,0 +1,23 @@
+
+.section-image{
+    padding-bottom: clamp(50px,7.292vw,140px);
+}
+.section-image__wrap{
+    border-radius: clamp(10px, 1.250vw ,24px);
+    overflow: hidden;
+    img{
+        display:block;
+        width:100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top:0;
+        left:0;
+    }
+
+    .img_body{
+        position:relative;
+        padding-top:100%;
+    }
+}
+
