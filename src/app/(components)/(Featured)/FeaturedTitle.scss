@@ -1,0 +1,16 @@
+@import '../../VARS.scss';
+
+.title{
+    margin-bottom:clamp(30px,3.125vw,64px);
+  
+}
+
+@media (max-width:767px){
+    .title{
+        margin-bottom:24px;
+        h2{
+            font-size: 28px;
+        }
+      
+    }
+}
