@@ -1,0 +1,23 @@
+@import '../../VARS.scss';
+
+.text{
+    padding-bottom: clamp(50px, 7.292vw ,140px);
+    .title{
+        margin-bottom:0;
+    }
+    .title.left{
+        margin-right:auto;
+    }
+    .title.right{
+        margin-left:auto;
+    }
+    .title.center{
+        margin:0 auto;
+    }
+    h3{
+        @extend %normal-300;
+        font-family: 'Work Sans';
+        line-height: 120%;
+        font-size: $font-size-less-large;
+    }
+}

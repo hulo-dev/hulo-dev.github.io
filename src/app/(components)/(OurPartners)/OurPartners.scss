@@ -1,0 +1,49 @@
+@import '../../VARS.scss';
+.our-partners{
+    &-name{
+        padding-bottom:22px;
+        border-bottom: 1px solid var(--border-block);
+    }
+    .partner-more{
+        margin-top:clamp(20px,2.917vw,56px);
+        h5{
+            font-size: $font-size-exta-medium;
+            @extend %normal-300;
+            letter-spacing: 0.25px;
+            line-height: 140%;
+            color:var(--color-text);
+        }
+    }
+}
+.partners-contant{
+    max-width:clamp(351px,61.094vw,1173px);
+    margin-left:auto
+}
+
+
+@media (max-width:767px){
+
+    .our-partners{
+        &-name{
+            padding-bottom:16px;
+            .name{
+                font-size: 16px;
+                line-height: 140%;
+                letter-spacing: 0.15px;
+                 
+            }
+        }
+        .partner-more{
+            margin-top:32px;
+            h5{
+                font-size: 16px;
+            }
+        }
+    }
+
+
+    .partners-contant{
+        max-width:100%;
+       
+    }
+}
